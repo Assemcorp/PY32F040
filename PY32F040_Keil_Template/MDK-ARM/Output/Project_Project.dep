@@ -1,0 +1,337 @@
+Dependencies for Project 'Project', Target 'Project': (DO NOT MODIFY !)
+F (.\startup_py32f040xx.s)(0x653140C2)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --pd "__MICROLIB SETA 1"-I.\RTE\_Project-IC:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\emre.karabek\AppData\Local\Arm\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include-IC:\Users\emre.karabek\AppData\Local\Arm\Packs\Puya\PY32F0xx_DFP\1.2.2\Device\Include--pd "__UVISION_VERSION SETA 528"--pd "_RTE_ SETA 1"--list .\output\startup_py32f040xx.lst--xref -o .\output\startup_py32f040xx.o--depend .\output\startup_py32f040xx.d)
+F (..\Src\system_py32f040.c)(0x653140C2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/system_py32f040.o -MD)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+F (..\Src\main.c)(0x6864DE0C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/main.o -MD)
+I (..\Inc\main.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+I (..\Drivers\BSP\PY32F040xx_Start_Kit\py32f040xx_Start_Kit.h)(0x653140BC)
+F (..\Src\py32f040_hal_msp.c)(0x653140C2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_hal_msp.o -MD)
+I (..\Inc\main.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+I (..\Drivers\BSP\PY32F040xx_Start_Kit\py32f040xx_Start_Kit.h)(0x653140BC)
+F (..\Src\py32f040_it.c)(0x653140C2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_it.o -MD)
+I (..\Inc\main.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+I (..\Drivers\BSP\PY32F040xx_Start_Kit\py32f040xx_Start_Kit.h)(0x653140BC)
+I (..\Inc\py32f040_it.h)(0x653140C2)
+F (..\Drivers\BSP\PY32F040xx_Start_Kit\py32f040xx_Start_Kit.c)(0x653140BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040xx_start_kit.o -MD)
+I (..\Drivers\BSP\PY32F040xx_Start_Kit\py32f040xx_Start_Kit.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+F (..\Drivers\PY32F040_HAL_Driver\Src\py32f040_hal.c)(0x653140BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_hal.o -MD)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+F (..\Drivers\PY32F040_HAL_Driver\Src\py32f040_hal_cortex.c)(0x653140BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_hal_cortex.o -MD)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+F (..\Drivers\PY32F040_HAL_Driver\Src\py32f040_hal_dma.c)(0x653140BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_hal_dma.o -MD)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+F (..\Drivers\PY32F040_HAL_Driver\Src\py32f040_hal_gpio.c)(0x653140BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_hal_gpio.o -MD)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+F (..\Drivers\PY32F040_HAL_Driver\Src\py32f040_hal_pwr.c)(0x653140BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_hal_pwr.o -MD)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+F (..\Drivers\PY32F040_HAL_Driver\Src\py32f040_hal_rcc.c)(0x653140BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_hal_rcc.o -MD)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+F (..\Drivers\PY32F040_HAL_Driver\Src\py32f040_hal_rcc_ex.c)(0x653140BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_hal_rcc_ex.o -MD)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+F (..\Drivers\PY32F040_HAL_Driver\Src\py32f040_hal_uart.c)(0x653140BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_hal_uart.o -MD)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f0xx_hal.h)(0x653140BC)
+I (..\Inc\py32f040_hal_conf.h)(0x653140C2)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_def.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f0xx.h)(0x653140BC)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\py32f040xB.h)(0x653140BC)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBBF38)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C1ED8)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C1ED8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBBF3A)
+I (C:\Users\emre.karabek\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C1ED8)
+I (..\Drivers\CMSIS\Device\PY32F040\Include\system_py32f0xx.h)(0x653140BC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBBF3A)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_rcc_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_gpio_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_cortex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_dma_ex.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_flash.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_pwr.h)(0x653140BC)
+I (..\Drivers\PY32F040_HAL_Driver\Inc\py32f040_hal_uart.h)(0x653140BC)
+F (..\Drivers\PY32F040_HAL_Driver\Src\py32f040_ll_usart.c)(0x653140BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/CMSIS/Device/PY32F040/Include -I ../Drivers/BSP/PY32F040xx_Start_Kit -I ../Drivers/PY32F040_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/emre.karabek/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Device/Include-D__UVISION_VERSION="528" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F040xB-o ./output/py32f040_ll_usart.o -MD)
+F (..\readme.txt)(0x00000000)()
