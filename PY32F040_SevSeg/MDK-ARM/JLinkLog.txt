@@ -1,0 +1,3901 @@
+T6B64 002:295.973   SEGGER J-Link V7.86c Log File
+T6B64 002:296.059   DLL Compiled: Mar  9 2023 16:16:05
+T6B64 002:296.063   Logging started @ 2025-07-02 08:34
+T6B64 002:296.067 - 2296.068ms
+T6B64 002:296.075 JLINK_SetWarnOutHandler(...)
+T6B64 002:296.080 - 0.006ms
+T6B64 002:296.085 JLINK_OpenEx(...)
+T6B64 002:298.624   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T6B64 002:299.570   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T6B64 002:299.684   Decompressing FW timestamp took 95 us
+T6B64 002:308.313   Hardware: V9.70
+T6B64 002:308.327   S/N: 150712143
+T6B64 002:308.332   OEM: SEGGER
+T6B64 002:308.337   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T6B64 002:310.516   TELNET listener socket opened on port 19021
+T6B64 002:310.601   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T6B64 002:310.717   WEBSRV Webserver running on local port 19080
+T6B64 002:315.530 - 19.457ms returns "O.K."
+T6B64 002:315.560 JLINK_GetEmuCaps()
+T6B64 002:315.564 - 0.005ms returns 0xB9FF7BBF
+T6B64 002:315.571 JLINK_TIF_GetAvailable(...)
+T6B64 002:316.421 - 0.863ms
+T6B64 002:316.449 JLINK_SetErrorOutHandler(...)
+T6B64 002:316.453 - 0.005ms
+T6B64 002:316.474 JLINK_ExecCommand("ProjectFile = "C:\Project\PUYA\Firmware\PY32F040\PY32F040_SevSeg\MDK-ARM\JLinkSettings.ini"", ...). 
+T6B64 002:324.503   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T6B64 002:324.558   XML referenced by ref file: C:\Program Files\SEGGER\JLink\JLinkDevices.xml
+T6B64 002:324.737   C:\Program Files\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T6B64 002:324.746     Device entry created:  PY32C610x6
+T6B64 002:324.752       ChipInfo:
+T6B64 002:324.757         Vendor:          Puya
+T6B64 002:324.763         Name:            PY32C610x6
+T6B64 002:324.768         WorkRAMAddr:     0x20000000
+T6B64 002:324.774         WorkRAMSize:     0x00001000
+T6B64 002:324.780         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:324.785       FlashBankInfo:
+T6B64 002:324.790         Name:            Main Flash
+T6B64 002:324.796         BaseAddr:        0x08000000
+T6B64 002:324.835         AlwaysPresent:   1
+T6B64 002:324.842         LoaderInfo:
+T6B64 002:324.847           Name:            Main_Flash
+T6B64 002:324.853           MaxSize:         0x00008000
+T6B64 002:324.858           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_32.FLM
+T6B64 002:324.863           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:324.876       FlashBankInfo:
+T6B64 002:324.881         Name:            Option Bytes
+T6B64 002:324.886         BaseAddr:        0x1FFF0E80
+T6B64 002:324.913         AlwaysPresent:   1
+T6B64 002:324.918         LoaderInfo:
+T6B64 002:324.923           Name:            Option_Bytes
+T6B64 002:324.928           MaxSize:         0x00000010
+T6B64 002:324.933           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:324.938           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:324.968     Device entry created:  PY32C611x6
+T6B64 002:324.972       ChipInfo:
+T6B64 002:324.977         Vendor:          Puya
+T6B64 002:324.982         Name:            PY32C611x6
+T6B64 002:324.987         WorkRAMAddr:     0x20000000
+T6B64 002:324.992         WorkRAMSize:     0x00001000
+T6B64 002:324.998         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:325.003       FlashBankInfo:
+T6B64 002:325.008         Name:            Main Flash
+T6B64 002:325.013         BaseAddr:        0x08000000
+T6B64 002:325.038         AlwaysPresent:   1
+T6B64 002:325.043         LoaderInfo:
+T6B64 002:325.048           Name:            Main_Flash
+T6B64 002:325.053           MaxSize:         0x00008000
+T6B64 002:325.058           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_32.FLM
+T6B64 002:325.063           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.068       FlashBankInfo:
+T6B64 002:325.073         Name:            Option Bytes
+T6B64 002:325.078         BaseAddr:        0x1FFF0E80
+T6B64 002:325.101         AlwaysPresent:   1
+T6B64 002:325.135         LoaderInfo:
+T6B64 002:325.140           Name:            Option_Bytes
+T6B64 002:325.145           MaxSize:         0x00000010
+T6B64 002:325.150           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:325.155           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.163     Device entry created:  PY32C612x6
+T6B64 002:325.166       ChipInfo:
+T6B64 002:325.171         Vendor:          Puya
+T6B64 002:325.176         Name:            PY32C612x6
+T6B64 002:325.181         WorkRAMAddr:     0x20000000
+T6B64 002:325.186         WorkRAMSize:     0x00001000
+T6B64 002:325.191         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:325.196       FlashBankInfo:
+T6B64 002:325.201         Name:            Main Flash
+T6B64 002:325.206         BaseAddr:        0x08000000
+T6B64 002:325.231         AlwaysPresent:   1
+T6B64 002:325.236         LoaderInfo:
+T6B64 002:325.241           Name:            Main_Flash
+T6B64 002:325.246           MaxSize:         0x00008000
+T6B64 002:325.251           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_32.FLM
+T6B64 002:325.256           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.261       FlashBankInfo:
+T6B64 002:325.266         Name:            Option Bytes
+T6B64 002:325.271         BaseAddr:        0x1FFF0E80
+T6B64 002:325.295         AlwaysPresent:   1
+T6B64 002:325.300         LoaderInfo:
+T6B64 002:325.305           Name:            Option_Bytes
+T6B64 002:325.310           MaxSize:         0x00000010
+T6B64 002:325.315           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:325.320           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.327     Device entry created:  PY32F003x4
+T6B64 002:325.331       ChipInfo:
+T6B64 002:325.335         Vendor:          Puya
+T6B64 002:325.340         Name:            PY32F003x4
+T6B64 002:325.345         WorkRAMAddr:     0x20000000
+T6B64 002:325.351         WorkRAMSize:     0x00000800
+T6B64 002:325.356         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:325.361       FlashBankInfo:
+T6B64 002:325.366         Name:            Main Flash
+T6B64 002:325.371         BaseAddr:        0x08000000
+T6B64 002:325.395         AlwaysPresent:   1
+T6B64 002:325.400         LoaderInfo:
+T6B64 002:325.405           Name:            Main_Flash
+T6B64 002:325.410           MaxSize:         0x00004000
+T6B64 002:325.415           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_16.FLM
+T6B64 002:325.420           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.425       FlashBankInfo:
+T6B64 002:325.430         Name:            Option Bytes
+T6B64 002:325.435         BaseAddr:        0x1FFF0E80
+T6B64 002:325.459         AlwaysPresent:   1
+T6B64 002:325.464         LoaderInfo:
+T6B64 002:325.469           Name:            Option_Bytes
+T6B64 002:325.474           MaxSize:         0x00000010
+T6B64 002:325.479           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:325.484           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.491     Device entry created:  PY32F003x6
+T6B64 002:325.494       ChipInfo:
+T6B64 002:325.499         Vendor:          Puya
+T6B64 002:325.504         Name:            PY32F003x6
+T6B64 002:325.509         WorkRAMAddr:     0x20000000
+T6B64 002:325.514         WorkRAMSize:     0x00001000
+T6B64 002:325.519         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:325.524       FlashBankInfo:
+T6B64 002:325.529         Name:            Main Flash
+T6B64 002:325.534         BaseAddr:        0x08000000
+T6B64 002:325.557         AlwaysPresent:   1
+T6B64 002:325.562         LoaderInfo:
+T6B64 002:325.567           Name:            Main_Flash
+T6B64 002:325.572           MaxSize:         0x00008000
+T6B64 002:325.577           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_32.FLM
+T6B64 002:325.582           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.588       FlashBankInfo:
+T6B64 002:325.594         Name:            Option Bytes
+T6B64 002:325.599         BaseAddr:        0x1FFF0E80
+T6B64 002:325.622         AlwaysPresent:   1
+T6B64 002:325.627         LoaderInfo:
+T6B64 002:325.632           Name:            Option_Bytes
+T6B64 002:325.637           MaxSize:         0x00000010
+T6B64 002:325.642           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:325.647           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.654     Device entry created:  PY32F003x7
+T6B64 002:325.657       ChipInfo:
+T6B64 002:325.662         Vendor:          Puya
+T6B64 002:325.667         Name:            PY32F003x7
+T6B64 002:325.672         WorkRAMAddr:     0x20000000
+T6B64 002:325.677         WorkRAMSize:     0x00001000
+T6B64 002:325.682         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:325.687       FlashBankInfo:
+T6B64 002:325.692         Name:            Main Flash
+T6B64 002:325.697         BaseAddr:        0x08000000
+T6B64 002:325.720         AlwaysPresent:   1
+T6B64 002:325.725         LoaderInfo:
+T6B64 002:325.730           Name:            Main_Flash
+T6B64 002:325.735           MaxSize:         0x00008000
+T6B64 002:325.740           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_32.FLM
+T6B64 002:325.745           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.750       FlashBankInfo:
+T6B64 002:325.755         Name:            Option Bytes
+T6B64 002:325.760         BaseAddr:        0x1FFF0E80
+T6B64 002:325.783         AlwaysPresent:   1
+T6B64 002:325.788         LoaderInfo:
+T6B64 002:325.793           Name:            Option_Bytes
+T6B64 002:325.798           MaxSize:         0x00000010
+T6B64 002:325.803           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:325.808           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.815     Device entry created:  PY32F003x8
+T6B64 002:325.819       ChipInfo:
+T6B64 002:325.824         Vendor:          Puya
+T6B64 002:325.828         Name:            PY32F003x8
+T6B64 002:325.833         WorkRAMAddr:     0x20000000
+T6B64 002:325.838         WorkRAMSize:     0x00001000
+T6B64 002:325.844         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:325.849       FlashBankInfo:
+T6B64 002:325.853         Name:            Main Flash
+T6B64 002:325.858         BaseAddr:        0x08000000
+T6B64 002:325.896         AlwaysPresent:   1
+T6B64 002:325.901         LoaderInfo:
+T6B64 002:325.914           Name:            Main_Flash
+T6B64 002:325.919           MaxSize:         0x00010000
+T6B64 002:325.924           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_64.FLM
+T6B64 002:325.929           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:325.934       FlashBankInfo:
+T6B64 002:325.939         Name:            Option Bytes
+T6B64 002:325.944         BaseAddr:        0x1FFF0E80
+T6B64 002:325.968         AlwaysPresent:   1
+T6B64 002:325.973         LoaderInfo:
+T6B64 002:325.978           Name:            Option_Bytes
+T6B64 002:325.983           MaxSize:         0x00000010
+T6B64 002:325.988           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:325.993           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.000     Device entry created:  PY32F030x4
+T6B64 002:326.003       ChipInfo:
+T6B64 002:326.008         Vendor:          Puya
+T6B64 002:326.013         Name:            PY32F030x4
+T6B64 002:326.018         WorkRAMAddr:     0x20000000
+T6B64 002:326.023         WorkRAMSize:     0x00000800
+T6B64 002:326.028         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:326.033       FlashBankInfo:
+T6B64 002:326.038         Name:            Main Flash
+T6B64 002:326.043         BaseAddr:        0x08000000
+T6B64 002:326.066         AlwaysPresent:   1
+T6B64 002:326.071         LoaderInfo:
+T6B64 002:326.076           Name:            Main_Flash
+T6B64 002:326.081           MaxSize:         0x00004000
+T6B64 002:326.088           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_16.FLM
+T6B64 002:326.093           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.098       FlashBankInfo:
+T6B64 002:326.103         Name:            Option Bytes
+T6B64 002:326.108         BaseAddr:        0x1FFF0E80
+T6B64 002:326.140         AlwaysPresent:   1
+T6B64 002:326.145         LoaderInfo:
+T6B64 002:326.150           Name:            Option_Bytes
+T6B64 002:326.155           MaxSize:         0x00000010
+T6B64 002:326.160           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:326.165           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.172     Device entry created:  PY32F030x6
+T6B64 002:326.175       ChipInfo:
+T6B64 002:326.180         Vendor:          Puya
+T6B64 002:326.185         Name:            PY32F030x6
+T6B64 002:326.190         WorkRAMAddr:     0x20000000
+T6B64 002:326.195         WorkRAMSize:     0x00001000
+T6B64 002:326.200         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:326.205       FlashBankInfo:
+T6B64 002:326.210         Name:            Main Flash
+T6B64 002:326.215         BaseAddr:        0x08000000
+T6B64 002:326.238         AlwaysPresent:   1
+T6B64 002:326.244         LoaderInfo:
+T6B64 002:326.249           Name:            Main_Flash
+T6B64 002:326.254           MaxSize:         0x00008000
+T6B64 002:326.259           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_32.FLM
+T6B64 002:326.264           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.269       FlashBankInfo:
+T6B64 002:326.274         Name:            Option Bytes
+T6B64 002:326.279         BaseAddr:        0x1FFF0E80
+T6B64 002:326.302         AlwaysPresent:   1
+T6B64 002:326.307         LoaderInfo:
+T6B64 002:326.312           Name:            Option_Bytes
+T6B64 002:326.317           MaxSize:         0x00000010
+T6B64 002:326.322           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:326.327           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.333     Device entry created:  PY32F030x7
+T6B64 002:326.337       ChipInfo:
+T6B64 002:326.342         Vendor:          Puya
+T6B64 002:326.347         Name:            PY32F030x7
+T6B64 002:326.352         WorkRAMAddr:     0x20000000
+T6B64 002:326.357         WorkRAMSize:     0x00001800
+T6B64 002:326.362         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:326.367       FlashBankInfo:
+T6B64 002:326.372         Name:            Main Flash
+T6B64 002:326.377         BaseAddr:        0x08000000
+T6B64 002:326.400         AlwaysPresent:   1
+T6B64 002:326.406         LoaderInfo:
+T6B64 002:326.411           Name:            Main_Flash
+T6B64 002:326.416           MaxSize:         0x0000C000
+T6B64 002:326.421           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_48.FLM
+T6B64 002:326.426           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.431       FlashBankInfo:
+T6B64 002:326.436         Name:            Option Bytes
+T6B64 002:326.441         BaseAddr:        0x1FFF0E80
+T6B64 002:326.464         AlwaysPresent:   1
+T6B64 002:326.469         LoaderInfo:
+T6B64 002:326.474           Name:            Option_Bytes
+T6B64 002:326.479           MaxSize:         0x00000010
+T6B64 002:326.484           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:326.489           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.495     Device entry created:  PY32F030x8
+T6B64 002:326.499       ChipInfo:
+T6B64 002:326.504         Vendor:          Puya
+T6B64 002:326.508         Name:            PY32F030x8
+T6B64 002:326.513         WorkRAMAddr:     0x20000000
+T6B64 002:326.518         WorkRAMSize:     0x00002000
+T6B64 002:326.523         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:326.528       FlashBankInfo:
+T6B64 002:326.533         Name:            Main Flash
+T6B64 002:326.538         BaseAddr:        0x08000000
+T6B64 002:326.585         AlwaysPresent:   1
+T6B64 002:326.590         LoaderInfo:
+T6B64 002:326.595           Name:            Main_Flash
+T6B64 002:326.600           MaxSize:         0x00010000
+T6B64 002:326.605           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_64.FLM
+T6B64 002:326.610           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.615       FlashBankInfo:
+T6B64 002:326.620         Name:            Option Bytes
+T6B64 002:326.625         BaseAddr:        0x1FFF0E80
+T6B64 002:326.648         AlwaysPresent:   1
+T6B64 002:326.653         LoaderInfo:
+T6B64 002:326.658           Name:            Option_Bytes
+T6B64 002:326.663           MaxSize:         0x00000010
+T6B64 002:326.668           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:326.674           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.681     Device entry created:  PY32M030x8
+T6B64 002:326.684       ChipInfo:
+T6B64 002:326.689         Vendor:          Puya
+T6B64 002:326.694         Name:            PY32M030x8
+T6B64 002:326.699         WorkRAMAddr:     0x20000000
+T6B64 002:326.704         WorkRAMSize:     0x00002000
+T6B64 002:326.709         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:326.714       FlashBankInfo:
+T6B64 002:326.719         Name:            Main Flash
+T6B64 002:326.724         BaseAddr:        0x08000000
+T6B64 002:326.747         AlwaysPresent:   1
+T6B64 002:326.752         LoaderInfo:
+T6B64 002:326.757           Name:            Main_Flash
+T6B64 002:326.762           MaxSize:         0x00010000
+T6B64 002:326.767           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_64.FLM
+T6B64 002:326.778           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.784       FlashBankInfo:
+T6B64 002:326.788         Name:            Option Bytes
+T6B64 002:326.794         BaseAddr:        0x1FFF0E80
+T6B64 002:326.817         AlwaysPresent:   1
+T6B64 002:326.822         LoaderInfo:
+T6B64 002:326.827           Name:            Option_Bytes
+T6B64 002:326.832           MaxSize:         0x00000010
+T6B64 002:326.837           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:326.842           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.849     Device entry created:  PY32F002Ax5
+T6B64 002:326.853       ChipInfo:
+T6B64 002:326.858         Vendor:          Puya
+T6B64 002:326.863         Name:            PY32F002Ax5
+T6B64 002:326.868         WorkRAMAddr:     0x20000000
+T6B64 002:326.873         WorkRAMSize:     0x00000C00
+T6B64 002:326.878         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:326.883       FlashBankInfo:
+T6B64 002:326.888         Name:            Main Flash
+T6B64 002:326.893         BaseAddr:        0x08000000
+T6B64 002:326.918         AlwaysPresent:   1
+T6B64 002:326.923         LoaderInfo:
+T6B64 002:326.928           Name:            Main_Flash
+T6B64 002:326.933           MaxSize:         0x00005000
+T6B64 002:326.938           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_20.FLM
+T6B64 002:326.943           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:326.948       FlashBankInfo:
+T6B64 002:326.953         Name:            Option Bytes
+T6B64 002:326.958         BaseAddr:        0x1FFF0E80
+T6B64 002:326.981         AlwaysPresent:   1
+T6B64 002:326.986         LoaderInfo:
+T6B64 002:326.991           Name:            Option_Bytes
+T6B64 002:326.996           MaxSize:         0x00000010
+T6B64 002:327.001           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_OPT.FLM
+T6B64 002:327.006           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.028     Device entry created:  PY32F040x6
+T6B64 002:327.031       ChipInfo:
+T6B64 002:327.036         Vendor:          Puya
+T6B64 002:327.041         Name:            PY32F040x6
+T6B64 002:327.046         WorkRAMAddr:     0x20000000
+T6B64 002:327.051         WorkRAMSize:     0x00001000
+T6B64 002:327.057         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:327.062       FlashBankInfo:
+T6B64 002:327.067         Name:            Main Flash
+T6B64 002:327.072         BaseAddr:        0x08000000
+T6B64 002:327.097         AlwaysPresent:   1
+T6B64 002:327.102         LoaderInfo:
+T6B64 002:327.107           Name:            Main_Flash
+T6B64 002:327.112           MaxSize:         0x00008000
+T6B64 002:327.117           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F040xx_32.FLM
+T6B64 002:327.122           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.127       FlashBankInfo:
+T6B64 002:327.132         Name:            Option Bytes
+T6B64 002:327.137         BaseAddr:        0x1FFF3100
+T6B64 002:327.164         AlwaysPresent:   1
+T6B64 002:327.169         LoaderInfo:
+T6B64 002:327.174           Name:            Option_Bytes
+T6B64 002:327.179           MaxSize:         0x00000020
+T6B64 002:327.184           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F040xx_OPT.FLM
+T6B64 002:327.189           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.196     Device entry created:  PY32F040x8
+T6B64 002:327.200       ChipInfo:
+T6B64 002:327.204         Vendor:          Puya
+T6B64 002:327.209         Name:            PY32F040x8
+T6B64 002:327.214         WorkRAMAddr:     0x20000000
+T6B64 002:327.219         WorkRAMSize:     0x00002000
+T6B64 002:327.224         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:327.229       FlashBankInfo:
+T6B64 002:327.234         Name:            Main Flash
+T6B64 002:327.239         BaseAddr:        0x08000000
+T6B64 002:327.264         AlwaysPresent:   1
+T6B64 002:327.269         LoaderInfo:
+T6B64 002:327.274           Name:            Main_Flash
+T6B64 002:327.279           MaxSize:         0x00010000
+T6B64 002:327.284           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F040xx_64.FLM
+T6B64 002:327.289           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.294       FlashBankInfo:
+T6B64 002:327.299         Name:            Option Bytes
+T6B64 002:327.304         BaseAddr:        0x1FFF3100
+T6B64 002:327.327         AlwaysPresent:   1
+T6B64 002:327.332         LoaderInfo:
+T6B64 002:327.337           Name:            Option_Bytes
+T6B64 002:327.342           MaxSize:         0x00000020
+T6B64 002:327.348           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F040xx_OPT.FLM
+T6B64 002:327.353           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.359     Device entry created:  PY32F040x9
+T6B64 002:327.363       ChipInfo:
+T6B64 002:327.367         Vendor:          Puya
+T6B64 002:327.372         Name:            PY32F040x9
+T6B64 002:327.377         WorkRAMAddr:     0x20000000
+T6B64 002:327.382         WorkRAMSize:     0x00003000
+T6B64 002:327.387         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:327.392       FlashBankInfo:
+T6B64 002:327.397         Name:            Main Flash
+T6B64 002:327.402         BaseAddr:        0x08000000
+T6B64 002:327.426         AlwaysPresent:   1
+T6B64 002:327.431         LoaderInfo:
+T6B64 002:327.436           Name:            Main_Flash
+T6B64 002:327.441           MaxSize:         0x00018000
+T6B64 002:327.446           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F040xx_96.FLM
+T6B64 002:327.451           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.456       FlashBankInfo:
+T6B64 002:327.461         Name:            Option Bytes
+T6B64 002:327.466         BaseAddr:        0x1FFF3100
+T6B64 002:327.490         AlwaysPresent:   1
+T6B64 002:327.495         LoaderInfo:
+T6B64 002:327.500           Name:            Option_Bytes
+T6B64 002:327.505           MaxSize:         0x00000020
+T6B64 002:327.510           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F040xx_OPT.FLM
+T6B64 002:327.515           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.521     Device entry created:  PY32F040xB
+T6B64 002:327.525       ChipInfo:
+T6B64 002:327.530         Vendor:          Puya
+T6B64 002:327.536         Name:            PY32F040xB
+T6B64 002:327.541         WorkRAMAddr:     0x20000000
+T6B64 002:327.546         WorkRAMSize:     0x00004000
+T6B64 002:327.551         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:327.556       FlashBankInfo:
+T6B64 002:327.561         Name:            Main Flash
+T6B64 002:327.566         BaseAddr:        0x08000000
+T6B64 002:327.591         AlwaysPresent:   1
+T6B64 002:327.596         LoaderInfo:
+T6B64 002:327.601           Name:            Main_Flash
+T6B64 002:327.606           MaxSize:         0x00020000
+T6B64 002:327.611           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F040xx_128.FLM
+T6B64 002:327.616           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.621       FlashBankInfo:
+T6B64 002:327.626         Name:            Option Bytes
+T6B64 002:327.631         BaseAddr:        0x1FFF3100
+T6B64 002:327.654         AlwaysPresent:   1
+T6B64 002:327.660         LoaderInfo:
+T6B64 002:327.664           Name:            Option_Bytes
+T6B64 002:327.669           MaxSize:         0x00000020
+T6B64 002:327.675           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F040xx_OPT.FLM
+T6B64 002:327.680           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.686     Device entry created:  PY32M070x6
+T6B64 002:327.689       ChipInfo:
+T6B64 002:327.694         Vendor:          Puya
+T6B64 002:327.699         Name:            PY32M070x6
+T6B64 002:327.704         WorkRAMAddr:     0x20000000
+T6B64 002:327.709         WorkRAMSize:     0x00001000
+T6B64 002:327.715         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:327.720       FlashBankInfo:
+T6B64 002:327.724         Name:            Main Flash
+T6B64 002:327.729         BaseAddr:        0x08000000
+T6B64 002:327.754         AlwaysPresent:   1
+T6B64 002:327.759         LoaderInfo:
+T6B64 002:327.764           Name:            Main_Flash
+T6B64 002:327.769           MaxSize:         0x00008000
+T6B64 002:327.774           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_32.FLM
+T6B64 002:327.779           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.784       FlashBankInfo:
+T6B64 002:327.789         Name:            Option Bytes
+T6B64 002:327.794         BaseAddr:        0x1FFF3100
+T6B64 002:327.817         AlwaysPresent:   1
+T6B64 002:327.823         LoaderInfo:
+T6B64 002:327.827           Name:            Option_Bytes
+T6B64 002:327.832           MaxSize:         0x00000020
+T6B64 002:327.838           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:327.843           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.849     Device entry created:  PY32M070x8
+T6B64 002:327.852       ChipInfo:
+T6B64 002:327.857         Vendor:          Puya
+T6B64 002:327.862         Name:            PY32M070x8
+T6B64 002:327.867         WorkRAMAddr:     0x20000000
+T6B64 002:327.872         WorkRAMSize:     0x00002000
+T6B64 002:327.877         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:327.882       FlashBankInfo:
+T6B64 002:327.887         Name:            Main Flash
+T6B64 002:327.892         BaseAddr:        0x08000000
+T6B64 002:327.921         AlwaysPresent:   1
+T6B64 002:327.927         LoaderInfo:
+T6B64 002:327.931           Name:            Main_Flash
+T6B64 002:327.936           MaxSize:         0x00010000
+T6B64 002:327.942           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_64.FLM
+T6B64 002:327.947           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:327.952       FlashBankInfo:
+T6B64 002:327.957         Name:            Option Bytes
+T6B64 002:327.962         BaseAddr:        0x1FFF3100
+T6B64 002:327.985         AlwaysPresent:   1
+T6B64 002:327.990         LoaderInfo:
+T6B64 002:327.995           Name:            Option_Bytes
+T6B64 002:328.000           MaxSize:         0x00000020
+T6B64 002:328.005           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:328.012           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.018     Device entry created:  PY32M070x9
+T6B64 002:328.021       ChipInfo:
+T6B64 002:328.026         Vendor:          Puya
+T6B64 002:328.031         Name:            PY32M070x9
+T6B64 002:328.036         WorkRAMAddr:     0x20000000
+T6B64 002:328.041         WorkRAMSize:     0x00003000
+T6B64 002:328.046         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:328.051       FlashBankInfo:
+T6B64 002:328.056         Name:            Main Flash
+T6B64 002:328.061         BaseAddr:        0x08000000
+T6B64 002:328.085         AlwaysPresent:   1
+T6B64 002:328.091         LoaderInfo:
+T6B64 002:328.096           Name:            Main_Flash
+T6B64 002:328.101           MaxSize:         0x00018000
+T6B64 002:328.106           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_96.FLM
+T6B64 002:328.111           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.116       FlashBankInfo:
+T6B64 002:328.121         Name:            Option Bytes
+T6B64 002:328.126         BaseAddr:        0x1FFF3100
+T6B64 002:328.149         AlwaysPresent:   1
+T6B64 002:328.154         LoaderInfo:
+T6B64 002:328.159           Name:            Option_Bytes
+T6B64 002:328.164           MaxSize:         0x00000020
+T6B64 002:328.169           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:328.174           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.181     Device entry created:  PY32M070xB
+T6B64 002:328.184       ChipInfo:
+T6B64 002:328.189         Vendor:          Puya
+T6B64 002:328.194         Name:            PY32M070xB
+T6B64 002:328.199         WorkRAMAddr:     0x20000000
+T6B64 002:328.204         WorkRAMSize:     0x00004000
+T6B64 002:328.209         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:328.214       FlashBankInfo:
+T6B64 002:328.219         Name:            Main Flash
+T6B64 002:328.224         BaseAddr:        0x08000000
+T6B64 002:328.249         AlwaysPresent:   1
+T6B64 002:328.254         LoaderInfo:
+T6B64 002:328.259           Name:            Main_Flash
+T6B64 002:328.264           MaxSize:         0x00020000
+T6B64 002:328.269           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_128.FLM
+T6B64 002:328.274           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.279       FlashBankInfo:
+T6B64 002:328.284         Name:            Option Bytes
+T6B64 002:328.289         BaseAddr:        0x1FFF3100
+T6B64 002:328.312         AlwaysPresent:   1
+T6B64 002:328.317         LoaderInfo:
+T6B64 002:328.322           Name:            Option_Bytes
+T6B64 002:328.327           MaxSize:         0x00000020
+T6B64 002:328.332           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:328.337           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.344     Device entry created:  PY32F071x6
+T6B64 002:328.347       ChipInfo:
+T6B64 002:328.352         Vendor:          Puya
+T6B64 002:328.357         Name:            PY32F071x6
+T6B64 002:328.362         WorkRAMAddr:     0x20000000
+T6B64 002:328.367         WorkRAMSize:     0x00001000
+T6B64 002:328.372         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:328.377       FlashBankInfo:
+T6B64 002:328.382         Name:            Main Flash
+T6B64 002:328.387         BaseAddr:        0x08000000
+T6B64 002:328.410         AlwaysPresent:   1
+T6B64 002:328.415         LoaderInfo:
+T6B64 002:328.420           Name:            Main_Flash
+T6B64 002:328.425           MaxSize:         0x00008000
+T6B64 002:328.430           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_32.FLM
+T6B64 002:328.435           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.440       FlashBankInfo:
+T6B64 002:328.445         Name:            Option Bytes
+T6B64 002:328.450         BaseAddr:        0x1FFF3100
+T6B64 002:328.473         AlwaysPresent:   1
+T6B64 002:328.479         LoaderInfo:
+T6B64 002:328.497           Name:            Option_Bytes
+T6B64 002:328.502           MaxSize:         0x00000020
+T6B64 002:328.508           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:328.513           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.543     Device entry created:  PY32F071x8
+T6B64 002:328.546       ChipInfo:
+T6B64 002:328.551         Vendor:          Puya
+T6B64 002:328.556         Name:            PY32F071x8
+T6B64 002:328.561         WorkRAMAddr:     0x20000000
+T6B64 002:328.573         WorkRAMSize:     0x00002000
+T6B64 002:328.581         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:328.589       FlashBankInfo:
+T6B64 002:328.594         Name:            Main Flash
+T6B64 002:328.599         BaseAddr:        0x08000000
+T6B64 002:328.634         AlwaysPresent:   1
+T6B64 002:328.639         LoaderInfo:
+T6B64 002:328.644           Name:            Main_Flash
+T6B64 002:328.649           MaxSize:         0x00010000
+T6B64 002:328.654           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_64.FLM
+T6B64 002:328.660           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.665       FlashBankInfo:
+T6B64 002:328.670         Name:            Option Bytes
+T6B64 002:328.675         BaseAddr:        0x1FFF3100
+T6B64 002:328.699         AlwaysPresent:   1
+T6B64 002:328.704         LoaderInfo:
+T6B64 002:328.709           Name:            Option_Bytes
+T6B64 002:328.714           MaxSize:         0x00000020
+T6B64 002:328.720           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:328.725           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.732     Device entry created:  PY32F071x9
+T6B64 002:328.735       ChipInfo:
+T6B64 002:328.740         Vendor:          Puya
+T6B64 002:328.745         Name:            PY32F071x9
+T6B64 002:328.751         WorkRAMAddr:     0x20000000
+T6B64 002:328.756         WorkRAMSize:     0x00003000
+T6B64 002:328.761         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:328.766       FlashBankInfo:
+T6B64 002:328.771         Name:            Main Flash
+T6B64 002:328.777         BaseAddr:        0x08000000
+T6B64 002:328.801         AlwaysPresent:   1
+T6B64 002:328.806         LoaderInfo:
+T6B64 002:328.811           Name:            Main_Flash
+T6B64 002:328.816           MaxSize:         0x00018000
+T6B64 002:328.821           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_96.FLM
+T6B64 002:328.826           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.831       FlashBankInfo:
+T6B64 002:328.837         Name:            Option Bytes
+T6B64 002:328.842         BaseAddr:        0x1FFF3100
+T6B64 002:328.866         AlwaysPresent:   1
+T6B64 002:328.871         LoaderInfo:
+T6B64 002:328.876           Name:            Option_Bytes
+T6B64 002:328.881           MaxSize:         0x00000020
+T6B64 002:328.887           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:328.892           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:328.902     Device entry created:  PY32F071xB
+T6B64 002:328.905       ChipInfo:
+T6B64 002:328.910         Vendor:          Puya
+T6B64 002:328.915         Name:            PY32F071xB
+T6B64 002:328.920         WorkRAMAddr:     0x20000000
+T6B64 002:328.925         WorkRAMSize:     0x00004000
+T6B64 002:328.930         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:328.935       FlashBankInfo:
+T6B64 002:328.940         Name:            Main Flash
+T6B64 002:328.945         BaseAddr:        0x08000000
+T6B64 002:328.968         AlwaysPresent:   1
+T6B64 002:328.974         LoaderInfo:
+T6B64 002:328.979           Name:            Main_Flash
+T6B64 002:328.984           MaxSize:         0x00020000
+T6B64 002:328.989           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_128.FLM
+T6B64 002:328.994           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.014       FlashBankInfo:
+T6B64 002:329.019         Name:            Option Bytes
+T6B64 002:329.024         BaseAddr:        0x1FFF3100
+T6B64 002:329.048         AlwaysPresent:   1
+T6B64 002:329.053         LoaderInfo:
+T6B64 002:329.058           Name:            Option_Bytes
+T6B64 002:329.063           MaxSize:         0x00000020
+T6B64 002:329.068           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:329.073           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.080     Device entry created:  PY32F072x6
+T6B64 002:329.084       ChipInfo:
+T6B64 002:329.088         Vendor:          Puya
+T6B64 002:329.093         Name:            PY32F072x6
+T6B64 002:329.098         WorkRAMAddr:     0x20000000
+T6B64 002:329.104         WorkRAMSize:     0x00001000
+T6B64 002:329.109         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:329.114       FlashBankInfo:
+T6B64 002:329.119         Name:            Main Flash
+T6B64 002:329.124         BaseAddr:        0x08000000
+T6B64 002:329.147         AlwaysPresent:   1
+T6B64 002:329.152         LoaderInfo:
+T6B64 002:329.157           Name:            Main_Flash
+T6B64 002:329.162           MaxSize:         0x00008000
+T6B64 002:329.167           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_32.FLM
+T6B64 002:329.172           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.177       FlashBankInfo:
+T6B64 002:329.182         Name:            Option Bytes
+T6B64 002:329.187         BaseAddr:        0x1FFF3100
+T6B64 002:329.210         AlwaysPresent:   1
+T6B64 002:329.215         LoaderInfo:
+T6B64 002:329.220           Name:            Option_Bytes
+T6B64 002:329.225           MaxSize:         0x00000020
+T6B64 002:329.230           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:329.235           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.242     Device entry created:  PY32F072x8
+T6B64 002:329.245       ChipInfo:
+T6B64 002:329.250         Vendor:          Puya
+T6B64 002:329.255         Name:            PY32F072x8
+T6B64 002:329.260         WorkRAMAddr:     0x20000000
+T6B64 002:329.265         WorkRAMSize:     0x00002000
+T6B64 002:329.271         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:329.276       FlashBankInfo:
+T6B64 002:329.280         Name:            Main Flash
+T6B64 002:329.286         BaseAddr:        0x08000000
+T6B64 002:329.308         AlwaysPresent:   1
+T6B64 002:329.314         LoaderInfo:
+T6B64 002:329.319           Name:            Main_Flash
+T6B64 002:329.324           MaxSize:         0x00010000
+T6B64 002:329.329           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_64.FLM
+T6B64 002:329.334           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.339       FlashBankInfo:
+T6B64 002:329.344         Name:            Option Bytes
+T6B64 002:329.349         BaseAddr:        0x1FFF3100
+T6B64 002:329.372         AlwaysPresent:   1
+T6B64 002:329.377         LoaderInfo:
+T6B64 002:329.382           Name:            Option_Bytes
+T6B64 002:329.387           MaxSize:         0x00000020
+T6B64 002:329.392           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:329.397           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.404     Device entry created:  PY32F072x9
+T6B64 002:329.407       ChipInfo:
+T6B64 002:329.412         Vendor:          Puya
+T6B64 002:329.417         Name:            PY32F072x9
+T6B64 002:329.422         WorkRAMAddr:     0x20000000
+T6B64 002:329.427         WorkRAMSize:     0x00003000
+T6B64 002:329.432         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:329.437       FlashBankInfo:
+T6B64 002:329.442         Name:            Main Flash
+T6B64 002:329.447         BaseAddr:        0x08000000
+T6B64 002:329.470         AlwaysPresent:   1
+T6B64 002:329.475         LoaderInfo:
+T6B64 002:329.480           Name:            Main_Flash
+T6B64 002:329.485           MaxSize:         0x00018000
+T6B64 002:329.492           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_96.FLM
+T6B64 002:329.497           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.502       FlashBankInfo:
+T6B64 002:329.507         Name:            Option Bytes
+T6B64 002:329.512         BaseAddr:        0x1FFF3100
+T6B64 002:329.535         AlwaysPresent:   1
+T6B64 002:329.540         LoaderInfo:
+T6B64 002:329.545           Name:            Option_Bytes
+T6B64 002:329.550           MaxSize:         0x00000020
+T6B64 002:329.555           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:329.560           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.567     Device entry created:  PY32F072xB
+T6B64 002:329.570       ChipInfo:
+T6B64 002:329.575         Vendor:          Puya
+T6B64 002:329.580         Name:            PY32F072xB
+T6B64 002:329.585         WorkRAMAddr:     0x20000000
+T6B64 002:329.590         WorkRAMSize:     0x00004000
+T6B64 002:329.595         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:329.600       FlashBankInfo:
+T6B64 002:329.605         Name:            Main Flash
+T6B64 002:329.610         BaseAddr:        0x08000000
+T6B64 002:329.633         AlwaysPresent:   1
+T6B64 002:329.638         LoaderInfo:
+T6B64 002:329.643           Name:            Main_Flash
+T6B64 002:329.648           MaxSize:         0x00020000
+T6B64 002:329.653           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_128.FLM
+T6B64 002:329.658           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.663       FlashBankInfo:
+T6B64 002:329.668         Name:            Option Bytes
+T6B64 002:329.673         BaseAddr:        0x1FFF3100
+T6B64 002:329.696         AlwaysPresent:   1
+T6B64 002:329.701         LoaderInfo:
+T6B64 002:329.706           Name:            Option_Bytes
+T6B64 002:329.711           MaxSize:         0x00000020
+T6B64 002:329.716           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F072xx_OPT.FLM
+T6B64 002:329.721           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.728     Device entry created:  PY32F002Bx5
+T6B64 002:329.731       ChipInfo:
+T6B64 002:329.736         Vendor:          Puya
+T6B64 002:329.741         Name:            PY32F002Bx5
+T6B64 002:329.746         WorkRAMAddr:     0x20000000
+T6B64 002:329.751         WorkRAMSize:     0x00000C00
+T6B64 002:329.757         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:329.762       FlashBankInfo:
+T6B64 002:329.766         Name:            Main Flash
+T6B64 002:329.772         BaseAddr:        0x08000000
+T6B64 002:329.795         AlwaysPresent:   1
+T6B64 002:329.800         LoaderInfo:
+T6B64 002:329.805           Name:            Main_Flash
+T6B64 002:329.810           MaxSize:         0x00006000
+T6B64 002:329.815           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:329.820           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.825       FlashBankInfo:
+T6B64 002:329.830         Name:            Option Bytes
+T6B64 002:329.835         BaseAddr:        0x1FFF0080
+T6B64 002:329.860         AlwaysPresent:   1
+T6B64 002:329.865         LoaderInfo:
+T6B64 002:329.870           Name:            Option_Bytes
+T6B64 002:329.875           MaxSize:         0x00000010
+T6B64 002:329.880           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:329.885           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.890       FlashBankInfo:
+T6B64 002:329.895         Name:            OTP Flash
+T6B64 002:329.900         BaseAddr:        0x1FFF0280
+T6B64 002:329.930         AlwaysPresent:   1
+T6B64 002:329.936         LoaderInfo:
+T6B64 002:329.941           Name:            OTP_Flash
+T6B64 002:329.946           MaxSize:         0x00000080
+T6B64 002:329.951           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:329.956           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:329.975     Device entry created:  PY32F002Xx2
+T6B64 002:329.978       ChipInfo:
+T6B64 002:329.983         Vendor:          Puya
+T6B64 002:329.988         Name:            PY32F002Xx2
+T6B64 002:329.993         WorkRAMAddr:     0x20000000
+T6B64 002:329.999         WorkRAMSize:     0x00000C00
+T6B64 002:330.004         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:330.009       FlashBankInfo:
+T6B64 002:330.014         Name:            Main Flash
+T6B64 002:330.019         BaseAddr:        0x08000000
+T6B64 002:330.042         AlwaysPresent:   1
+T6B64 002:330.047         LoaderInfo:
+T6B64 002:330.052           Name:            Main_Flash
+T6B64 002:330.057           MaxSize:         0x00006000
+T6B64 002:330.062           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:330.067           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.072       FlashBankInfo:
+T6B64 002:330.077         Name:            Option Bytes
+T6B64 002:330.082         BaseAddr:        0x1FFF0080
+T6B64 002:330.106         AlwaysPresent:   1
+T6B64 002:330.111         LoaderInfo:
+T6B64 002:330.116           Name:            Option_Bytes
+T6B64 002:330.121           MaxSize:         0x00000010
+T6B64 002:330.126           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:330.131           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.136       FlashBankInfo:
+T6B64 002:330.141         Name:            OTP Flash
+T6B64 002:330.146         BaseAddr:        0x1FFF0280
+T6B64 002:330.169         AlwaysPresent:   1
+T6B64 002:330.175         LoaderInfo:
+T6B64 002:330.180           Name:            OTP_Flash
+T6B64 002:330.185           MaxSize:         0x00000080
+T6B64 002:330.190           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:330.195           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.202     Device entry created:  PY32F002Xx4
+T6B64 002:330.205       ChipInfo:
+T6B64 002:330.210         Vendor:          Puya
+T6B64 002:330.215         Name:            PY32F002Xx4
+T6B64 002:330.220         WorkRAMAddr:     0x20000000
+T6B64 002:330.225         WorkRAMSize:     0x00000C00
+T6B64 002:330.230         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:330.235       FlashBankInfo:
+T6B64 002:330.240         Name:            Main Flash
+T6B64 002:330.245         BaseAddr:        0x08000000
+T6B64 002:330.268         AlwaysPresent:   1
+T6B64 002:330.273         LoaderInfo:
+T6B64 002:330.278           Name:            Main_Flash
+T6B64 002:330.283           MaxSize:         0x00006000
+T6B64 002:330.288           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:330.293           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.298       FlashBankInfo:
+T6B64 002:330.303         Name:            Option Bytes
+T6B64 002:330.308         BaseAddr:        0x1FFF0080
+T6B64 002:330.331         AlwaysPresent:   1
+T6B64 002:330.336         LoaderInfo:
+T6B64 002:330.341           Name:            Option_Bytes
+T6B64 002:330.346           MaxSize:         0x00000010
+T6B64 002:330.351           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:330.356           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.361       FlashBankInfo:
+T6B64 002:330.366         Name:            OTP Flash
+T6B64 002:330.371         BaseAddr:        0x1FFF0280
+T6B64 002:330.394         AlwaysPresent:   1
+T6B64 002:330.399         LoaderInfo:
+T6B64 002:330.404           Name:            OTP_Flash
+T6B64 002:330.409           MaxSize:         0x00000080
+T6B64 002:330.414           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:330.419           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.426     Device entry created:  PY32F002Xx5
+T6B64 002:330.430       ChipInfo:
+T6B64 002:330.434         Vendor:          Puya
+T6B64 002:330.441         Name:            PY32F002Xx5
+T6B64 002:330.446         WorkRAMAddr:     0x20000000
+T6B64 002:330.451         WorkRAMSize:     0x00000C00
+T6B64 002:330.456         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:330.461       FlashBankInfo:
+T6B64 002:330.466         Name:            Main Flash
+T6B64 002:330.471         BaseAddr:        0x08000000
+T6B64 002:330.494         AlwaysPresent:   1
+T6B64 002:330.499         LoaderInfo:
+T6B64 002:330.504           Name:            Main_Flash
+T6B64 002:330.509           MaxSize:         0x00006000
+T6B64 002:330.514           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:330.519           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.524       FlashBankInfo:
+T6B64 002:330.529         Name:            Option Bytes
+T6B64 002:330.534         BaseAddr:        0x1FFF0080
+T6B64 002:330.562         AlwaysPresent:   1
+T6B64 002:330.570         LoaderInfo:
+T6B64 002:330.575           Name:            Option_Bytes
+T6B64 002:330.580           MaxSize:         0x00000010
+T6B64 002:330.585           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:330.590           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.595       FlashBankInfo:
+T6B64 002:330.600         Name:            OTP Flash
+T6B64 002:330.605         BaseAddr:        0x1FFF0280
+T6B64 002:330.629         AlwaysPresent:   1
+T6B64 002:330.634         LoaderInfo:
+T6B64 002:330.639           Name:            OTP_Flash
+T6B64 002:330.644           MaxSize:         0x00000080
+T6B64 002:330.650           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:330.655           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.662     Device entry created:  PY32L020x5
+T6B64 002:330.665       ChipInfo:
+T6B64 002:330.670         Vendor:          Puya
+T6B64 002:330.675         Name:            PY32L020x5
+T6B64 002:330.681         WorkRAMAddr:     0x20000000
+T6B64 002:330.686         WorkRAMSize:     0x00000C00
+T6B64 002:330.691         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:330.696       FlashBankInfo:
+T6B64 002:330.701         Name:            Main Flash
+T6B64 002:330.706         BaseAddr:        0x08000000
+T6B64 002:330.732         AlwaysPresent:   1
+T6B64 002:330.737         LoaderInfo:
+T6B64 002:330.742           Name:            Main_Flash
+T6B64 002:330.748           MaxSize:         0x00006000
+T6B64 002:330.753           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32L0\PY32L020xx_24.FLM
+T6B64 002:330.758           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.763       FlashBankInfo:
+T6B64 002:330.768         Name:            Option Bytes
+T6B64 002:330.774         BaseAddr:        0x1FFF0080
+T6B64 002:330.800         AlwaysPresent:   1
+T6B64 002:330.806         LoaderInfo:
+T6B64 002:330.811           Name:            Option_Bytes
+T6B64 002:330.816           MaxSize:         0x00000010
+T6B64 002:330.821           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32L0\PY32L020xx_OPT.FLM
+T6B64 002:330.826           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.832       FlashBankInfo:
+T6B64 002:330.837         Name:            OTP Flash
+T6B64 002:330.842         BaseAddr:        0x1FFF0280
+T6B64 002:330.870         AlwaysPresent:   1
+T6B64 002:330.876         LoaderInfo:
+T6B64 002:330.881           Name:            OTP_Flash
+T6B64 002:330.886           MaxSize:         0x00000080
+T6B64 002:330.891           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32L0\PY32L020xx_OTP.FLM
+T6B64 002:330.896           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:330.904     Device entry created:  PY32F001x4
+T6B64 002:330.907       ChipInfo:
+T6B64 002:330.912         Vendor:          Puya
+T6B64 002:330.917         Name:            PY32F001x4
+T6B64 002:330.923         WorkRAMAddr:     0x20000000
+T6B64 002:330.928         WorkRAMSize:     0x00000C00
+T6B64 002:330.935         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:330.940       FlashBankInfo:
+T6B64 002:330.945         Name:            Main Flash
+T6B64 002:330.953         BaseAddr:        0x08000000
+T6B64 002:330.982         AlwaysPresent:   1
+T6B64 002:330.987         LoaderInfo:
+T6B64 002:330.992           Name:            Main_Flash
+T6B64 002:330.997           MaxSize:         0x00004000
+T6B64 002:331.002           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F001xx_16.FLM
+T6B64 002:331.007           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.013       FlashBankInfo:
+T6B64 002:331.018         Name:            Option Bytes
+T6B64 002:331.023         BaseAddr:        0x1FFF0080
+T6B64 002:331.049         AlwaysPresent:   1
+T6B64 002:331.054         LoaderInfo:
+T6B64 002:331.059           Name:            Option_Bytes
+T6B64 002:331.064           MaxSize:         0x00000010
+T6B64 002:331.069           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F001xx_OPT.FLM
+T6B64 002:331.074           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.079       FlashBankInfo:
+T6B64 002:331.084         Name:            OTP Flash
+T6B64 002:331.090         BaseAddr:        0x1FFF0280
+T6B64 002:331.117         AlwaysPresent:   1
+T6B64 002:331.122         LoaderInfo:
+T6B64 002:331.127           Name:            OTP_Flash
+T6B64 002:331.132           MaxSize:         0x00000080
+T6B64 002:331.137           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F001xx_OTP.FLM
+T6B64 002:331.142           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.162     Device entry created:  PY32M010x5
+T6B64 002:331.166       ChipInfo:
+T6B64 002:331.171         Vendor:          Puya
+T6B64 002:331.176         Name:            PY32M010x5
+T6B64 002:331.181         WorkRAMAddr:     0x20000000
+T6B64 002:331.187         WorkRAMSize:     0x00000C00
+T6B64 002:331.192         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:331.197       FlashBankInfo:
+T6B64 002:331.202         Name:            Main Flash
+T6B64 002:331.207         BaseAddr:        0x08000000
+T6B64 002:331.233         AlwaysPresent:   1
+T6B64 002:331.239         LoaderInfo:
+T6B64 002:331.244           Name:            Main_Flash
+T6B64 002:331.249           MaxSize:         0x00006000
+T6B64 002:331.255           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:331.260           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.265       FlashBankInfo:
+T6B64 002:331.270         Name:            Option Bytes
+T6B64 002:331.275         BaseAddr:        0x1FFF0080
+T6B64 002:331.301         AlwaysPresent:   1
+T6B64 002:331.306         LoaderInfo:
+T6B64 002:331.311           Name:            Option_Bytes
+T6B64 002:331.316           MaxSize:         0x00000010
+T6B64 002:331.322           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:331.327           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.332       FlashBankInfo:
+T6B64 002:331.337         Name:            OTP Flash
+T6B64 002:331.343         BaseAddr:        0x1FFF0280
+T6B64 002:331.368         AlwaysPresent:   1
+T6B64 002:331.374         LoaderInfo:
+T6B64 002:331.379           Name:            OTP_Flash
+T6B64 002:331.384           MaxSize:         0x00000080
+T6B64 002:331.389           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:331.394           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.402     Device entry created:  PY32C640x5
+T6B64 002:331.405       ChipInfo:
+T6B64 002:331.410         Vendor:          Puya
+T6B64 002:331.415         Name:            PY32C640x5
+T6B64 002:331.421         WorkRAMAddr:     0x20000000
+T6B64 002:331.426         WorkRAMSize:     0x00000C00
+T6B64 002:331.431         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:331.436       FlashBankInfo:
+T6B64 002:331.442         Name:            Main Flash
+T6B64 002:331.448         BaseAddr:        0x08000000
+T6B64 002:331.474         AlwaysPresent:   1
+T6B64 002:331.479         LoaderInfo:
+T6B64 002:331.485           Name:            Main_Flash
+T6B64 002:331.490           MaxSize:         0x00006000
+T6B64 002:331.495           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:331.500           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.505       FlashBankInfo:
+T6B64 002:331.511         Name:            Option Bytes
+T6B64 002:331.516         BaseAddr:        0x1FFF0080
+T6B64 002:331.543         AlwaysPresent:   1
+T6B64 002:331.548         LoaderInfo:
+T6B64 002:331.553           Name:            Option_Bytes
+T6B64 002:331.559           MaxSize:         0x00000010
+T6B64 002:331.564           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:331.569           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.575       FlashBankInfo:
+T6B64 002:331.580         Name:            OTP Flash
+T6B64 002:331.585         BaseAddr:        0x1FFF0280
+T6B64 002:331.611         AlwaysPresent:   1
+T6B64 002:331.616         LoaderInfo:
+T6B64 002:331.622           Name:            OTP_Flash
+T6B64 002:331.627           MaxSize:         0x00000080
+T6B64 002:331.632           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:331.637           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.653     Device entry created:  PY32C641x5
+T6B64 002:331.657       ChipInfo:
+T6B64 002:331.662         Vendor:          Puya
+T6B64 002:331.667         Name:            PY32C641x5
+T6B64 002:331.672         WorkRAMAddr:     0x20000000
+T6B64 002:331.678         WorkRAMSize:     0x00000C00
+T6B64 002:331.683         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:331.688       FlashBankInfo:
+T6B64 002:331.693         Name:            Main Flash
+T6B64 002:331.698         BaseAddr:        0x08000000
+T6B64 002:331.724         AlwaysPresent:   1
+T6B64 002:331.730         LoaderInfo:
+T6B64 002:331.735           Name:            Main_Flash
+T6B64 002:331.740           MaxSize:         0x00006000
+T6B64 002:331.745           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:331.751           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.756       FlashBankInfo:
+T6B64 002:331.761         Name:            Option Bytes
+T6B64 002:331.766         BaseAddr:        0x1FFF0080
+T6B64 002:331.792         AlwaysPresent:   1
+T6B64 002:331.797         LoaderInfo:
+T6B64 002:331.802           Name:            Option_Bytes
+T6B64 002:331.807           MaxSize:         0x00000010
+T6B64 002:331.813           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:331.818           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.823       FlashBankInfo:
+T6B64 002:331.828         Name:            OTP Flash
+T6B64 002:331.833         BaseAddr:        0x1FFF0280
+T6B64 002:331.860         AlwaysPresent:   1
+T6B64 002:331.865         LoaderInfo:
+T6B64 002:331.870           Name:            OTP_Flash
+T6B64 002:331.875           MaxSize:         0x00000080
+T6B64 002:331.880           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:331.885           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:331.892     Device entry created:  PY32C642x5
+T6B64 002:331.896       ChipInfo:
+T6B64 002:331.901         Vendor:          Puya
+T6B64 002:331.906         Name:            PY32C642x5
+T6B64 002:331.911         WorkRAMAddr:     0x20000000
+T6B64 002:331.922         WorkRAMSize:     0x00000C00
+T6B64 002:331.928         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:331.933       FlashBankInfo:
+T6B64 002:331.938         Name:            Main Flash
+T6B64 002:331.943         BaseAddr:        0x08000000
+T6B64 002:331.970         AlwaysPresent:   1
+T6B64 002:331.976         LoaderInfo:
+T6B64 002:331.982           Name:            Main_Flash
+T6B64 002:331.988           MaxSize:         0x00006000
+T6B64 002:331.993           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:331.998           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.003       FlashBankInfo:
+T6B64 002:332.009         Name:            Option Bytes
+T6B64 002:332.014         BaseAddr:        0x1FFF0080
+T6B64 002:332.039         AlwaysPresent:   1
+T6B64 002:332.044         LoaderInfo:
+T6B64 002:332.050           Name:            Option_Bytes
+T6B64 002:332.055           MaxSize:         0x00000010
+T6B64 002:332.060           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:332.065           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.071       FlashBankInfo:
+T6B64 002:332.076         Name:            OTP Flash
+T6B64 002:332.081         BaseAddr:        0x1FFF0280
+T6B64 002:332.108         AlwaysPresent:   1
+T6B64 002:332.113         LoaderInfo:
+T6B64 002:332.118           Name:            OTP_Flash
+T6B64 002:332.124           MaxSize:         0x00000080
+T6B64 002:332.129           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:332.134           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.141     Device entry created:  PY32C643x4
+T6B64 002:332.145       ChipInfo:
+T6B64 002:332.150         Vendor:          Puya
+T6B64 002:332.155         Name:            PY32C643x4
+T6B64 002:332.160         WorkRAMAddr:     0x20000000
+T6B64 002:332.165         WorkRAMSize:     0x00000C00
+T6B64 002:332.171         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:332.176       FlashBankInfo:
+T6B64 002:332.182         Name:            Main Flash
+T6B64 002:332.188         BaseAddr:        0x08000000
+T6B64 002:332.214         AlwaysPresent:   1
+T6B64 002:332.220         LoaderInfo:
+T6B64 002:332.225           Name:            Main_Flash
+T6B64 002:332.230           MaxSize:         0x00004000
+T6B64 002:332.236           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:332.241           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.246       FlashBankInfo:
+T6B64 002:332.251         Name:            Option Bytes
+T6B64 002:332.256         BaseAddr:        0x1FFF0080
+T6B64 002:332.282         AlwaysPresent:   1
+T6B64 002:332.288         LoaderInfo:
+T6B64 002:332.293           Name:            Option_Bytes
+T6B64 002:332.298           MaxSize:         0x00000010
+T6B64 002:332.303           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:332.308           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.313       FlashBankInfo:
+T6B64 002:332.319         Name:            OTP Flash
+T6B64 002:332.324         BaseAddr:        0x1FFF0280
+T6B64 002:332.350         AlwaysPresent:   1
+T6B64 002:332.356         LoaderInfo:
+T6B64 002:332.361           Name:            OTP_Flash
+T6B64 002:332.366           MaxSize:         0x00000080
+T6B64 002:332.371           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:332.376           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.384     Device entry created:  MSC001x2
+T6B64 002:332.387       ChipInfo:
+T6B64 002:332.392         Vendor:          Puya
+T6B64 002:332.397         Name:            MSC001x2
+T6B64 002:332.402         WorkRAMAddr:     0x20000000
+T6B64 002:332.408         WorkRAMSize:     0x00000C00
+T6B64 002:332.413         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:332.418       FlashBankInfo:
+T6B64 002:332.423         Name:            Main Flash
+T6B64 002:332.428         BaseAddr:        0x08000000
+T6B64 002:332.455         AlwaysPresent:   1
+T6B64 002:332.460         LoaderInfo:
+T6B64 002:332.465           Name:            Main_Flash
+T6B64 002:332.470           MaxSize:         0x00002000
+T6B64 002:332.475           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:332.482           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.487       FlashBankInfo:
+T6B64 002:332.492         Name:            Option Bytes
+T6B64 002:332.498         BaseAddr:        0x1FFF0080
+T6B64 002:332.529         AlwaysPresent:   1
+T6B64 002:332.534         LoaderInfo:
+T6B64 002:332.539           Name:            Option_Bytes
+T6B64 002:332.544           MaxSize:         0x00000010
+T6B64 002:332.550           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:332.555           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.560       FlashBankInfo:
+T6B64 002:332.565         Name:            OTP Flash
+T6B64 002:332.570         BaseAddr:        0x1FFF0280
+T6B64 002:332.601         AlwaysPresent:   1
+T6B64 002:332.606         LoaderInfo:
+T6B64 002:332.612           Name:            OTP_Flash
+T6B64 002:332.617           MaxSize:         0x00000080
+T6B64 002:332.622           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:332.627           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.643     Device entry modified: MSC001x2
+T6B64 002:332.648       FlashBankInfo:
+T6B64 002:332.653         Name:            Main Flash
+T6B64 002:332.658         BaseAddr:        0x08000000
+T6B64 002:332.685         AlwaysPresent:   1
+T6B64 002:332.691         LoaderInfo:
+T6B64 002:332.696           Name:            Main_Flash
+T6B64 002:332.701           MaxSize:         0x00002000
+T6B64 002:332.706           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:332.712           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.717       FlashBankInfo:
+T6B64 002:332.722         Name:            Option Bytes
+T6B64 002:332.727         BaseAddr:        0x1FFF0080
+T6B64 002:332.753         AlwaysPresent:   1
+T6B64 002:332.758         LoaderInfo:
+T6B64 002:332.763           Name:            Option_Bytes
+T6B64 002:332.769           MaxSize:         0x00000010
+T6B64 002:332.774           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:332.779           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.784       FlashBankInfo:
+T6B64 002:332.789         Name:            OTP Flash
+T6B64 002:332.795         BaseAddr:        0x1FFF0280
+T6B64 002:332.821         AlwaysPresent:   1
+T6B64 002:332.827         LoaderInfo:
+T6B64 002:332.832           Name:            OTP_Flash
+T6B64 002:332.838           MaxSize:         0x00000080
+T6B64 002:332.843           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:332.848           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:332.855     Device entry created:  MSC011x3
+T6B64 002:332.859       ChipInfo:
+T6B64 002:332.864         Vendor:          Puya
+T6B64 002:332.869         Name:            MSC011x3
+T6B64 002:332.906         WorkRAMAddr:     0x20000000
+T6B64 002:332.912         WorkRAMSize:     0x00000C00
+T6B64 002:332.954         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:332.987       FlashBankInfo:
+T6B64 002:332.993         Name:            Main Flash
+T6B64 002:332.999         BaseAddr:        0x08000000
+T6B64 002:333.057         AlwaysPresent:   1
+T6B64 002:333.063         LoaderInfo:
+T6B64 002:333.069           Name:            Main_Flash
+T6B64 002:333.075           MaxSize:         0x00003000
+T6B64 002:333.080           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:333.085           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:333.091       FlashBankInfo:
+T6B64 002:333.097         Name:            Option Bytes
+T6B64 002:333.102         BaseAddr:        0x1FFF0080
+T6B64 002:333.132         AlwaysPresent:   1
+T6B64 002:333.138         LoaderInfo:
+T6B64 002:333.143           Name:            Option_Bytes
+T6B64 002:333.148           MaxSize:         0x00000010
+T6B64 002:333.157           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:333.163           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:333.168       FlashBankInfo:
+T6B64 002:333.173         Name:            OTP Flash
+T6B64 002:333.179         BaseAddr:        0x1FFF0280
+T6B64 002:333.207         AlwaysPresent:   1
+T6B64 002:333.212         LoaderInfo:
+T6B64 002:333.217           Name:            OTP_Flash
+T6B64 002:333.222           MaxSize:         0x00000080
+T6B64 002:333.228           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:333.233           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:333.242     Device entry created:  MSC012x3
+T6B64 002:333.246       ChipInfo:
+T6B64 002:333.251         Vendor:          Puya
+T6B64 002:333.256         Name:            MSC012x3
+T6B64 002:333.262         WorkRAMAddr:     0x20000000
+T6B64 002:333.267         WorkRAMSize:     0x00000C00
+T6B64 002:333.273         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:333.278       FlashBankInfo:
+T6B64 002:333.283         Name:            Main Flash
+T6B64 002:333.289         BaseAddr:        0x08000000
+T6B64 002:333.316         AlwaysPresent:   1
+T6B64 002:333.321         LoaderInfo:
+T6B64 002:333.326           Name:            Main_Flash
+T6B64 002:333.332           MaxSize:         0x00003000
+T6B64 002:333.337           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_24.FLM
+T6B64 002:333.342           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:333.348       FlashBankInfo:
+T6B64 002:333.353         Name:            Option Bytes
+T6B64 002:333.358         BaseAddr:        0x1FFF0080
+T6B64 002:333.385         AlwaysPresent:   1
+T6B64 002:333.391         LoaderInfo:
+T6B64 002:333.396           Name:            Option_Bytes
+T6B64 002:333.401           MaxSize:         0x00000010
+T6B64 002:333.406           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OPT.FLM
+T6B64 002:333.411           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:333.417       FlashBankInfo:
+T6B64 002:333.422         Name:            OTP Flash
+T6B64 002:333.427         BaseAddr:        0x1FFF0280
+T6B64 002:333.454         AlwaysPresent:   1
+T6B64 002:333.459         LoaderInfo:
+T6B64 002:333.464           Name:            OTP_Flash
+T6B64 002:333.469           MaxSize:         0x00000080
+T6B64 002:333.475           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F002Bxx_OTP.FLM
+T6B64 002:333.480           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:333.488     Device entry created:  PY32F031x4
+T6B64 002:333.491       ChipInfo:
+T6B64 002:333.496         Vendor:          Puya
+T6B64 002:333.502         Name:            PY32F031x4
+T6B64 002:333.507         WorkRAMAddr:     0x20000000
+T6B64 002:333.512         WorkRAMSize:     0x00000800
+T6B64 002:333.517         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:333.523       FlashBankInfo:
+T6B64 002:333.528         Name:            Main Flash
+T6B64 002:333.533         BaseAddr:        0x08000000
+T6B64 002:333.562         AlwaysPresent:   1
+T6B64 002:333.568         LoaderInfo:
+T6B64 002:333.573           Name:            Main_Flash
+T6B64 002:333.578           MaxSize:         0x00004000
+T6B64 002:333.583           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_16.FLM
+T6B64 002:333.588           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:333.594       FlashBankInfo:
+T6B64 002:333.599         Name:            Option Bytes
+T6B64 002:333.605         BaseAddr:        0x1FFF0E80
+T6B64 002:333.634         AlwaysPresent:   1
+T6B64 002:333.640         LoaderInfo:
+T6B64 002:333.645           Name:            Option_Bytes
+T6B64 002:333.650           MaxSize:         0x00000010
+T6B64 002:333.655           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F031xx_OPT.FLM
+T6B64 002:333.661           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:333.668       FlashBankInfo:
+T6B64 002:333.673         Name:            OTP Flash
+T6B64 002:333.678         BaseAddr:        0x1FFF0D00
+T6B64 002:333.708         AlwaysPresent:   1
+T6B64 002:333.714         LoaderInfo:
+T6B64 002:333.719           Name:            OTP_Flash
+T6B64 002:333.724           MaxSize:         0x00000080
+T6B64 002:333.730           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F031xx_OTP.FLM
+T6B64 002:333.735           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:333.743     Device entry created:  PY32F031x6
+T6B64 002:333.746       ChipInfo:
+T6B64 002:333.751         Vendor:          Puya
+T6B64 002:333.757         Name:            PY32F031x6
+T6B64 002:333.762         WorkRAMAddr:     0x20000000
+T6B64 002:333.768         WorkRAMSize:     0x00001000
+T6B64 002:333.773         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:333.778       FlashBankInfo:
+T6B64 002:333.783         Name:            Main Flash
+T6B64 002:333.789         BaseAddr:        0x08000000
+T6B64 002:333.813         AlwaysPresent:   1
+T6B64 002:333.818         LoaderInfo:
+T6B64 002:333.824           Name:            Main_Flash
+T6B64 002:333.830           MaxSize:         0x00008000
+T6B64 002:333.839           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_32.FLM
+T6B64 002:334.102           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:334.121       FlashBankInfo:
+T6B64 002:334.193         Name:            Option Bytes
+T6B64 002:334.200         BaseAddr:        0x1FFF0E80
+T6B64 002:334.262         AlwaysPresent:   1
+T6B64 002:334.267         LoaderInfo:
+T6B64 002:334.273           Name:            Option_Bytes
+T6B64 002:334.278           MaxSize:         0x00000010
+T6B64 002:334.284           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F031xx_OPT.FLM
+T6B64 002:334.289           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:334.295       FlashBankInfo:
+T6B64 002:334.300         Name:            OTP Flash
+T6B64 002:334.305         BaseAddr:        0x1FFF0D00
+T6B64 002:334.333         AlwaysPresent:   1
+T6B64 002:334.338         LoaderInfo:
+T6B64 002:334.343           Name:            OTP_Flash
+T6B64 002:334.348           MaxSize:         0x00000080
+T6B64 002:334.354           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F031xx_OTP.FLM
+T6B64 002:334.359           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:334.369     Device entry created:  PY32F031x7
+T6B64 002:334.373       ChipInfo:
+T6B64 002:334.378         Vendor:          Puya
+T6B64 002:334.383         Name:            PY32F031x7
+T6B64 002:334.388         WorkRAMAddr:     0x20000000
+T6B64 002:334.394         WorkRAMSize:     0x00001800
+T6B64 002:334.400         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:334.405       FlashBankInfo:
+T6B64 002:334.410         Name:            Main Flash
+T6B64 002:334.415         BaseAddr:        0x08000000
+T6B64 002:334.443         AlwaysPresent:   1
+T6B64 002:334.448         LoaderInfo:
+T6B64 002:334.454           Name:            Main_Flash
+T6B64 002:334.459           MaxSize:         0x0000C000
+T6B64 002:334.464           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_48.FLM
+T6B64 002:334.469           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:334.475       FlashBankInfo:
+T6B64 002:334.480         Name:            Option Bytes
+T6B64 002:334.485         BaseAddr:        0x1FFF0E80
+T6B64 002:334.510         AlwaysPresent:   1
+T6B64 002:334.515         LoaderInfo:
+T6B64 002:334.520           Name:            Option_Bytes
+T6B64 002:334.525           MaxSize:         0x00000010
+T6B64 002:334.531           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F031xx_OPT.FLM
+T6B64 002:334.536           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:334.541       FlashBankInfo:
+T6B64 002:334.546         Name:            OTP Flash
+T6B64 002:334.551         BaseAddr:        0x1FFF0D00
+T6B64 002:334.578         AlwaysPresent:   1
+T6B64 002:334.584         LoaderInfo:
+T6B64 002:334.589           Name:            OTP_Flash
+T6B64 002:334.594           MaxSize:         0x00000080
+T6B64 002:334.599           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F031xx_OTP.FLM
+T6B64 002:334.607           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:334.614     Device entry created:  PY32F031x8
+T6B64 002:334.618       ChipInfo:
+T6B64 002:334.623         Vendor:          Puya
+T6B64 002:334.628         Name:            PY32F031x8
+T6B64 002:334.633         WorkRAMAddr:     0x20000000
+T6B64 002:334.638         WorkRAMSize:     0x00002000
+T6B64 002:334.643         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:334.648       FlashBankInfo:
+T6B64 002:334.653         Name:            Main Flash
+T6B64 002:334.658         BaseAddr:        0x08000000
+T6B64 002:334.682         AlwaysPresent:   1
+T6B64 002:334.687         LoaderInfo:
+T6B64 002:334.692           Name:            Main_Flash
+T6B64 002:334.697           MaxSize:         0x00010000
+T6B64 002:334.703           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_64.FLM
+T6B64 002:334.708           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:334.713       FlashBankInfo:
+T6B64 002:334.718         Name:            Option Bytes
+T6B64 002:334.723         BaseAddr:        0x1FFF0E80
+T6B64 002:334.746         AlwaysPresent:   1
+T6B64 002:334.751         LoaderInfo:
+T6B64 002:334.756           Name:            Option_Bytes
+T6B64 002:334.761           MaxSize:         0x00000010
+T6B64 002:334.766           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F031xx_OPT.FLM
+T6B64 002:334.771           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:334.776       FlashBankInfo:
+T6B64 002:334.781         Name:            OTP Flash
+T6B64 002:334.786         BaseAddr:        0x1FFF0D00
+T6B64 002:334.809         AlwaysPresent:   1
+T6B64 002:334.814         LoaderInfo:
+T6B64 002:334.819           Name:            OTP_Flash
+T6B64 002:334.824           MaxSize:         0x00000080
+T6B64 002:334.829           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F031xx_OTP.FLM
+T6B64 002:334.834           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:334.840     Device entry created:  PY32C670x8
+T6B64 002:334.844       ChipInfo:
+T6B64 002:334.849         Vendor:          Puya
+T6B64 002:334.854         Name:            PY32C670x8
+T6B64 002:334.859         WorkRAMAddr:     0x20000000
+T6B64 002:334.864         WorkRAMSize:     0x00002000
+T6B64 002:334.869         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:334.874       FlashBankInfo:
+T6B64 002:334.879         Name:            Main Flash
+T6B64 002:334.884         BaseAddr:        0x08000000
+T6B64 002:334.907         AlwaysPresent:   1
+T6B64 002:334.912         LoaderInfo:
+T6B64 002:334.917           Name:            Main_Flash
+T6B64 002:334.922           MaxSize:         0x00010000
+T6B64 002:334.928           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F0xx_64.FLM
+T6B64 002:334.933           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:334.938       FlashBankInfo:
+T6B64 002:334.942         Name:            Option Bytes
+T6B64 002:334.948         BaseAddr:        0x1FFF0E80
+T6B64 002:334.974         AlwaysPresent:   1
+T6B64 002:334.980         LoaderInfo:
+T6B64 002:334.984           Name:            Option_Bytes
+T6B64 002:334.990           MaxSize:         0x00000010
+T6B64 002:334.995           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F031xx_OPT.FLM
+T6B64 002:335.000           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.005       FlashBankInfo:
+T6B64 002:335.010         Name:            OTP Flash
+T6B64 002:335.015         BaseAddr:        0x1FFF0D00
+T6B64 002:335.038         AlwaysPresent:   1
+T6B64 002:335.043         LoaderInfo:
+T6B64 002:335.048           Name:            OTP_Flash
+T6B64 002:335.053           MaxSize:         0x00000080
+T6B64 002:335.060           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F0\PY32F031xx_OTP.FLM
+T6B64 002:335.065           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.082     Device entry created:  PY32F303x8
+T6B64 002:335.086       ChipInfo:
+T6B64 002:335.091         Vendor:          Puya
+T6B64 002:335.096         Name:            PY32F303x8
+T6B64 002:335.101         WorkRAMAddr:     0x20000000
+T6B64 002:335.106         WorkRAMSize:     0x00008000
+T6B64 002:335.111         Core:            JLINK_CORE_CORTEX_M4
+T6B64 002:335.117       FlashBankInfo:
+T6B64 002:335.121         Name:            Main Flash
+T6B64 002:335.127         BaseAddr:        0x08000000
+T6B64 002:335.152         AlwaysPresent:   1
+T6B64 002:335.157         LoaderInfo:
+T6B64 002:335.162           Name:            Main_Flash
+T6B64 002:335.167           MaxSize:         0x00010000
+T6B64 002:335.172           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_64.FLM
+T6B64 002:335.177           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.183       FlashBankInfo:
+T6B64 002:335.187         Name:            Option Bytes
+T6B64 002:335.192         BaseAddr:        0x1FFF5000
+T6B64 002:335.217         AlwaysPresent:   1
+T6B64 002:335.222         LoaderInfo:
+T6B64 002:335.227           Name:            Option_Bytes
+T6B64 002:335.232           MaxSize:         0x00000010
+T6B64 002:335.237           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_OPT.FLM
+T6B64 002:335.242           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.250     Device entry created:  PY32F303xB
+T6B64 002:335.254       ChipInfo:
+T6B64 002:335.258         Vendor:          Puya
+T6B64 002:335.263         Name:            PY32F303xB
+T6B64 002:335.268         WorkRAMAddr:     0x20000000
+T6B64 002:335.273         WorkRAMSize:     0x00008000
+T6B64 002:335.279         Core:            JLINK_CORE_CORTEX_M4
+T6B64 002:335.284       FlashBankInfo:
+T6B64 002:335.289         Name:            Main Flash
+T6B64 002:335.294         BaseAddr:        0x08000000
+T6B64 002:335.318         AlwaysPresent:   1
+T6B64 002:335.323         LoaderInfo:
+T6B64 002:335.328           Name:            Main_Flash
+T6B64 002:335.333           MaxSize:         0x00020000
+T6B64 002:335.338           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_128.FLM
+T6B64 002:335.343           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.348       FlashBankInfo:
+T6B64 002:335.353         Name:            Option Bytes
+T6B64 002:335.358         BaseAddr:        0x1FFF5000
+T6B64 002:335.381         AlwaysPresent:   1
+T6B64 002:335.387         LoaderInfo:
+T6B64 002:335.392           Name:            Option_Bytes
+T6B64 002:335.397           MaxSize:         0x00000010
+T6B64 002:335.402           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_OPT.FLM
+T6B64 002:335.407           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.413     Device entry created:  PY32F303xC
+T6B64 002:335.417       ChipInfo:
+T6B64 002:335.422         Vendor:          Puya
+T6B64 002:335.427         Name:            PY32F303xC
+T6B64 002:335.432         WorkRAMAddr:     0x20000000
+T6B64 002:335.437         WorkRAMSize:     0x00008000
+T6B64 002:335.443         Core:            JLINK_CORE_CORTEX_M4
+T6B64 002:335.448       FlashBankInfo:
+T6B64 002:335.452         Name:            Main Flash
+T6B64 002:335.458         BaseAddr:        0x08000000
+T6B64 002:335.482         AlwaysPresent:   1
+T6B64 002:335.487         LoaderInfo:
+T6B64 002:335.492           Name:            Main_Flash
+T6B64 002:335.497           MaxSize:         0x00040000
+T6B64 002:335.502           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_256.FLM
+T6B64 002:335.507           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.512       FlashBankInfo:
+T6B64 002:335.517         Name:            Option Bytes
+T6B64 002:335.522         BaseAddr:        0x1FFF5000
+T6B64 002:335.588         AlwaysPresent:   1
+T6B64 002:335.594         LoaderInfo:
+T6B64 002:335.599           Name:            Option_Bytes
+T6B64 002:335.604           MaxSize:         0x00000010
+T6B64 002:335.609           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_OPT.FLM
+T6B64 002:335.616           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.623     Device entry created:  PY32F403xB
+T6B64 002:335.626       ChipInfo:
+T6B64 002:335.631         Vendor:          Puya
+T6B64 002:335.636         Name:            PY32F403xB
+T6B64 002:335.641         WorkRAMAddr:     0x20000000
+T6B64 002:335.647         WorkRAMSize:     0x00010000
+T6B64 002:335.653         Core:            JLINK_CORE_CORTEX_M4
+T6B64 002:335.658       FlashBankInfo:
+T6B64 002:335.663         Name:            Main Flash
+T6B64 002:335.668         BaseAddr:        0x08000000
+T6B64 002:335.692         AlwaysPresent:   1
+T6B64 002:335.697         LoaderInfo:
+T6B64 002:335.702           Name:            Main_Flash
+T6B64 002:335.707           MaxSize:         0x00020000
+T6B64 002:335.713           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_128.FLM
+T6B64 002:335.718           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.723       FlashBankInfo:
+T6B64 002:335.728         Name:            Option Bytes
+T6B64 002:335.733         BaseAddr:        0x1FFF5000
+T6B64 002:335.756         AlwaysPresent:   1
+T6B64 002:335.762         LoaderInfo:
+T6B64 002:335.767           Name:            Option_Bytes
+T6B64 002:335.772           MaxSize:         0x00000010
+T6B64 002:335.777           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_OPT.FLM
+T6B64 002:335.782           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.789     Device entry created:  PY32F403xC
+T6B64 002:335.793       ChipInfo:
+T6B64 002:335.797         Vendor:          Puya
+T6B64 002:335.803         Name:            PY32F403xC
+T6B64 002:335.808         WorkRAMAddr:     0x20000000
+T6B64 002:335.813         WorkRAMSize:     0x00010000
+T6B64 002:335.819         Core:            JLINK_CORE_CORTEX_M4
+T6B64 002:335.824       FlashBankInfo:
+T6B64 002:335.829         Name:            Main Flash
+T6B64 002:335.834         BaseAddr:        0x08000000
+T6B64 002:335.858         AlwaysPresent:   1
+T6B64 002:335.863         LoaderInfo:
+T6B64 002:335.868           Name:            Main_Flash
+T6B64 002:335.873           MaxSize:         0x00040000
+T6B64 002:335.879           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_256.FLM
+T6B64 002:335.884           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.889       FlashBankInfo:
+T6B64 002:335.894         Name:            Option Bytes
+T6B64 002:335.899         BaseAddr:        0x1FFF5000
+T6B64 002:335.923         AlwaysPresent:   1
+T6B64 002:335.928         LoaderInfo:
+T6B64 002:335.935           Name:            Option_Bytes
+T6B64 002:335.940           MaxSize:         0x00000010
+T6B64 002:335.945           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_OPT.FLM
+T6B64 002:335.950           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:335.957     Device entry created:  PY32F403xD
+T6B64 002:335.966       ChipInfo:
+T6B64 002:335.971         Vendor:          Puya
+T6B64 002:335.976         Name:            PY32F403xD
+T6B64 002:335.981         WorkRAMAddr:     0x20000000
+T6B64 002:335.986         WorkRAMSize:     0x00010000
+T6B64 002:335.991         Core:            JLINK_CORE_CORTEX_M4
+T6B64 002:335.996       FlashBankInfo:
+T6B64 002:336.001         Name:            Main Flash
+T6B64 002:336.006         BaseAddr:        0x08000000
+T6B64 002:336.031         AlwaysPresent:   1
+T6B64 002:336.036         LoaderInfo:
+T6B64 002:336.041           Name:            Main_Flash
+T6B64 002:336.046           MaxSize:         0x00060000
+T6B64 002:336.051           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_384.FLM
+T6B64 002:336.058           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:336.063       FlashBankInfo:
+T6B64 002:336.068         Name:            Option Bytes
+T6B64 002:336.073         BaseAddr:        0x1FFF5000
+T6B64 002:336.096         AlwaysPresent:   1
+T6B64 002:336.101         LoaderInfo:
+T6B64 002:336.106           Name:            Option_Bytes
+T6B64 002:336.111           MaxSize:         0x00000010
+T6B64 002:336.116           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32F4\PY32F403xx_OPT.FLM
+T6B64 002:336.121           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:336.128     Device entry created:  PY32T020x6
+T6B64 002:336.131       ChipInfo:
+T6B64 002:336.136         Vendor:          Puya
+T6B64 002:336.141         Name:            PY32T020x6
+T6B64 002:336.146         WorkRAMAddr:     0x20000000
+T6B64 002:336.151         WorkRAMSize:     0x00001000
+T6B64 002:336.156         Core:            JLINK_CORE_CORTEX_M0
+T6B64 002:336.161       FlashBankInfo:
+T6B64 002:336.166         Name:            Main Flash
+T6B64 002:336.171         BaseAddr:        0x08000000
+T6B64 002:336.196         AlwaysPresent:   1
+T6B64 002:336.201         LoaderInfo:
+T6B64 002:336.206           Name:            Main_Flash
+T6B64 002:336.211           MaxSize:         0x00008000
+T6B64 002:336.216           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32T0\PY32T020xx_32.FLM
+T6B64 002:336.221           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:336.226       FlashBankInfo:
+T6B64 002:336.231         Name:            Option Bytes
+T6B64 002:336.236         BaseAddr:        0x1FFF0080
+T6B64 002:336.261         AlwaysPresent:   1
+T6B64 002:336.267         LoaderInfo:
+T6B64 002:336.271           Name:            Option_Bytes
+T6B64 002:336.276           MaxSize:         0x00000010
+T6B64 002:336.282           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32T0\PY32T020xx_OPT.FLM
+T6B64 002:336.287           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:336.292       FlashBankInfo:
+T6B64 002:336.297         Name:            OTP Flash
+T6B64 002:336.302         BaseAddr:        0x1FFF0280
+T6B64 002:336.326         AlwaysPresent:   1
+T6B64 002:336.331         LoaderInfo:
+T6B64 002:336.336           Name:            OTP_Flash
+T6B64 002:336.341           MaxSize:         0x00000080
+T6B64 002:336.346           Loader:          C:\Program Files\SEGGER\JLink\Devices\Puya\PY32T0\PY32T020xx_OTP.FLM
+T6B64 002:336.351           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T6B64 002:336.451 - 19.980ms returns 0x00
+T6B64 002:338.527 JLINK_ExecCommand("Device = PY32F040xB", ...). 
+T6B64 002:338.698   Flash bank @ 0x08000000: SFL: Parsing sectorization info from ELF file
+T6B64 002:338.712     FlashDevice.SectorInfo[0]: .SectorSize = 0x00002000, .SectorStartAddr = 0x00000000
+T6B64 002:338.718   OFL: Init() present @ offset 0x00000189
+T6B64 002:338.723   OFL: UnInit() present @ offset 0x000001E5
+T6B64 002:338.728   OFL: EraseSector() present @ offset 0x0000028D
+T6B64 002:338.733   OFL: ProgramPage() present @ offset 0x00000303
+T6B64 002:338.738   OFL: EraseChip() present @ offset 0x000001FF
+T6B64 002:338.743   OFL: BlankCheck() present @ offset 0x000002FD
+T6B64 002:338.748   OFL: Verify() N/A
+T6B64 002:338.753   OFL: SEGGER_FL_Erase() N/A
+T6B64 002:338.758   OFL: SEGGER_OPEN_Erase() N/A
+T6B64 002:338.763   OFL: SEGGER_FL_Program() N/A
+T6B64 002:338.768   OFL: SEGGER_OPEN_Program() N/A
+T6B64 002:338.773   OFL: SEGGER_FL_Read() N/A
+T6B64 002:338.777   OFL: SEGGER_OPEN_Read() N/A
+T6B64 002:338.782   OFL: SEGGER_FL_CalcCRC() N/A
+T6B64 002:338.787   OFL: SEGGER_OPEN_CalcCRC() N/A
+T6B64 002:338.792   OFL: SEGGER_FL_Start() N/A
+T6B64 002:338.800   OFL: SEGGER_OPEN_Start() N/A
+T6B64 002:338.805   OFL: SEGGER_FL_GetFlashInfo() N/A
+T6B64 002:338.810   OFL: SEGGER_OPEN_GetFlashInfo() N/A
+T6B64 002:338.815   OFL: SEGGER_FL_Verify() N/A
+T6B64 002:338.819   OFL: SEGGER_FL_CheckBlank() N/A
+T6B64 002:338.824   OFL: SEGGER_FL_Prepare() N/A
+T6B64 002:338.831   OFL: SEGGER_FL_Restore() N/A
+T6B64 002:338.839   OFL: SEGGER_FL_EraseChip() N/A
+T6B64 002:338.967   Flash bank @ 0x1FFF3100: SFL: Parsing sectorization info from ELF file
+T6B64 002:338.973     FlashDevice.SectorInfo[0]: .SectorSize = 0x00000020, .SectorStartAddr = 0x00000000
+T6B64 002:338.978   OFL: Init() present @ offset 0x00000189
+T6B64 002:338.983   OFL: UnInit() present @ offset 0x000001ED
+T6B64 002:338.988   OFL: EraseSector() present @ offset 0x00000217
+T6B64 002:338.993   OFL: ProgramPage() present @ offset 0x00000223
+T6B64 002:338.998   OFL: EraseChip() present @ offset 0x00000213
+T6B64 002:339.003   OFL: BlankCheck() present @ offset 0x0000021D
+T6B64 002:339.008   OFL: Verify() present @ offset 0x0000029F
+T6B64 002:339.013   OFL: SEGGER_FL_Erase() N/A
+T6B64 002:339.018   OFL: SEGGER_OPEN_Erase() N/A
+T6B64 002:339.023   OFL: SEGGER_FL_Program() N/A
+T6B64 002:339.028   OFL: SEGGER_OPEN_Program() N/A
+T6B64 002:339.033   OFL: SEGGER_FL_Read() N/A
+T6B64 002:339.038   OFL: SEGGER_OPEN_Read() N/A
+T6B64 002:339.043   OFL: SEGGER_FL_CalcCRC() N/A
+T6B64 002:339.048   OFL: SEGGER_OPEN_CalcCRC() N/A
+T6B64 002:339.053   OFL: SEGGER_FL_Start() N/A
+T6B64 002:339.058   OFL: SEGGER_OPEN_Start() N/A
+T6B64 002:339.062   OFL: SEGGER_FL_GetFlashInfo() N/A
+T6B64 002:339.067   OFL: SEGGER_OPEN_GetFlashInfo() N/A
+T6B64 002:339.072   OFL: SEGGER_FL_Verify() N/A
+T6B64 002:339.077   OFL: SEGGER_FL_CheckBlank() N/A
+T6B64 002:339.082   OFL: SEGGER_FL_Prepare() N/A
+T6B64 002:339.087   OFL: SEGGER_FL_Restore() N/A
+T6B64 002:339.092   OFL: SEGGER_FL_EraseChip() N/A
+T6B64 002:340.590   Device "PY32F040XB" selected.
+T6B64 002:340.812 - 2.276ms returns 0x00
+T6B64 002:340.821 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T6B64 002:340.827 - 0.002ms returns 0x01
+T6B64 002:340.840 JLINK_GetHardwareVersion()
+T6B64 002:340.844 - 0.005ms returns 97000
+T6B64 002:340.849 JLINK_GetDLLVersion()
+T6B64 002:340.852 - 0.005ms returns 78603
+T6B64 002:340.857 JLINK_GetOEMString(...)
+T6B64 002:340.862 JLINK_GetFirmwareString(...)
+T6B64 002:340.865 - 0.005ms
+T6B64 002:345.103 JLINK_GetDLLVersion()
+T6B64 002:345.114 - 0.012ms returns 78603
+T6B64 002:345.123 JLINK_GetCompileDateTime()
+T6B64 002:345.126 - 0.004ms
+T6B64 002:346.634 JLINK_GetFirmwareString(...)
+T6B64 002:346.645 - 0.012ms
+T6B64 002:348.046 JLINK_GetHardwareVersion()
+T6B64 002:348.056 - 0.012ms returns 97000
+T6B64 002:349.450 JLINK_GetSN()
+T6B64 002:349.461 - 0.012ms returns 150712143
+T6B64 002:350.941 JLINK_GetOEMString(...)
+T6B64 002:353.734 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T6B64 002:355.347 - 1.617ms returns 0x00
+T6B64 002:355.357 JLINK_HasError()
+T6B64 002:355.367 JLINK_SetSpeed(5000)
+T6B64 002:355.719 - 0.354ms
+T6B64 002:355.726 JLINK_GetId()
+T6B64 002:358.710   Found SW-DP with ID 0x0BC11477
+T6B64 002:364.258   DPIDR: 0x0BC11477
+T6B64 002:365.674   CoreSight SoC-400 or earlier
+T6B64 002:367.087   Scanning AP map to find all available APs
+T6B64 002:369.438   AP[1]: Stopped AP scan as end of AP map has been reached
+T6B64 002:370.859   AP[0]: AHB-AP (IDR: 0x04770031)
+T6B64 002:372.227   Iterating through AP map to find AHB-AP to use
+T6B64 002:374.915   AP[0]: Core found
+T6B64 002:376.289   AP[0]: AHB-AP ROM base: 0xE00FF000
+T6B64 002:378.669   CPUID register: 0x410CC601. Implementer code: 0x41 (ARM)
+T6B64 002:380.056   Found Cortex-M0 r0p1, Little endian.
+T6B64 002:380.985   -- Max. mem block: 0x00010C40
+T6B64 002:381.938   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T6B64 002:382.433   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T6B64 002:382.942   CPU_ReadMem(4 bytes @ 0xE0002000)
+T6B64 002:385.218   FPUnit: 4 code (BP) slots and 0 literal slots
+T6B64 002:385.233   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T6B64 002:385.791   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T6B64 002:386.297   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:386.792   CPU_WriteMem(4 bytes @ 0xE0001000)
+T6B64 002:388.741   CoreSight components:
+T6B64 002:390.104   ROMTbl[0] @ E00FF000
+T6B64 002:390.118   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T6B64 002:391.019   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T6B64 002:393.696   [0][0]: E000E000 CID B105E00D PID 000BB008 SCS
+T6B64 002:393.714   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T6B64 002:395.936   [0][1]: E0001000 CID B105E00D PID 000BB00A DWT
+T6B64 002:395.951   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T6B64 002:397.964   [0][2]: E0002000 CID B105E00D PID 000BB00B FPB
+T6B64 002:398.413 - 42.691ms returns 0x0BC11477
+T6B64 002:398.429 JLINK_GetDLLVersion()
+T6B64 002:398.432 - 0.005ms returns 78603
+T6B64 002:398.442 JLINK_CORE_GetFound()
+T6B64 002:398.446 - 0.005ms returns 0x60000FF
+T6B64 002:398.451 JLINK_GetDebugInfo(0x100 = JLINKARM_ROM_TABLE_ADDR_INDEX)
+T6B64 002:398.455   Value=0xE00FF000
+T6B64 002:398.461 - 0.011ms returns 0
+T6B64 002:399.880 JLINK_GetDebugInfo(0x100 = JLINKARM_ROM_TABLE_ADDR_INDEX)
+T6B64 002:399.891   Value=0xE00FF000
+T6B64 002:399.895 - 0.017ms returns 0
+T6B64 002:399.900 JLINK_GetDebugInfo(0x101 = JLINKARM_DEBUG_INFO_ETM_ADDR_INDEX)
+T6B64 002:399.903   Value=0x00000000
+T6B64 002:399.908 - 0.009ms returns 0
+T6B64 002:399.918 JLINK_ReadMemEx(0xE0041FF0, 0x10 Bytes, Flags = 0x02000004)
+T6B64 002:399.934   CPU_ReadMem(16 bytes @ 0xE0041FF0)
+T6B64 002:400.736   Data:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T6B64 002:400.749 - 0.859ms returns 16 (0x10)
+T6B64 002:400.781 JLINK_GetDebugInfo(0x102 = JLINKARM_DEBUG_INFO_MTB_ADDR_INDEX)
+T6B64 002:400.785   Value=0x00000000
+T6B64 002:400.790 - 0.010ms returns 0
+T6B64 002:400.794 JLINK_GetDebugInfo(0x103 = JLINKARM_DEBUG_INFO_TPIU_ADDR_INDEX)
+T6B64 002:400.797   Value=0x00000000
+T6B64 002:400.802 - 0.009ms returns 0
+T6B64 002:400.806 JLINK_ReadMemEx(0xE0040FF0, 0x10 Bytes, Flags = 0x02000004)
+T6B64 002:400.813   CPU_ReadMem(16 bytes @ 0xE0040FF0)
+T6B64 002:401.404   Data:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T6B64 002:401.416 - 0.612ms returns 16 (0x10)
+T6B64 002:401.422 JLINK_GetDebugInfo(0x104 = JLINKARM_DEBUG_INFO_ITM_ADDR_INDEX)
+T6B64 002:401.426   Value=0xE0000000
+T6B64 002:401.430 - 0.010ms returns 0
+T6B64 002:401.434 JLINK_GetDebugInfo(0x105 = JLINKARM_DEBUG_INFO_DWT_ADDR_INDEX)
+T6B64 002:401.438   Value=0xE0001000
+T6B64 002:401.443 - 0.010ms returns 0
+T6B64 002:401.447 JLINK_GetDebugInfo(0x106 = JLINKARM_DEBUG_INFO_FPB_ADDR_INDEX)
+T6B64 002:401.450   Value=0xE0002000
+T6B64 002:401.455 - 0.009ms returns 0
+T6B64 002:401.459 JLINK_GetDebugInfo(0x107 = JLINKARM_DEBUG_INFO_NVIC_ADDR_INDEX)
+T6B64 002:401.462   Value=0xE000E000
+T6B64 002:401.467 - 0.009ms returns 0
+T6B64 002:401.470 JLINK_GetDebugInfo(0x10C = JLINKARM_DEBUG_INFO_DBG_ADDR_INDEX)
+T6B64 002:401.474   Value=0xE000EDF0
+T6B64 002:401.478 - 0.009ms returns 0
+T6B64 002:401.482 JLINK_GetDebugInfo(0x01 = Unknown)
+T6B64 002:401.488   Value=0x00000000
+T6B64 002:401.492 - 0.011ms returns 0
+T6B64 002:401.498 JLINK_ReadMemU32(0xE000ED00, 0x1 Items)
+T6B64 002:401.505   CPU_ReadMem(4 bytes @ 0xE000ED00)
+T6B64 002:402.102   Data:  01 C6 0C 41
+T6B64 002:402.108   Debug reg: CPUID
+T6B64 002:402.112 - 0.615ms returns 1 (0x1)
+T6B64 002:402.117 JLINK_GetDebugInfo(0x10F = JLINKARM_DEBUG_INFO_HAS_CORTEX_M_SECURITY_EXT_INDEX)
+T6B64 002:402.121   Value=0x00000000
+T6B64 002:402.125 - 0.009ms returns 0
+T6B64 002:402.130 JLINK_HasError()
+T6B64 002:402.135 JLINK_SetResetType(JLINKARM_CM3_RESET_TYPE_NORMAL)
+T6B64 002:402.139 - 0.005ms returns JLINKARM_CM3_RESET_TYPE_NORMAL
+T6B64 002:402.143 JLINK_Reset()
+T6B64 002:402.154   CPU is running
+T6B64 002:402.160   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T6B64 002:402.705   CPU is running
+T6B64 002:402.711   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T6B64 002:405.000   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T6B64 002:407.537   Reset: Reset device via AIRCR.SYSRESETREQ.
+T6B64 002:407.551   CPU is running
+T6B64 002:407.557   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T6B64 002:461.752   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T6B64 002:462.203   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T6B64 002:464.884   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T6B64 002:471.296   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T6B64 002:474.225   CPU_WriteMem(4 bytes @ 0xE0002000)
+T6B64 002:474.824   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T6B64 002:475.452   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:475.945   CPU_WriteMem(4 bytes @ 0xE0001000)
+T6B64 002:476.431 - 74.290ms
+T6B64 002:476.485 JLINK_Halt()
+T6B64 002:476.490 - 0.006ms returns 0x00
+T6B64 002:476.495 JLINK_ReadMemU32(0xE000EDF0, 0x1 Items)
+T6B64 002:476.504   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T6B64 002:476.968   Data:  03 00 03 00
+T6B64 002:476.974   Debug reg: DHCSR
+T6B64 002:476.979 - 0.486ms returns 1 (0x1)
+T6B64 002:476.987 JLINK_WriteU32_64(0xE000EDF0, 0xA05F0003)
+T6B64 002:476.992   Debug reg: DHCSR
+T6B64 002:477.203   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T6B64 002:477.854 - 0.869ms returns 0 (0x00000000)
+T6B64 002:477.860 JLINK_WriteU32_64(0xE000EDFC, 0x01000000)
+T6B64 002:477.863   Debug reg: DEMCR
+T6B64 002:477.870   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T6B64 002:478.489 - 0.630ms returns 0 (0x00000000)
+T6B64 002:484.594 JLINK_GetHWStatus(...)
+T6B64 002:485.208 - 0.617ms returns 0
+T6B64 002:489.456 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T6B64 002:489.472 - 0.017ms returns 0x04
+T6B64 002:489.481 JLINK_GetNumBPUnits(Type = 0xF0)
+T6B64 002:489.484 - 0.005ms returns 0x2000
+T6B64 002:489.489 JLINK_GetNumWPUnits()
+T6B64 002:489.492 - 0.005ms returns 2
+T6B64 002:493.493 JLINK_GetSpeed()
+T6B64 002:493.507 - 0.015ms returns 4000
+T6B64 002:496.069 JLINK_ReadMemU32(0xE000E004, 0x1 Items)
+T6B64 002:496.090   CPU_ReadMem(4 bytes @ 0xE000E004)
+T6B64 002:496.722   Data:  00 00 00 00
+T6B64 002:496.728 - 0.660ms returns 1 (0x1)
+T6B64 002:496.736 JLINK_Halt()
+T6B64 002:496.740 - 0.005ms returns 0x00
+T6B64 002:496.746 JLINK_IsHalted()
+T6B64 002:496.750 - 0.005ms returns TRUE
+T6B64 002:498.398 JLINK_WriteMem(0x20000000, 0x408 Bytes, ...)
+T6B64 002:498.406   Data:  00 BE 0A E0 0D 78 2D 06 68 40 08 24 40 00 00 D3 ...
+T6B64 002:498.611   CPU_WriteMem(1032 bytes @ 0x20000000)
+T6B64 002:502.535 - 4.144ms returns 0x408
+T6B64 002:502.575 JLINK_HasError()
+T6B64 002:502.585 JLINK_WriteReg(R0, 0x08000000)
+T6B64 002:502.591 - 0.008ms returns 0
+T6B64 002:502.595 JLINK_WriteReg(R1, 0x00B71B00)
+T6B64 002:502.599 - 0.005ms returns 0
+T6B64 002:502.603 JLINK_WriteReg(R2, 0x00000001)
+T6B64 002:502.606 - 0.005ms returns 0
+T6B64 002:502.610 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:502.614 - 0.005ms returns 0
+T6B64 002:502.618 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:502.621 - 0.005ms returns 0
+T6B64 002:502.625 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:502.629 - 0.005ms returns 0
+T6B64 002:502.632 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:502.636 - 0.005ms returns 0
+T6B64 002:502.640 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:502.643 - 0.005ms returns 0
+T6B64 002:502.647 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:502.655 - 0.009ms returns 0
+T6B64 002:502.659 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:502.662 - 0.005ms returns 0
+T6B64 002:502.666 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:502.670 - 0.005ms returns 0
+T6B64 002:502.710 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:502.714 - 0.006ms returns 0
+T6B64 002:502.718 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:502.722 - 0.005ms returns 0
+T6B64 002:502.726 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:502.731 - 0.005ms returns 0
+T6B64 002:502.735 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:502.738 - 0.005ms returns 0
+T6B64 002:502.742 JLINK_WriteReg(R15 (PC), 0x200001A8)
+T6B64 002:502.748 - 0.007ms returns 0
+T6B64 002:502.752 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:502.755 - 0.005ms returns 0
+T6B64 002:502.759 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:502.763 - 0.005ms returns 0
+T6B64 002:502.767 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:502.770 - 0.005ms returns 0
+T6B64 002:502.774 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:502.778 - 0.005ms returns 0
+T6B64 002:502.783 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:502.790   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:503.455 - 0.683ms returns 0x00000001
+T6B64 002:503.483 JLINK_Go()
+T6B64 002:503.503   CPU_WriteMem(2 bytes @ 0x20000000)
+T6B64 002:503.990   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:504.498   CPU_WriteMem(4 bytes @ 0xE0001000)
+T6B64 002:504.996   CPU_WriteMem(4 bytes @ 0xE0002008)
+T6B64 002:505.001   CPU_WriteMem(4 bytes @ 0xE000200C)
+T6B64 002:505.007   CPU_WriteMem(4 bytes @ 0xE0002010)
+T6B64 002:505.011   CPU_WriteMem(4 bytes @ 0xE0002014)
+T6B64 002:505.966   CPU_WriteMem(4 bytes @ 0xE0001004)
+T6B64 002:508.680 - 5.200ms
+T6B64 002:508.687 JLINK_IsHalted()
+T6B64 002:511.282   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:511.927 - 3.241ms returns TRUE
+T6B64 002:511.935 JLINK_ReadReg(R15 (PC))
+T6B64 002:511.940 - 0.006ms returns 0x20000000
+T6B64 002:511.945 JLINK_ClrBPEx(BPHandle = 0x00000001)
+T6B64 002:511.949 - 0.005ms returns 0x00
+T6B64 002:511.953 JLINK_ReadReg(R0)
+T6B64 002:511.956 - 0.005ms returns 0x00000000
+T6B64 002:512.343 JLINK_HasError()
+T6B64 002:512.360 JLINK_WriteReg(R0, 0x08000000)
+T6B64 002:512.366 - 0.007ms returns 0
+T6B64 002:512.370 JLINK_WriteReg(R1, 0x00002000)
+T6B64 002:512.374 - 0.005ms returns 0
+T6B64 002:512.378 JLINK_WriteReg(R2, 0x000000FF)
+T6B64 002:512.382 - 0.005ms returns 0
+T6B64 002:512.386 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:512.389 - 0.005ms returns 0
+T6B64 002:512.394 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:512.397 - 0.005ms returns 0
+T6B64 002:512.401 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:512.405 - 0.005ms returns 0
+T6B64 002:512.409 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:512.412 - 0.005ms returns 0
+T6B64 002:512.416 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:512.420 - 0.005ms returns 0
+T6B64 002:512.424 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:512.427 - 0.005ms returns 0
+T6B64 002:512.431 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:512.434 - 0.005ms returns 0
+T6B64 002:512.438 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:512.442 - 0.005ms returns 0
+T6B64 002:512.446 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:512.449 - 0.005ms returns 0
+T6B64 002:512.453 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:512.457 - 0.005ms returns 0
+T6B64 002:512.461 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:512.465 - 0.005ms returns 0
+T6B64 002:512.469 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:512.472 - 0.005ms returns 0
+T6B64 002:512.476 JLINK_WriteReg(R15 (PC), 0x2000031C)
+T6B64 002:512.480 - 0.005ms returns 0
+T6B64 002:512.484 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:512.488 - 0.005ms returns 0
+T6B64 002:512.492 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:512.495 - 0.005ms returns 0
+T6B64 002:512.499 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:512.503 - 0.005ms returns 0
+T6B64 002:512.506 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:512.510 - 0.005ms returns 0
+T6B64 002:512.514 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:512.518 - 0.005ms returns 0x00000002
+T6B64 002:512.522 JLINK_Go()
+T6B64 002:512.531   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:515.326 - 2.810ms
+T6B64 002:515.338 JLINK_IsHalted()
+T6B64 002:517.739   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:518.311 - 2.975ms returns TRUE
+T6B64 002:518.318 JLINK_ReadReg(R15 (PC))
+T6B64 002:518.323 - 0.006ms returns 0x20000000
+T6B64 002:518.327 JLINK_ClrBPEx(BPHandle = 0x00000002)
+T6B64 002:518.331 - 0.005ms returns 0x00
+T6B64 002:518.335 JLINK_ReadReg(R0)
+T6B64 002:518.339 - 0.005ms returns 0x00000001
+T6B64 002:518.343 JLINK_HasError()
+T6B64 002:518.348 JLINK_WriteReg(R0, 0x08000000)
+T6B64 002:518.352 - 0.005ms returns 0
+T6B64 002:518.356 JLINK_WriteReg(R1, 0x00002000)
+T6B64 002:518.360 - 0.005ms returns 0
+T6B64 002:518.364 JLINK_WriteReg(R2, 0x000000FF)
+T6B64 002:518.367 - 0.005ms returns 0
+T6B64 002:518.371 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:518.375 - 0.005ms returns 0
+T6B64 002:518.379 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:518.382 - 0.005ms returns 0
+T6B64 002:518.386 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:518.390 - 0.005ms returns 0
+T6B64 002:518.394 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:518.397 - 0.005ms returns 0
+T6B64 002:518.401 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:518.405 - 0.005ms returns 0
+T6B64 002:518.408 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:518.412 - 0.008ms returns 0
+T6B64 002:518.420 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:518.424 - 0.005ms returns 0
+T6B64 002:518.428 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:518.431 - 0.005ms returns 0
+T6B64 002:518.435 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:518.439 - 0.005ms returns 0
+T6B64 002:518.443 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:518.448 - 0.007ms returns 0
+T6B64 002:518.453 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:518.457 - 0.005ms returns 0
+T6B64 002:518.461 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:518.465 - 0.005ms returns 0
+T6B64 002:518.469 JLINK_WriteReg(R15 (PC), 0x200002AC)
+T6B64 002:518.472 - 0.005ms returns 0
+T6B64 002:518.476 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:518.480 - 0.005ms returns 0
+T6B64 002:518.484 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:518.487 - 0.005ms returns 0
+T6B64 002:518.491 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:518.495 - 0.005ms returns 0
+T6B64 002:518.499 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:518.502 - 0.005ms returns 0
+T6B64 002:518.511 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:518.516 - 0.007ms returns 0x00000003
+T6B64 002:518.520 JLINK_Go()
+T6B64 002:518.527   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:521.441 - 2.927ms
+T6B64 002:521.452 JLINK_IsHalted()
+T6B64 002:525.327 - 3.882ms returns FALSE
+T6B64 002:525.339 JLINK_HasError()
+T6B64 002:531.213 JLINK_IsHalted()
+T6B64 002:533.608   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:534.287 - 3.076ms returns TRUE
+T6B64 002:534.295 JLINK_ReadReg(R15 (PC))
+T6B64 002:534.301 - 0.008ms returns 0x20000000
+T6B64 002:534.305 JLINK_ClrBPEx(BPHandle = 0x00000003)
+T6B64 002:534.309 - 0.005ms returns 0x00
+T6B64 002:534.314 JLINK_ReadReg(R0)
+T6B64 002:534.317 - 0.005ms returns 0x00000000
+T6B64 002:534.846 JLINK_HasError()
+T6B64 002:534.858 JLINK_WriteReg(R0, 0x00000001)
+T6B64 002:534.865 - 0.008ms returns 0
+T6B64 002:534.869 JLINK_WriteReg(R1, 0x00002000)
+T6B64 002:534.873 - 0.005ms returns 0
+T6B64 002:534.877 JLINK_WriteReg(R2, 0x000000FF)
+T6B64 002:534.881 - 0.005ms returns 0
+T6B64 002:534.884 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:534.888 - 0.005ms returns 0
+T6B64 002:534.892 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:534.895 - 0.005ms returns 0
+T6B64 002:534.899 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:534.903 - 0.005ms returns 0
+T6B64 002:534.907 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:534.910 - 0.005ms returns 0
+T6B64 002:534.914 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:534.918 - 0.005ms returns 0
+T6B64 002:534.922 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:534.925 - 0.005ms returns 0
+T6B64 002:534.929 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:534.933 - 0.005ms returns 0
+T6B64 002:534.937 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:534.940 - 0.005ms returns 0
+T6B64 002:534.944 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:534.948 - 0.005ms returns 0
+T6B64 002:534.952 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:534.955 - 0.005ms returns 0
+T6B64 002:534.959 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:534.963 - 0.005ms returns 0
+T6B64 002:534.967 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:534.970 - 0.005ms returns 0
+T6B64 002:534.974 JLINK_WriteReg(R15 (PC), 0x20000204)
+T6B64 002:534.978 - 0.005ms returns 0
+T6B64 002:534.982 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:534.985 - 0.005ms returns 0
+T6B64 002:534.989 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:534.993 - 0.005ms returns 0
+T6B64 002:534.996 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:535.000 - 0.005ms returns 0
+T6B64 002:535.004 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:535.007 - 0.005ms returns 0
+T6B64 002:535.011 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:535.016 - 0.006ms returns 0x00000004
+T6B64 002:535.020 JLINK_Go()
+T6B64 002:535.030   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:538.055 - 3.038ms
+T6B64 002:538.063 JLINK_IsHalted()
+T6B64 002:540.431   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:540.908 - 2.847ms returns TRUE
+T6B64 002:540.914 JLINK_ReadReg(R15 (PC))
+T6B64 002:540.919 - 0.006ms returns 0x20000000
+T6B64 002:540.924 JLINK_ClrBPEx(BPHandle = 0x00000004)
+T6B64 002:540.930 - 0.010ms returns 0x00
+T6B64 002:540.936 JLINK_ReadReg(R0)
+T6B64 002:540.940 - 0.005ms returns 0x00000000
+T6B64 002:595.953 JLINK_WriteMem(0x20000000, 0x408 Bytes, ...)
+T6B64 002:595.966   Data:  00 BE 0A E0 0D 78 2D 06 68 40 08 24 40 00 00 D3 ...
+T6B64 002:595.984   CPU_WriteMem(1032 bytes @ 0x20000000)
+T6B64 002:600.159 - 4.217ms returns 0x408
+T6B64 002:600.200 JLINK_HasError()
+T6B64 002:600.207 JLINK_WriteReg(R0, 0x08000000)
+T6B64 002:600.214 - 0.009ms returns 0
+T6B64 002:600.219 JLINK_WriteReg(R1, 0x00B71B00)
+T6B64 002:600.222 - 0.005ms returns 0
+T6B64 002:600.226 JLINK_WriteReg(R2, 0x00000002)
+T6B64 002:600.230 - 0.005ms returns 0
+T6B64 002:600.234 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:600.237 - 0.005ms returns 0
+T6B64 002:600.241 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:600.245 - 0.005ms returns 0
+T6B64 002:600.249 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:600.252 - 0.005ms returns 0
+T6B64 002:600.256 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:600.259 - 0.005ms returns 0
+T6B64 002:600.263 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:600.267 - 0.005ms returns 0
+T6B64 002:600.271 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:600.274 - 0.005ms returns 0
+T6B64 002:600.278 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:600.281 - 0.007ms returns 0
+T6B64 002:600.288 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:600.291 - 0.005ms returns 0
+T6B64 002:600.295 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:600.299 - 0.005ms returns 0
+T6B64 002:600.303 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:600.306 - 0.005ms returns 0
+T6B64 002:600.310 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:600.315 - 0.006ms returns 0
+T6B64 002:600.319 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:600.323 - 0.005ms returns 0
+T6B64 002:600.327 JLINK_WriteReg(R15 (PC), 0x200001A8)
+T6B64 002:600.331 - 0.005ms returns 0
+T6B64 002:600.335 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:600.338 - 0.005ms returns 0
+T6B64 002:600.342 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:600.346 - 0.005ms returns 0
+T6B64 002:600.350 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:600.360 - 0.012ms returns 0
+T6B64 002:600.364 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:600.368 - 0.005ms returns 0
+T6B64 002:600.372 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:600.383   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:601.095 - 0.739ms returns 0x00000005
+T6B64 002:601.118 JLINK_Go()
+T6B64 002:601.130   CPU_WriteMem(2 bytes @ 0x20000000)
+T6B64 002:601.842   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:604.789 - 3.678ms
+T6B64 002:604.805 JLINK_IsHalted()
+T6B64 002:607.064   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:607.554 - 2.756ms returns TRUE
+T6B64 002:607.571 JLINK_ReadReg(R15 (PC))
+T6B64 002:607.577 - 0.008ms returns 0x20000000
+T6B64 002:607.610 JLINK_ClrBPEx(BPHandle = 0x00000005)
+T6B64 002:607.616 - 0.006ms returns 0x00
+T6B64 002:607.620 JLINK_ReadReg(R0)
+T6B64 002:607.631 - 0.013ms returns 0x00000000
+T6B64 002:607.869 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:607.876   Data:  A8 02 00 20 D5 00 00 08 F1 10 00 08 E1 0F 00 08 ...
+T6B64 002:607.888   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:609.522 - 1.732ms returns 0x100
+T6B64 002:609.606 JLINK_HasError()
+T6B64 002:609.611 JLINK_WriteReg(R0, 0x08000000)
+T6B64 002:609.616 - 0.007ms returns 0
+T6B64 002:609.620 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:609.626 - 0.008ms returns 0
+T6B64 002:609.630 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:609.634 - 0.005ms returns 0
+T6B64 002:609.638 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:609.641 - 0.005ms returns 0
+T6B64 002:609.645 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:609.648 - 0.004ms returns 0
+T6B64 002:609.652 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:609.655 - 0.004ms returns 0
+T6B64 002:609.659 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:609.663 - 0.005ms returns 0
+T6B64 002:609.666 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:609.670 - 0.004ms returns 0
+T6B64 002:609.673 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:609.677 - 0.004ms returns 0
+T6B64 002:609.681 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:609.688 - 0.009ms returns 0
+T6B64 002:609.692 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:609.696 - 0.004ms returns 0
+T6B64 002:609.699 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:609.703 - 0.004ms returns 0
+T6B64 002:609.706 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:609.710 - 0.004ms returns 0
+T6B64 002:609.714 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:609.717 - 0.005ms returns 0
+T6B64 002:609.721 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:609.724 - 0.004ms returns 0
+T6B64 002:609.728 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:609.732 - 0.005ms returns 0
+T6B64 002:609.735 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:609.739 - 0.005ms returns 0
+T6B64 002:609.743 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:609.746 - 0.005ms returns 0
+T6B64 002:609.750 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:609.753 - 0.004ms returns 0
+T6B64 002:609.757 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:609.761 - 0.005ms returns 0
+T6B64 002:609.764 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:609.768 - 0.005ms returns 0x00000006
+T6B64 002:609.772 JLINK_Go()
+T6B64 002:609.779   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:612.590 - 2.831ms
+T6B64 002:612.607 JLINK_IsHalted()
+T6B64 002:613.687 - 1.086ms returns FALSE
+T6B64 002:613.698 JLINK_HasError()
+T6B64 002:619.163 JLINK_IsHalted()
+T6B64 002:621.796   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:622.315 - 3.154ms returns TRUE
+T6B64 002:622.323 JLINK_ReadReg(R15 (PC))
+T6B64 002:622.329 - 0.007ms returns 0x20000000
+T6B64 002:622.333 JLINK_ClrBPEx(BPHandle = 0x00000006)
+T6B64 002:622.337 - 0.005ms returns 0x00
+T6B64 002:622.342 JLINK_ReadReg(R0)
+T6B64 002:622.345 - 0.005ms returns 0x00000000
+T6B64 002:622.687 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:622.698   Data:  D5 40 9D 42 05 D3 1D 46 95 40 49 1B 25 46 95 40 ...
+T6B64 002:622.712   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:624.516 - 1.840ms returns 0x100
+T6B64 002:624.533 JLINK_HasError()
+T6B64 002:624.539 JLINK_WriteReg(R0, 0x08000100)
+T6B64 002:624.549 - 0.012ms returns 0
+T6B64 002:624.553 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:624.557 - 0.005ms returns 0
+T6B64 002:624.561 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:624.565 - 0.005ms returns 0
+T6B64 002:624.569 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:624.572 - 0.005ms returns 0
+T6B64 002:624.576 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:624.580 - 0.005ms returns 0
+T6B64 002:624.583 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:624.587 - 0.005ms returns 0
+T6B64 002:624.591 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:624.594 - 0.005ms returns 0
+T6B64 002:624.598 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:624.601 - 0.005ms returns 0
+T6B64 002:624.605 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:624.609 - 0.005ms returns 0
+T6B64 002:624.613 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:624.616 - 0.005ms returns 0
+T6B64 002:624.620 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:624.623 - 0.005ms returns 0
+T6B64 002:624.627 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:624.631 - 0.005ms returns 0
+T6B64 002:624.634 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:624.638 - 0.005ms returns 0
+T6B64 002:624.642 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:624.646 - 0.005ms returns 0
+T6B64 002:624.650 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:624.654 - 0.005ms returns 0
+T6B64 002:624.658 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:624.661 - 0.005ms returns 0
+T6B64 002:624.665 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:624.669 - 0.005ms returns 0
+T6B64 002:624.673 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:624.676 - 0.005ms returns 0
+T6B64 002:624.680 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:624.684 - 0.005ms returns 0
+T6B64 002:624.688 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:624.691 - 0.005ms returns 0
+T6B64 002:624.695 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:624.699 - 0.005ms returns 0x00000007
+T6B64 002:624.703 JLINK_Go()
+T6B64 002:624.711   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:627.741 - 3.049ms
+T6B64 002:627.756 JLINK_IsHalted()
+T6B64 002:628.926 - 1.187ms returns FALSE
+T6B64 002:628.951 JLINK_HasError()
+T6B64 002:631.243 JLINK_IsHalted()
+T6B64 002:633.717   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:634.429 - 3.188ms returns TRUE
+T6B64 002:634.442 JLINK_ReadReg(R15 (PC))
+T6B64 002:634.449 - 0.008ms returns 0x20000000
+T6B64 002:634.501 JLINK_ClrBPEx(BPHandle = 0x00000007)
+T6B64 002:634.507 - 0.008ms returns 0x00
+T6B64 002:634.512 JLINK_ReadReg(R0)
+T6B64 002:634.517 - 0.007ms returns 0x00000000
+T6B64 002:634.883 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:634.894   Data:  C2 0F 02 21 09 91 C9 48 A8 47 20 07 C2 0F C7 48 ...
+T6B64 002:634.907   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:636.576 - 1.726ms returns 0x100
+T6B64 002:636.613 JLINK_HasError()
+T6B64 002:636.619 JLINK_WriteReg(R0, 0x08000200)
+T6B64 002:636.624 - 0.007ms returns 0
+T6B64 002:636.629 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:636.633 - 0.005ms returns 0
+T6B64 002:636.637 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:636.641 - 0.005ms returns 0
+T6B64 002:636.646 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:636.649 - 0.005ms returns 0
+T6B64 002:636.654 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:636.658 - 0.005ms returns 0
+T6B64 002:636.662 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:636.666 - 0.005ms returns 0
+T6B64 002:636.670 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:636.674 - 0.005ms returns 0
+T6B64 002:636.678 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:636.682 - 0.005ms returns 0
+T6B64 002:636.686 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:636.690 - 0.005ms returns 0
+T6B64 002:636.695 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:636.698 - 0.005ms returns 0
+T6B64 002:636.703 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:636.706 - 0.005ms returns 0
+T6B64 002:636.711 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:636.715 - 0.005ms returns 0
+T6B64 002:636.719 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:636.723 - 0.005ms returns 0
+T6B64 002:636.727 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:636.731 - 0.010ms returns 0
+T6B64 002:636.740 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:636.746 - 0.008ms returns 0
+T6B64 002:636.751 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:636.756 - 0.006ms returns 0
+T6B64 002:636.760 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:636.764 - 0.005ms returns 0
+T6B64 002:636.768 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:636.772 - 0.005ms returns 0
+T6B64 002:636.776 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:636.780 - 0.005ms returns 0
+T6B64 002:636.784 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:636.788 - 0.005ms returns 0
+T6B64 002:636.793 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:636.797 - 0.006ms returns 0x00000008
+T6B64 002:636.801 JLINK_Go()
+T6B64 002:636.809   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:639.681 - 2.885ms
+T6B64 002:639.691 JLINK_IsHalted()
+T6B64 002:640.891 - 1.202ms returns FALSE
+T6B64 002:640.898 JLINK_HasError()
+T6B64 002:643.220 JLINK_IsHalted()
+T6B64 002:645.762   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:646.282 - 3.065ms returns TRUE
+T6B64 002:646.290 JLINK_ReadReg(R15 (PC))
+T6B64 002:646.296 - 0.008ms returns 0x20000000
+T6B64 002:646.301 JLINK_ClrBPEx(BPHandle = 0x00000008)
+T6B64 002:646.306 - 0.006ms returns 0x00
+T6B64 002:646.311 JLINK_ReadReg(R0)
+T6B64 002:646.316 - 0.006ms returns 0x00000000
+T6B64 002:646.686 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:646.703   Data:  01 90 8A 48 29 46 B0 47 05 48 01 90 20 46 29 46 ...
+T6B64 002:646.718   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:648.329 - 1.647ms returns 0x100
+T6B64 002:648.338 JLINK_HasError()
+T6B64 002:648.343 JLINK_WriteReg(R0, 0x08000300)
+T6B64 002:648.349 - 0.007ms returns 0
+T6B64 002:648.354 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:648.358 - 0.006ms returns 0
+T6B64 002:648.363 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:648.367 - 0.006ms returns 0
+T6B64 002:648.372 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:648.376 - 0.006ms returns 0
+T6B64 002:648.380 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:648.384 - 0.006ms returns 0
+T6B64 002:648.389 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:648.393 - 0.009ms returns 0
+T6B64 002:648.403 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:648.407 - 0.005ms returns 0
+T6B64 002:648.411 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:648.416 - 0.006ms returns 0
+T6B64 002:648.420 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:648.424 - 0.006ms returns 0
+T6B64 002:648.429 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:648.433 - 0.006ms returns 0
+T6B64 002:648.438 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:648.442 - 0.006ms returns 0
+T6B64 002:648.446 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:648.451 - 0.006ms returns 0
+T6B64 002:648.455 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:648.459 - 0.006ms returns 0
+T6B64 002:648.464 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:648.468 - 0.006ms returns 0
+T6B64 002:648.473 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:648.477 - 0.006ms returns 0
+T6B64 002:648.482 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:648.486 - 0.006ms returns 0
+T6B64 002:648.491 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:648.495 - 0.006ms returns 0
+T6B64 002:648.499 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:648.503 - 0.006ms returns 0
+T6B64 002:648.508 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:648.517 - 0.010ms returns 0
+T6B64 002:648.521 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:648.525 - 0.006ms returns 0
+T6B64 002:648.530 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:648.535 - 0.006ms returns 0x00000009
+T6B64 002:648.540 JLINK_Go()
+T6B64 002:648.548   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:651.726 - 3.195ms
+T6B64 002:651.739 JLINK_IsHalted()
+T6B64 002:652.910 - 1.196ms returns FALSE
+T6B64 002:652.974 JLINK_HasError()
+T6B64 002:655.280 JLINK_IsHalted()
+T6B64 002:657.860   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:658.459 - 3.182ms returns TRUE
+T6B64 002:658.471 JLINK_ReadReg(R15 (PC))
+T6B64 002:658.476 - 0.007ms returns 0x20000000
+T6B64 002:658.511 JLINK_ClrBPEx(BPHandle = 0x00000009)
+T6B64 002:658.518 - 0.008ms returns 0x00
+T6B64 002:658.522 JLINK_ReadReg(R0)
+T6B64 002:658.527 - 0.005ms returns 0x00000000
+T6B64 002:658.837 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:658.845   Data:  37 6A 97 43 2A 69 8A 40 3A 43 32 62 6B 68 03 26 ...
+T6B64 002:658.857   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:660.531 - 1.698ms returns 0x100
+T6B64 002:660.539 JLINK_HasError()
+T6B64 002:660.543 JLINK_WriteReg(R0, 0x08000400)
+T6B64 002:660.549 - 0.007ms returns 0
+T6B64 002:660.553 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:660.556 - 0.005ms returns 0
+T6B64 002:660.560 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:660.564 - 0.005ms returns 0
+T6B64 002:660.568 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:660.571 - 0.005ms returns 0
+T6B64 002:660.575 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:660.579 - 0.005ms returns 0
+T6B64 002:660.583 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:660.587 - 0.005ms returns 0
+T6B64 002:660.590 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:660.594 - 0.005ms returns 0
+T6B64 002:660.598 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:660.601 - 0.005ms returns 0
+T6B64 002:660.606 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:660.609 - 0.005ms returns 0
+T6B64 002:660.613 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:660.617 - 0.005ms returns 0
+T6B64 002:660.621 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:660.624 - 0.005ms returns 0
+T6B64 002:660.628 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:660.631 - 0.005ms returns 0
+T6B64 002:660.635 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:660.639 - 0.005ms returns 0
+T6B64 002:660.643 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:660.647 - 0.005ms returns 0
+T6B64 002:660.651 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:660.654 - 0.005ms returns 0
+T6B64 002:660.658 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:660.662 - 0.005ms returns 0
+T6B64 002:660.666 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:660.670 - 0.005ms returns 0
+T6B64 002:660.673 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:660.677 - 0.005ms returns 0
+T6B64 002:660.681 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:660.685 - 0.005ms returns 0
+T6B64 002:660.688 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:660.735 - 0.050ms returns 0
+T6B64 002:660.741 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:660.745 - 0.010ms returns 0x0000000A
+T6B64 002:660.755 JLINK_Go()
+T6B64 002:660.777   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:663.733 - 2.982ms
+T6B64 002:663.741 JLINK_IsHalted()
+T6B64 002:665.052 - 1.322ms returns FALSE
+T6B64 002:665.069 JLINK_HasError()
+T6B64 002:667.493 JLINK_IsHalted()
+T6B64 002:669.934   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:670.563 - 3.076ms returns TRUE
+T6B64 002:670.574 JLINK_ReadReg(R15 (PC))
+T6B64 002:670.582 - 0.009ms returns 0x20000000
+T6B64 002:670.588 JLINK_ClrBPEx(BPHandle = 0x0000000A)
+T6B64 002:670.593 - 0.007ms returns 0x00
+T6B64 002:670.598 JLINK_ReadReg(R0)
+T6B64 002:670.603 - 0.006ms returns 0x00000000
+T6B64 002:670.971 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:670.981   Data:  AD 1C 08 32 07 99 09 1D 07 91 76 1C 3B 68 19 46 ...
+T6B64 002:670.998   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:672.573 - 1.605ms returns 0x100
+T6B64 002:672.581 JLINK_HasError()
+T6B64 002:672.587 JLINK_WriteReg(R0, 0x08000500)
+T6B64 002:672.594 - 0.008ms returns 0
+T6B64 002:672.599 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:672.604 - 0.006ms returns 0
+T6B64 002:672.609 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:672.613 - 0.006ms returns 0
+T6B64 002:672.618 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:672.622 - 0.006ms returns 0
+T6B64 002:672.627 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:672.632 - 0.006ms returns 0
+T6B64 002:672.637 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:672.641 - 0.006ms returns 0
+T6B64 002:672.646 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:672.650 - 0.006ms returns 0
+T6B64 002:672.655 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:672.665 - 0.011ms returns 0
+T6B64 002:672.671 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:672.677 - 0.007ms returns 0
+T6B64 002:672.682 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:672.687 - 0.006ms returns 0
+T6B64 002:672.691 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:672.696 - 0.006ms returns 0
+T6B64 002:672.701 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:672.705 - 0.006ms returns 0
+T6B64 002:672.710 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:672.715 - 0.006ms returns 0
+T6B64 002:672.720 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:672.725 - 0.007ms returns 0
+T6B64 002:672.730 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:672.734 - 0.006ms returns 0
+T6B64 002:672.739 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:672.744 - 0.006ms returns 0
+T6B64 002:672.749 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:672.753 - 0.006ms returns 0
+T6B64 002:672.758 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:672.763 - 0.006ms returns 0
+T6B64 002:672.768 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:672.773 - 0.006ms returns 0
+T6B64 002:672.778 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:672.783 - 0.006ms returns 0
+T6B64 002:672.788 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:672.794 - 0.007ms returns 0x0000000B
+T6B64 002:672.799 JLINK_Go()
+T6B64 002:672.808   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:675.787 - 2.993ms
+T6B64 002:675.797 JLINK_IsHalted()
+T6B64 002:677.013 - 1.223ms returns FALSE
+T6B64 002:677.027 JLINK_HasError()
+T6B64 002:680.339 JLINK_IsHalted()
+T6B64 002:682.610   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:683.116 - 2.779ms returns TRUE
+T6B64 002:683.122 JLINK_ReadReg(R15 (PC))
+T6B64 002:683.128 - 0.007ms returns 0x20000000
+T6B64 002:683.133 JLINK_ClrBPEx(BPHandle = 0x0000000B)
+T6B64 002:683.137 - 0.005ms returns 0x00
+T6B64 002:683.141 JLINK_ReadReg(R0)
+T6B64 002:683.145 - 0.005ms returns 0x00000000
+T6B64 002:683.484 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:683.493   Data:  A5 FF 07 46 4D 48 00 68 30 40 A8 42 05 D0 FF F7 ...
+T6B64 002:683.505   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:685.058 - 1.578ms returns 0x100
+T6B64 002:685.067 JLINK_HasError()
+T6B64 002:685.072 JLINK_WriteReg(R0, 0x08000600)
+T6B64 002:685.078 - 0.007ms returns 0
+T6B64 002:685.083 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:685.086 - 0.005ms returns 0
+T6B64 002:685.093 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:685.099 - 0.006ms returns 0
+T6B64 002:685.103 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:685.106 - 0.005ms returns 0
+T6B64 002:685.111 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:685.114 - 0.005ms returns 0
+T6B64 002:685.118 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:685.122 - 0.005ms returns 0
+T6B64 002:685.126 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:685.129 - 0.005ms returns 0
+T6B64 002:685.133 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:685.137 - 0.005ms returns 0
+T6B64 002:685.141 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:685.145 - 0.005ms returns 0
+T6B64 002:685.149 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:685.152 - 0.005ms returns 0
+T6B64 002:685.156 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:685.160 - 0.005ms returns 0
+T6B64 002:685.164 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:685.167 - 0.005ms returns 0
+T6B64 002:685.171 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:685.175 - 0.005ms returns 0
+T6B64 002:685.179 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:685.183 - 0.005ms returns 0
+T6B64 002:685.187 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:685.190 - 0.009ms returns 0
+T6B64 002:685.200 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:685.205 - 0.006ms returns 0
+T6B64 002:685.209 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:685.212 - 0.005ms returns 0
+T6B64 002:685.216 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:685.220 - 0.005ms returns 0
+T6B64 002:685.224 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:685.228 - 0.005ms returns 0
+T6B64 002:685.232 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:685.235 - 0.005ms returns 0
+T6B64 002:685.239 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:685.244 - 0.006ms returns 0x0000000C
+T6B64 002:685.248 JLINK_Go()
+T6B64 002:685.255   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:687.973 - 2.729ms
+T6B64 002:687.981 JLINK_IsHalted()
+T6B64 002:689.195 - 1.217ms returns FALSE
+T6B64 002:689.202 JLINK_HasError()
+T6B64 002:690.842 JLINK_IsHalted()
+T6B64 002:693.432   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:694.095 - 3.260ms returns TRUE
+T6B64 002:694.106 JLINK_ReadReg(R15 (PC))
+T6B64 002:694.113 - 0.008ms returns 0x20000000
+T6B64 002:694.151 JLINK_ClrBPEx(BPHandle = 0x0000000C)
+T6B64 002:694.156 - 0.007ms returns 0x00
+T6B64 002:694.162 JLINK_ReadReg(R0)
+T6B64 002:694.166 - 0.006ms returns 0x00000000
+T6B64 002:694.465 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:694.473   Data:  59 6D 89 07 01 9E 16 D5 19 68 07 22 91 43 01 43 ...
+T6B64 002:694.484   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:696.036 - 1.573ms returns 0x100
+T6B64 002:696.042 JLINK_HasError()
+T6B64 002:696.047 JLINK_WriteReg(R0, 0x08000700)
+T6B64 002:696.052 - 0.006ms returns 0
+T6B64 002:696.056 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:696.059 - 0.005ms returns 0
+T6B64 002:696.063 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:696.066 - 0.005ms returns 0
+T6B64 002:696.070 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:696.074 - 0.005ms returns 0
+T6B64 002:696.077 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:696.081 - 0.004ms returns 0
+T6B64 002:696.085 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:696.088 - 0.009ms returns 0
+T6B64 002:696.097 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:696.101 - 0.006ms returns 0
+T6B64 002:696.105 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:696.109 - 0.005ms returns 0
+T6B64 002:696.112 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:696.116 - 0.004ms returns 0
+T6B64 002:696.120 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:696.123 - 0.005ms returns 0
+T6B64 002:696.127 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:696.130 - 0.005ms returns 0
+T6B64 002:696.134 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:696.137 - 0.004ms returns 0
+T6B64 002:696.141 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:696.144 - 0.005ms returns 0
+T6B64 002:696.148 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:696.152 - 0.005ms returns 0
+T6B64 002:696.156 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:696.159 - 0.005ms returns 0
+T6B64 002:696.163 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:696.166 - 0.005ms returns 0
+T6B64 002:696.173 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:696.178 - 0.006ms returns 0
+T6B64 002:696.181 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:696.185 - 0.004ms returns 0
+T6B64 002:696.188 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:696.192 - 0.005ms returns 0
+T6B64 002:696.196 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:696.199 - 0.005ms returns 0
+T6B64 002:696.203 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:696.207 - 0.005ms returns 0x0000000D
+T6B64 002:696.211 JLINK_Go()
+T6B64 002:696.217   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:698.925 - 2.721ms
+T6B64 002:698.936 JLINK_IsHalted()
+T6B64 002:700.173 - 1.240ms returns FALSE
+T6B64 002:700.180 JLINK_HasError()
+T6B64 002:701.887 JLINK_IsHalted()
+T6B64 002:704.340   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:704.796 - 2.911ms returns TRUE
+T6B64 002:704.803 JLINK_ReadReg(R15 (PC))
+T6B64 002:704.809 - 0.008ms returns 0x20000000
+T6B64 002:704.814 JLINK_ClrBPEx(BPHandle = 0x0000000D)
+T6B64 002:704.819 - 0.007ms returns 0x00
+T6B64 002:704.825 JLINK_ReadReg(R0)
+T6B64 002:704.831 - 0.008ms returns 0x00000000
+T6B64 002:705.234 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:705.245   Data:  48 43 10 BD 00 10 02 40 00 36 6E 01 02 00 00 00 ...
+T6B64 002:705.259   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:706.780 - 1.548ms returns 0x100
+T6B64 002:706.788 JLINK_HasError()
+T6B64 002:706.793 JLINK_WriteReg(R0, 0x08000800)
+T6B64 002:706.799 - 0.008ms returns 0
+T6B64 002:706.804 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:706.809 - 0.006ms returns 0
+T6B64 002:706.814 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:706.818 - 0.006ms returns 0
+T6B64 002:706.823 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:706.827 - 0.006ms returns 0
+T6B64 002:706.832 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:706.837 - 0.006ms returns 0
+T6B64 002:706.841 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:706.850 - 0.011ms returns 0
+T6B64 002:706.857 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:706.863 - 0.007ms returns 0
+T6B64 002:706.868 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:706.872 - 0.006ms returns 0
+T6B64 002:706.877 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:706.882 - 0.006ms returns 0
+T6B64 002:706.887 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:706.891 - 0.006ms returns 0
+T6B64 002:706.896 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:706.900 - 0.006ms returns 0
+T6B64 002:706.905 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:706.910 - 0.006ms returns 0
+T6B64 002:706.914 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:706.919 - 0.006ms returns 0
+T6B64 002:706.924 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:706.929 - 0.007ms returns 0
+T6B64 002:706.934 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:706.938 - 0.006ms returns 0
+T6B64 002:706.943 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:706.948 - 0.006ms returns 0
+T6B64 002:706.953 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:706.957 - 0.006ms returns 0
+T6B64 002:706.962 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:706.967 - 0.006ms returns 0
+T6B64 002:706.971 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:706.976 - 0.006ms returns 0
+T6B64 002:706.981 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:706.985 - 0.006ms returns 0
+T6B64 002:706.990 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:706.996 - 0.007ms returns 0x0000000E
+T6B64 002:707.001 JLINK_Go()
+T6B64 002:707.009   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:709.878 - 2.889ms
+T6B64 002:709.901 JLINK_IsHalted()
+T6B64 002:711.140 - 1.242ms returns FALSE
+T6B64 002:711.151 JLINK_HasError()
+T6B64 002:713.132 JLINK_IsHalted()
+T6B64 002:715.409   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:716.042 - 2.918ms returns TRUE
+T6B64 002:716.056 JLINK_ReadReg(R15 (PC))
+T6B64 002:716.063 - 0.008ms returns 0x20000000
+T6B64 002:716.068 JLINK_ClrBPEx(BPHandle = 0x0000000E)
+T6B64 002:716.072 - 0.005ms returns 0x00
+T6B64 002:716.076 JLINK_ReadReg(R0)
+T6B64 002:716.081 - 0.005ms returns 0x00000000
+T6B64 002:716.607 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:716.617   Data:  21 40 02 22 4A 40 81 18 48 42 48 41 00 2F 48 D0 ...
+T6B64 002:716.635   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:718.177 - 1.573ms returns 0x100
+T6B64 002:718.185 JLINK_HasError()
+T6B64 002:718.189 JLINK_WriteReg(R0, 0x08000900)
+T6B64 002:718.194 - 0.006ms returns 0
+T6B64 002:718.198 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:718.202 - 0.005ms returns 0
+T6B64 002:718.206 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:718.210 - 0.005ms returns 0
+T6B64 002:718.213 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:718.217 - 0.005ms returns 0
+T6B64 002:718.221 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:718.225 - 0.005ms returns 0
+T6B64 002:718.228 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:718.232 - 0.005ms returns 0
+T6B64 002:718.236 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:718.239 - 0.005ms returns 0
+T6B64 002:718.243 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:718.247 - 0.005ms returns 0
+T6B64 002:718.251 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:718.254 - 0.005ms returns 0
+T6B64 002:718.259 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:718.262 - 0.005ms returns 0
+T6B64 002:718.266 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:718.270 - 0.005ms returns 0
+T6B64 002:718.274 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:718.277 - 0.005ms returns 0
+T6B64 002:718.281 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:718.285 - 0.005ms returns 0
+T6B64 002:718.289 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:718.293 - 0.005ms returns 0
+T6B64 002:718.297 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:718.300 - 0.005ms returns 0
+T6B64 002:718.304 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:718.308 - 0.005ms returns 0
+T6B64 002:718.312 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:718.315 - 0.005ms returns 0
+T6B64 002:718.319 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:718.323 - 0.005ms returns 0
+T6B64 002:718.327 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:718.330 - 0.005ms returns 0
+T6B64 002:718.334 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:718.338 - 0.005ms returns 0
+T6B64 002:718.342 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:718.346 - 0.005ms returns 0x0000000F
+T6B64 002:718.350 JLINK_Go()
+T6B64 002:718.357   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:721.085 - 2.738ms
+T6B64 002:721.092 JLINK_IsHalted()
+T6B64 002:722.288 - 1.198ms returns FALSE
+T6B64 002:722.294 JLINK_HasError()
+T6B64 002:723.411 JLINK_IsHalted()
+T6B64 002:725.701   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:726.366 - 2.958ms returns TRUE
+T6B64 002:726.374 JLINK_ReadReg(R15 (PC))
+T6B64 002:726.379 - 0.007ms returns 0x20000000
+T6B64 002:726.384 JLINK_ClrBPEx(BPHandle = 0x0000000F)
+T6B64 002:726.388 - 0.005ms returns 0x00
+T6B64 002:726.392 JLINK_ReadReg(R0)
+T6B64 002:726.396 - 0.005ms returns 0x00000000
+T6B64 002:726.852 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:726.861   Data:  B1 4A 10 6E 80 07 00 D5 22 E7 FF F7 9F FD 80 1B ...
+T6B64 002:726.873   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:728.362 - 1.512ms returns 0x100
+T6B64 002:728.369 JLINK_HasError()
+T6B64 002:728.373 JLINK_WriteReg(R0, 0x08000A00)
+T6B64 002:728.379 - 0.006ms returns 0
+T6B64 002:728.383 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:728.386 - 0.005ms returns 0
+T6B64 002:728.391 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:728.394 - 0.005ms returns 0
+T6B64 002:728.398 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:728.402 - 0.005ms returns 0
+T6B64 002:728.405 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:728.409 - 0.005ms returns 0
+T6B64 002:728.413 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:728.417 - 0.005ms returns 0
+T6B64 002:728.421 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:728.424 - 0.005ms returns 0
+T6B64 002:728.428 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:728.431 - 0.005ms returns 0
+T6B64 002:728.435 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:728.439 - 0.005ms returns 0
+T6B64 002:728.443 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:728.446 - 0.005ms returns 0
+T6B64 002:728.450 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:728.454 - 0.005ms returns 0
+T6B64 002:728.458 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:728.461 - 0.005ms returns 0
+T6B64 002:728.465 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:728.471 - 0.008ms returns 0
+T6B64 002:728.476 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:728.480 - 0.005ms returns 0
+T6B64 002:728.484 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:728.488 - 0.005ms returns 0
+T6B64 002:728.492 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:728.496 - 0.005ms returns 0
+T6B64 002:728.500 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:728.503 - 0.005ms returns 0
+T6B64 002:728.507 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:728.511 - 0.005ms returns 0
+T6B64 002:728.515 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:728.518 - 0.005ms returns 0
+T6B64 002:728.522 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:728.526 - 0.005ms returns 0
+T6B64 002:728.530 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:728.534 - 0.005ms returns 0x00000010
+T6B64 002:728.538 JLINK_Go()
+T6B64 002:728.545   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:731.371 - 2.842ms
+T6B64 002:731.385 JLINK_IsHalted()
+T6B64 002:732.582 - 1.202ms returns FALSE
+T6B64 002:732.593 JLINK_HasError()
+T6B64 002:735.191 JLINK_IsHalted()
+T6B64 002:737.697   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:738.459 - 3.273ms returns TRUE
+T6B64 002:738.474 JLINK_ReadReg(R15 (PC))
+T6B64 002:738.480 - 0.007ms returns 0x20000000
+T6B64 002:738.520 JLINK_ClrBPEx(BPHandle = 0x00000010)
+T6B64 002:738.525 - 0.007ms returns 0x00
+T6B64 002:738.530 JLINK_ReadReg(R0)
+T6B64 002:738.534 - 0.005ms returns 0x00000000
+T6B64 002:738.864 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:738.873   Data:  40 1C 61 68 01 40 05 98 C0 69 08 43 60 60 99 E6 ...
+T6B64 002:738.884   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:740.438 - 1.576ms returns 0x100
+T6B64 002:740.445 JLINK_HasError()
+T6B64 002:740.450 JLINK_WriteReg(R0, 0x08000B00)
+T6B64 002:740.455 - 0.006ms returns 0
+T6B64 002:740.459 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:740.463 - 0.005ms returns 0
+T6B64 002:740.466 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:740.470 - 0.005ms returns 0
+T6B64 002:740.474 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:740.477 - 0.005ms returns 0
+T6B64 002:740.481 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:740.485 - 0.005ms returns 0
+T6B64 002:740.489 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:740.492 - 0.005ms returns 0
+T6B64 002:740.496 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:740.500 - 0.005ms returns 0
+T6B64 002:740.503 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:740.507 - 0.005ms returns 0
+T6B64 002:740.511 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:740.515 - 0.013ms returns 0
+T6B64 002:740.530 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:740.534 - 0.005ms returns 0
+T6B64 002:740.537 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:740.541 - 0.005ms returns 0
+T6B64 002:740.545 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:740.548 - 0.005ms returns 0
+T6B64 002:740.552 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:740.556 - 0.006ms returns 0
+T6B64 002:740.561 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:740.565 - 0.005ms returns 0
+T6B64 002:740.569 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:740.573 - 0.005ms returns 0
+T6B64 002:740.577 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:740.580 - 0.005ms returns 0
+T6B64 002:740.584 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:740.588 - 0.005ms returns 0
+T6B64 002:740.592 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:740.595 - 0.005ms returns 0
+T6B64 002:740.599 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:740.603 - 0.005ms returns 0
+T6B64 002:740.606 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:740.610 - 0.005ms returns 0
+T6B64 002:740.614 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:740.618 - 0.006ms returns 0x00000011
+T6B64 002:740.622 JLINK_Go()
+T6B64 002:740.630   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:743.637 - 3.018ms
+T6B64 002:743.644 JLINK_IsHalted()
+T6B64 002:744.913 - 1.308ms returns FALSE
+T6B64 002:744.983 JLINK_HasError()
+T6B64 002:747.472 JLINK_IsHalted()
+T6B64 002:749.860   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:750.329 - 2.860ms returns TRUE
+T6B64 002:750.336 JLINK_ReadReg(R15 (PC))
+T6B64 002:750.341 - 0.007ms returns 0x20000000
+T6B64 002:750.350 JLINK_ClrBPEx(BPHandle = 0x00000011)
+T6B64 002:750.356 - 0.007ms returns 0x00
+T6B64 002:750.360 JLINK_ReadReg(R0)
+T6B64 002:750.364 - 0.005ms returns 0x00000000
+T6B64 002:751.019 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:751.031   Data:  0A 43 DA 60 D9 68 0C 22 91 43 01 43 D9 60 18 68 ...
+T6B64 002:751.044   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:752.612 - 1.600ms returns 0x100
+T6B64 002:752.624 JLINK_HasError()
+T6B64 002:752.629 JLINK_WriteReg(R0, 0x08000C00)
+T6B64 002:752.635 - 0.007ms returns 0
+T6B64 002:752.639 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:752.643 - 0.005ms returns 0
+T6B64 002:752.647 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:752.650 - 0.005ms returns 0
+T6B64 002:752.654 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:752.657 - 0.004ms returns 0
+T6B64 002:752.661 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:752.665 - 0.005ms returns 0
+T6B64 002:752.668 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:752.672 - 0.004ms returns 0
+T6B64 002:752.676 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:752.679 - 0.005ms returns 0
+T6B64 002:752.683 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:752.686 - 0.004ms returns 0
+T6B64 002:752.690 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:752.693 - 0.005ms returns 0
+T6B64 002:752.697 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:752.700 - 0.005ms returns 0
+T6B64 002:752.704 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:752.708 - 0.005ms returns 0
+T6B64 002:752.711 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:752.715 - 0.004ms returns 0
+T6B64 002:752.719 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:752.722 - 0.005ms returns 0
+T6B64 002:752.726 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:752.730 - 0.005ms returns 0
+T6B64 002:752.734 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:752.737 - 0.005ms returns 0
+T6B64 002:752.741 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:752.744 - 0.005ms returns 0
+T6B64 002:752.748 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:752.752 - 0.005ms returns 0
+T6B64 002:752.756 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:752.759 - 0.004ms returns 0
+T6B64 002:752.763 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:752.766 - 0.005ms returns 0
+T6B64 002:752.770 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:752.773 - 0.005ms returns 0
+T6B64 002:752.777 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:752.782 - 0.006ms returns 0x00000012
+T6B64 002:752.788 JLINK_Go()
+T6B64 002:752.796   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:755.654 - 2.873ms
+T6B64 002:755.665 JLINK_IsHalted()
+T6B64 002:757.158 - 1.502ms returns FALSE
+T6B64 002:757.172 JLINK_HasError()
+T6B64 002:759.895 JLINK_IsHalted()
+T6B64 002:762.183   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:762.658 - 2.766ms returns TRUE
+T6B64 002:762.666 JLINK_ReadReg(R15 (PC))
+T6B64 002:762.673 - 0.008ms returns 0x20000000
+T6B64 002:762.678 JLINK_ClrBPEx(BPHandle = 0x00000012)
+T6B64 002:762.683 - 0.006ms returns 0x00
+T6B64 002:762.688 JLINK_ReadReg(R0)
+T6B64 002:762.692 - 0.006ms returns 0x00000000
+T6B64 002:763.093 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:763.104   Data:  07 48 03 68 0B 40 03 21 89 07 59 18 01 60 00 20 ...
+T6B64 002:763.117   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:764.626 - 1.539ms returns 0x100
+T6B64 002:764.637 JLINK_HasError()
+T6B64 002:764.642 JLINK_WriteReg(R0, 0x08000D00)
+T6B64 002:764.648 - 0.007ms returns 0
+T6B64 002:764.653 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:764.656 - 0.005ms returns 0
+T6B64 002:764.661 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:764.665 - 0.006ms returns 0
+T6B64 002:764.671 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:764.676 - 0.007ms returns 0
+T6B64 002:764.681 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:764.685 - 0.005ms returns 0
+T6B64 002:764.689 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:764.693 - 0.005ms returns 0
+T6B64 002:764.697 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:764.701 - 0.005ms returns 0
+T6B64 002:764.705 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:764.709 - 0.005ms returns 0
+T6B64 002:764.713 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:764.717 - 0.005ms returns 0
+T6B64 002:764.724 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:764.729 - 0.007ms returns 0
+T6B64 002:764.734 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:764.737 - 0.005ms returns 0
+T6B64 002:764.742 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:764.793 - 0.053ms returns 0
+T6B64 002:764.799 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:764.803 - 0.005ms returns 0
+T6B64 002:764.807 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:764.812 - 0.006ms returns 0
+T6B64 002:764.816 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:764.820 - 0.005ms returns 0
+T6B64 002:764.824 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:764.828 - 0.005ms returns 0
+T6B64 002:764.832 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:764.836 - 0.005ms returns 0
+T6B64 002:764.840 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:764.844 - 0.005ms returns 0
+T6B64 002:764.848 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:764.852 - 0.005ms returns 0
+T6B64 002:764.856 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:764.860 - 0.006ms returns 0
+T6B64 002:764.865 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:764.870 - 0.007ms returns 0x00000013
+T6B64 002:764.875 JLINK_Go()
+T6B64 002:764.883   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:767.874 - 3.006ms
+T6B64 002:767.891 JLINK_IsHalted()
+T6B64 002:769.114 - 1.226ms returns FALSE
+T6B64 002:769.121 JLINK_HasError()
+T6B64 002:771.254 JLINK_IsHalted()
+T6B64 002:773.672   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:774.290 - 3.042ms returns TRUE
+T6B64 002:774.300 JLINK_ReadReg(R15 (PC))
+T6B64 002:774.308 - 0.009ms returns 0x20000000
+T6B64 002:774.313 JLINK_ClrBPEx(BPHandle = 0x00000013)
+T6B64 002:774.319 - 0.008ms returns 0x00
+T6B64 002:774.325 JLINK_ReadReg(R0)
+T6B64 002:774.330 - 0.007ms returns 0x00000000
+T6B64 002:774.771 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:774.782   Data:  05 D1 3C 20 00 21 21 54 20 46 00 F0 0C F8 02 20 ...
+T6B64 002:774.796   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:776.348 - 1.580ms returns 0x100
+T6B64 002:776.356 JLINK_HasError()
+T6B64 002:776.362 JLINK_WriteReg(R0, 0x08000E00)
+T6B64 002:776.369 - 0.008ms returns 0
+T6B64 002:776.374 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:776.379 - 0.007ms returns 0
+T6B64 002:776.384 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:776.389 - 0.007ms returns 0
+T6B64 002:776.394 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:776.399 - 0.007ms returns 0
+T6B64 002:776.404 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:776.409 - 0.006ms returns 0
+T6B64 002:776.414 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:776.419 - 0.006ms returns 0
+T6B64 002:776.424 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:776.429 - 0.006ms returns 0
+T6B64 002:776.434 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:776.438 - 0.006ms returns 0
+T6B64 002:776.444 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:776.448 - 0.007ms returns 0
+T6B64 002:776.454 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:776.458 - 0.006ms returns 0
+T6B64 002:776.464 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:776.468 - 0.007ms returns 0
+T6B64 002:776.474 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:776.478 - 0.007ms returns 0
+T6B64 002:776.484 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:776.488 - 0.006ms returns 0
+T6B64 002:776.494 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:776.499 - 0.007ms returns 0
+T6B64 002:776.504 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:776.509 - 0.006ms returns 0
+T6B64 002:776.514 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:776.519 - 0.007ms returns 0
+T6B64 002:776.524 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:776.529 - 0.007ms returns 0
+T6B64 002:776.534 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:776.539 - 0.006ms returns 0
+T6B64 002:776.544 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:776.549 - 0.006ms returns 0
+T6B64 002:776.554 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:776.559 - 0.006ms returns 0
+T6B64 002:776.564 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:776.569 - 0.007ms returns 0x00000014
+T6B64 002:776.575 JLINK_Go()
+T6B64 002:776.588   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:779.517 - 2.947ms
+T6B64 002:779.528 JLINK_IsHalted()
+T6B64 002:780.694 - 1.173ms returns FALSE
+T6B64 002:780.708 JLINK_HasError()
+T6B64 002:784.334 JLINK_IsHalted()
+T6B64 002:787.129   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:787.711 - 3.380ms returns TRUE
+T6B64 002:787.718 JLINK_ReadReg(R15 (PC))
+T6B64 002:787.725 - 0.008ms returns 0x20000000
+T6B64 002:787.730 JLINK_ClrBPEx(BPHandle = 0x00000014)
+T6B64 002:787.734 - 0.006ms returns 0x00
+T6B64 002:787.739 JLINK_ReadReg(R0)
+T6B64 002:787.744 - 0.006ms returns 0x00000000
+T6B64 002:788.144 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:788.156   Data:  04 93 0E 46 05 46 45 20 28 5C 02 21 20 28 58 D1 ...
+T6B64 002:788.170   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:789.753 - 1.647ms returns 0x100
+T6B64 002:789.805 JLINK_HasError()
+T6B64 002:789.810 JLINK_WriteReg(R0, 0x08000F00)
+T6B64 002:789.816 - 0.007ms returns 0
+T6B64 002:789.820 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:789.824 - 0.006ms returns 0
+T6B64 002:789.829 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:789.833 - 0.005ms returns 0
+T6B64 002:789.837 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:789.841 - 0.005ms returns 0
+T6B64 002:789.845 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:789.849 - 0.005ms returns 0
+T6B64 002:789.854 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:789.858 - 0.005ms returns 0
+T6B64 002:789.862 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:789.866 - 0.006ms returns 0
+T6B64 002:789.874 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:789.880 - 0.008ms returns 0
+T6B64 002:789.886 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:789.890 - 0.005ms returns 0
+T6B64 002:789.895 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:789.899 - 0.005ms returns 0
+T6B64 002:789.903 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:789.907 - 0.005ms returns 0
+T6B64 002:789.911 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:789.915 - 0.005ms returns 0
+T6B64 002:789.920 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:789.924 - 0.005ms returns 0
+T6B64 002:789.928 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:789.933 - 0.006ms returns 0
+T6B64 002:789.937 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:789.941 - 0.005ms returns 0
+T6B64 002:789.946 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:789.950 - 0.006ms returns 0
+T6B64 002:789.954 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:789.958 - 0.005ms returns 0
+T6B64 002:789.962 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:789.966 - 0.005ms returns 0
+T6B64 002:789.971 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:789.975 - 0.005ms returns 0
+T6B64 002:789.979 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:789.983 - 0.005ms returns 0
+T6B64 002:789.988 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:789.993 - 0.006ms returns 0x00000015
+T6B64 002:789.997 JLINK_Go()
+T6B64 002:790.005   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:792.887 - 2.894ms
+T6B64 002:792.896 JLINK_IsHalted()
+T6B64 002:794.255 - 1.362ms returns FALSE
+T6B64 002:794.263 JLINK_HasError()
+T6B64 002:796.380 JLINK_IsHalted()
+T6B64 002:798.750   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:799.308 - 2.935ms returns TRUE
+T6B64 002:799.322 JLINK_ReadReg(R15 (PC))
+T6B64 002:799.336 - 0.017ms returns 0x20000000
+T6B64 002:799.343 JLINK_ClrBPEx(BPHandle = 0x00000015)
+T6B64 002:799.349 - 0.009ms returns 0x00
+T6B64 002:799.356 JLINK_ReadReg(R0)
+T6B64 002:799.362 - 0.008ms returns 0x00000000
+T6B64 002:799.876 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:799.890   Data:  01 25 2A 43 0A 60 09 68 29 40 00 91 00 99 04 90 ...
+T6B64 002:799.906   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:801.704 - 1.875ms returns 0x100
+T6B64 002:801.813 JLINK_HasError()
+T6B64 002:801.821 JLINK_WriteReg(R0, 0x08001000)
+T6B64 002:801.829 - 0.010ms returns 0
+T6B64 002:801.835 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:801.840 - 0.007ms returns 0
+T6B64 002:801.845 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:801.850 - 0.007ms returns 0
+T6B64 002:801.856 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:801.860 - 0.006ms returns 0
+T6B64 002:801.866 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:801.870 - 0.006ms returns 0
+T6B64 002:801.875 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:801.885 - 0.013ms returns 0
+T6B64 002:801.892 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:801.897 - 0.006ms returns 0
+T6B64 002:801.902 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:801.907 - 0.006ms returns 0
+T6B64 002:801.912 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:801.951 - 0.041ms returns 0
+T6B64 002:801.957 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:801.961 - 0.006ms returns 0
+T6B64 002:801.967 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:801.971 - 0.006ms returns 0
+T6B64 002:801.976 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:801.981 - 0.007ms returns 0
+T6B64 002:801.987 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:801.991 - 0.006ms returns 0
+T6B64 002:801.996 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:802.002 - 0.007ms returns 0
+T6B64 002:802.007 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:802.012 - 0.006ms returns 0
+T6B64 002:802.017 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:802.022 - 0.007ms returns 0
+T6B64 002:802.027 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:802.032 - 0.007ms returns 0
+T6B64 002:802.037 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:802.042 - 0.006ms returns 0
+T6B64 002:802.047 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:802.052 - 0.006ms returns 0
+T6B64 002:802.057 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:802.061 - 0.006ms returns 0
+T6B64 002:802.067 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:802.072 - 0.007ms returns 0x00000016
+T6B64 002:802.078 JLINK_Go()
+T6B64 002:802.088   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:805.011 - 2.940ms
+T6B64 002:805.023 JLINK_IsHalted()
+T6B64 002:806.258 - 1.245ms returns FALSE
+T6B64 002:806.274 JLINK_HasError()
+T6B64 002:809.268 JLINK_IsHalted()
+T6B64 002:811.684   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:812.147 - 2.883ms returns TRUE
+T6B64 002:812.155 JLINK_ReadReg(R15 (PC))
+T6B64 002:812.161 - 0.008ms returns 0x20000000
+T6B64 002:812.167 JLINK_ClrBPEx(BPHandle = 0x00000016)
+T6B64 002:812.172 - 0.007ms returns 0x00
+T6B64 002:812.178 JLINK_ReadReg(R0)
+T6B64 002:812.183 - 0.007ms returns 0x00000000
+T6B64 002:812.608 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:812.620   Data:  90 B0 04 AD 28 1D 2C 21 FF F7 0F F8 00 24 03 94 ...
+T6B64 002:812.634   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:814.339 - 1.734ms returns 0x100
+T6B64 002:814.354 JLINK_HasError()
+T6B64 002:814.360 JLINK_WriteReg(R0, 0x08001100)
+T6B64 002:814.367 - 0.008ms returns 0
+T6B64 002:814.372 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:814.377 - 0.007ms returns 0
+T6B64 002:814.382 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:814.386 - 0.006ms returns 0
+T6B64 002:814.412 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:814.416 - 0.006ms returns 0
+T6B64 002:814.421 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:814.426 - 0.006ms returns 0
+T6B64 002:814.477 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:814.495 - 0.020ms returns 0
+T6B64 002:814.502 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:814.507 - 0.007ms returns 0
+T6B64 002:814.512 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:814.516 - 0.006ms returns 0
+T6B64 002:814.521 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:814.526 - 0.006ms returns 0
+T6B64 002:814.531 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:814.536 - 0.006ms returns 0
+T6B64 002:814.541 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:814.545 - 0.006ms returns 0
+T6B64 002:814.550 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:814.555 - 0.006ms returns 0
+T6B64 002:814.560 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:814.564 - 0.006ms returns 0
+T6B64 002:814.569 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:814.574 - 0.006ms returns 0
+T6B64 002:814.579 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:814.584 - 0.006ms returns 0
+T6B64 002:814.589 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:814.593 - 0.006ms returns 0
+T6B64 002:814.598 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:814.603 - 0.006ms returns 0
+T6B64 002:814.608 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:814.612 - 0.006ms returns 0
+T6B64 002:814.617 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:814.622 - 0.006ms returns 0
+T6B64 002:814.627 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:814.636 - 0.011ms returns 0
+T6B64 002:814.642 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:814.647 - 0.008ms returns 0x00000017
+T6B64 002:814.653 JLINK_Go()
+T6B64 002:814.662   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:817.415 - 2.771ms
+T6B64 002:817.429 JLINK_IsHalted()
+T6B64 002:818.666 - 1.239ms returns FALSE
+T6B64 002:818.672 JLINK_HasError()
+T6B64 002:820.506 JLINK_IsHalted()
+T6B64 002:822.964   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:823.665 - 3.162ms returns TRUE
+T6B64 002:823.672 JLINK_ReadReg(R15 (PC))
+T6B64 002:823.678 - 0.007ms returns 0x20000000
+T6B64 002:823.682 JLINK_ClrBPEx(BPHandle = 0x00000017)
+T6B64 002:823.687 - 0.006ms returns 0x00
+T6B64 002:823.691 JLINK_ReadReg(R0)
+T6B64 002:823.695 - 0.005ms returns 0x00000000
+T6B64 002:823.999 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:824.009   Data:  8C 43 04 62 9A 40 01 6A 11 43 01 62 10 BD 00 00 ...
+T6B64 002:824.021   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:825.651 - 1.691ms returns 0x100
+T6B64 002:825.740 JLINK_HasError()
+T6B64 002:825.766 JLINK_WriteReg(R0, 0x08001200)
+T6B64 002:825.771 - 0.006ms returns 0
+T6B64 002:825.775 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:825.778 - 0.005ms returns 0
+T6B64 002:825.782 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:825.786 - 0.005ms returns 0
+T6B64 002:825.789 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:825.793 - 0.004ms returns 0
+T6B64 002:825.796 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:825.800 - 0.004ms returns 0
+T6B64 002:825.804 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:825.807 - 0.005ms returns 0
+T6B64 002:825.811 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:825.814 - 0.004ms returns 0
+T6B64 002:825.818 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:825.821 - 0.005ms returns 0
+T6B64 002:825.825 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:825.829 - 0.005ms returns 0
+T6B64 002:825.832 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:825.836 - 0.005ms returns 0
+T6B64 002:825.839 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:825.843 - 0.004ms returns 0
+T6B64 002:825.847 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:825.850 - 0.005ms returns 0
+T6B64 002:825.854 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:825.857 - 0.005ms returns 0
+T6B64 002:825.861 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:825.865 - 0.005ms returns 0
+T6B64 002:825.869 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:825.872 - 0.005ms returns 0
+T6B64 002:825.876 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:825.879 - 0.005ms returns 0
+T6B64 002:825.883 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:825.887 - 0.005ms returns 0
+T6B64 002:825.890 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:825.894 - 0.005ms returns 0
+T6B64 002:825.898 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:825.901 - 0.005ms returns 0
+T6B64 002:825.909 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:825.914 - 0.007ms returns 0
+T6B64 002:825.920 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:825.924 - 0.005ms returns 0x00000018
+T6B64 002:825.928 JLINK_Go()
+T6B64 002:825.935   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:829.160 - 3.237ms
+T6B64 002:829.173 JLINK_IsHalted()
+T6B64 002:830.423 - 1.276ms returns FALSE
+T6B64 002:830.493 JLINK_HasError()
+T6B64 002:833.294 JLINK_IsHalted()
+T6B64 002:835.602   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:836.096 - 2.804ms returns TRUE
+T6B64 002:836.104 JLINK_ReadReg(R15 (PC))
+T6B64 002:836.110 - 0.008ms returns 0x20000000
+T6B64 002:836.115 JLINK_ClrBPEx(BPHandle = 0x00000018)
+T6B64 002:836.119 - 0.006ms returns 0x00
+T6B64 002:836.124 JLINK_ReadReg(R0)
+T6B64 002:836.128 - 0.006ms returns 0x00000000
+T6B64 002:836.470 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:836.480   Data:  93 43 03 62 05 6A 42 68 C6 69 73 23 9E 43 0B 68 ...
+T6B64 002:836.492   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:837.988 - 1.521ms returns 0x100
+T6B64 002:837.996 JLINK_HasError()
+T6B64 002:838.002 JLINK_WriteReg(R0, 0x08001300)
+T6B64 002:838.008 - 0.008ms returns 0
+T6B64 002:838.013 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:838.017 - 0.009ms returns 0
+T6B64 002:838.027 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:838.032 - 0.006ms returns 0
+T6B64 002:838.036 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:838.041 - 0.006ms returns 0
+T6B64 002:838.045 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:838.050 - 0.006ms returns 0
+T6B64 002:838.054 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:838.059 - 0.006ms returns 0
+T6B64 002:838.063 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:838.068 - 0.006ms returns 0
+T6B64 002:838.072 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:838.077 - 0.006ms returns 0
+T6B64 002:838.082 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:838.086 - 0.006ms returns 0
+T6B64 002:838.090 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:838.095 - 0.006ms returns 0
+T6B64 002:838.099 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:838.104 - 0.006ms returns 0
+T6B64 002:838.108 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:838.113 - 0.006ms returns 0
+T6B64 002:838.117 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:838.122 - 0.006ms returns 0
+T6B64 002:838.126 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:838.131 - 0.006ms returns 0
+T6B64 002:838.136 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:838.140 - 0.006ms returns 0
+T6B64 002:838.145 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:838.149 - 0.006ms returns 0
+T6B64 002:838.154 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:838.158 - 0.006ms returns 0
+T6B64 002:838.163 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:838.167 - 0.010ms returns 0
+T6B64 002:838.177 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:838.183 - 0.007ms returns 0
+T6B64 002:838.187 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:838.192 - 0.006ms returns 0
+T6B64 002:838.197 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:838.202 - 0.007ms returns 0x00000019
+T6B64 002:838.207 JLINK_Go()
+T6B64 002:838.215   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:841.163 - 2.959ms
+T6B64 002:841.176 JLINK_IsHalted()
+T6B64 002:842.422 - 1.270ms returns FALSE
+T6B64 002:842.491 JLINK_HasError()
+T6B64 002:844.346 JLINK_IsHalted()
+T6B64 002:846.857   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:847.452 - 3.110ms returns TRUE
+T6B64 002:847.462 JLINK_ReadReg(R15 (PC))
+T6B64 002:847.470 - 0.011ms returns 0x20000000
+T6B64 002:847.478 JLINK_ClrBPEx(BPHandle = 0x00000019)
+T6B64 002:847.485 - 0.009ms returns 0x00
+T6B64 002:847.492 JLINK_ReadReg(R0)
+T6B64 002:847.498 - 0.009ms returns 0x00000000
+T6B64 002:848.569 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:848.588   Data:  D7 02 42 69 BA 43 32 43 42 61 09 02 42 69 8A 43 ...
+T6B64 002:848.608   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:850.143 - 1.629ms returns 0x100
+T6B64 002:850.205 JLINK_HasError()
+T6B64 002:850.213 JLINK_WriteReg(R0, 0x08001400)
+T6B64 002:850.222 - 0.011ms returns 0
+T6B64 002:850.229 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:850.235 - 0.008ms returns 0
+T6B64 002:850.241 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:850.247 - 0.008ms returns 0
+T6B64 002:850.253 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:850.259 - 0.008ms returns 0
+T6B64 002:850.265 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:850.271 - 0.010ms returns 0
+T6B64 002:850.280 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:850.285 - 0.008ms returns 0
+T6B64 002:850.291 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:850.297 - 0.008ms returns 0
+T6B64 002:850.303 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:850.308 - 0.007ms returns 0
+T6B64 002:850.314 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:850.320 - 0.008ms returns 0
+T6B64 002:850.326 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:850.331 - 0.008ms returns 0
+T6B64 002:850.337 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:850.343 - 0.008ms returns 0
+T6B64 002:850.349 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:850.354 - 0.008ms returns 0
+T6B64 002:850.360 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:850.366 - 0.007ms returns 0
+T6B64 002:850.372 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:850.378 - 0.008ms returns 0
+T6B64 002:850.384 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:850.390 - 0.008ms returns 0
+T6B64 002:850.396 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:850.401 - 0.012ms returns 0
+T6B64 002:850.413 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:850.419 - 0.008ms returns 0
+T6B64 002:850.425 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:850.430 - 0.008ms returns 0
+T6B64 002:850.436 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:850.442 - 0.008ms returns 0
+T6B64 002:850.448 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:850.453 - 0.008ms returns 0
+T6B64 002:850.460 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:850.466 - 0.009ms returns 0x0000001A
+T6B64 002:850.472 JLINK_Go()
+T6B64 002:850.483   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:853.400 - 2.936ms
+T6B64 002:853.415 JLINK_IsHalted()
+T6B64 002:854.617 - 1.209ms returns FALSE
+T6B64 002:854.651 JLINK_HasError()
+T6B64 002:857.375 JLINK_IsHalted()
+T6B64 002:859.732   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:860.287 - 2.922ms returns TRUE
+T6B64 002:860.303 JLINK_ReadReg(R15 (PC))
+T6B64 002:860.314 - 0.013ms returns 0x20000000
+T6B64 002:860.321 JLINK_ClrBPEx(BPHandle = 0x0000001A)
+T6B64 002:860.327 - 0.008ms returns 0x00
+T6B64 002:860.333 JLINK_ReadReg(R0)
+T6B64 002:860.339 - 0.008ms returns 0x00000000
+T6B64 002:860.769 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:860.782   Data:  D2 18 80 07 C0 0E 89 01 C9 B2 81 40 FF 23 83 40 ...
+T6B64 002:860.803   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:862.412 - 1.649ms returns 0x100
+T6B64 002:862.427 JLINK_HasError()
+T6B64 002:862.435 JLINK_WriteReg(R0, 0x08001500)
+T6B64 002:862.444 - 0.012ms returns 0
+T6B64 002:862.450 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:862.457 - 0.008ms returns 0
+T6B64 002:862.463 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:862.469 - 0.008ms returns 0
+T6B64 002:862.476 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:862.482 - 0.009ms returns 0
+T6B64 002:862.488 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:862.494 - 0.008ms returns 0
+T6B64 002:862.501 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:862.506 - 0.008ms returns 0
+T6B64 002:862.513 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:862.519 - 0.009ms returns 0
+T6B64 002:862.526 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:862.531 - 0.008ms returns 0
+T6B64 002:862.538 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:862.544 - 0.008ms returns 0
+T6B64 002:862.550 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:862.556 - 0.008ms returns 0
+T6B64 002:862.563 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:862.568 - 0.008ms returns 0
+T6B64 002:862.575 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:862.581 - 0.008ms returns 0
+T6B64 002:862.587 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:862.593 - 0.008ms returns 0
+T6B64 002:862.600 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:862.606 - 0.009ms returns 0
+T6B64 002:862.613 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:862.618 - 0.008ms returns 0
+T6B64 002:862.625 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:862.631 - 0.008ms returns 0
+T6B64 002:862.638 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:862.644 - 0.009ms returns 0
+T6B64 002:862.650 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:862.656 - 0.008ms returns 0
+T6B64 002:862.663 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:862.668 - 0.008ms returns 0
+T6B64 002:862.675 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:862.681 - 0.008ms returns 0
+T6B64 002:862.688 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:862.695 - 0.009ms returns 0x0000001B
+T6B64 002:862.701 JLINK_Go()
+T6B64 002:862.713   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:865.857 - 3.202ms
+T6B64 002:865.912 JLINK_IsHalted()
+T6B64 002:867.143 - 1.242ms returns FALSE
+T6B64 002:867.160 JLINK_HasError()
+T6B64 002:869.604 JLINK_IsHalted()
+T6B64 002:872.176   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:872.731 - 3.130ms returns TRUE
+T6B64 002:872.740 JLINK_ReadReg(R15 (PC))
+T6B64 002:872.747 - 0.009ms returns 0x20000000
+T6B64 002:872.753 JLINK_ClrBPEx(BPHandle = 0x0000001B)
+T6B64 002:872.758 - 0.007ms returns 0x00
+T6B64 002:872.764 JLINK_ReadReg(R0)
+T6B64 002:872.769 - 0.007ms returns 0x00000000
+T6B64 002:873.196 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:873.208   Data:  C1 B2 3C 29 05 D1 01 22 30 46 01 99 FE F7 96 FF ...
+T6B64 002:873.229   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:874.969 - 1.798ms returns 0x100
+T6B64 002:875.000 JLINK_HasError()
+T6B64 002:875.007 JLINK_WriteReg(R0, 0x08001600)
+T6B64 002:875.013 - 0.009ms returns 0
+T6B64 002:875.019 JLINK_WriteReg(R1, 0x00000100)
+T6B64 002:875.024 - 0.007ms returns 0
+T6B64 002:875.029 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:875.034 - 0.006ms returns 0
+T6B64 002:875.039 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:875.044 - 0.007ms returns 0
+T6B64 002:875.049 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:875.054 - 0.006ms returns 0
+T6B64 002:875.059 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:875.064 - 0.007ms returns 0
+T6B64 002:875.069 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:875.074 - 0.007ms returns 0
+T6B64 002:875.079 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:875.084 - 0.007ms returns 0
+T6B64 002:875.089 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:875.094 - 0.007ms returns 0
+T6B64 002:875.100 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:875.105 - 0.007ms returns 0
+T6B64 002:875.110 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:875.115 - 0.007ms returns 0
+T6B64 002:875.120 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:875.125 - 0.007ms returns 0
+T6B64 002:875.131 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:875.136 - 0.007ms returns 0
+T6B64 002:875.141 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:875.147 - 0.007ms returns 0
+T6B64 002:875.152 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:875.157 - 0.007ms returns 0
+T6B64 002:875.162 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:875.167 - 0.007ms returns 0
+T6B64 002:875.173 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:875.178 - 0.007ms returns 0
+T6B64 002:875.183 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:875.188 - 0.007ms returns 0
+T6B64 002:875.193 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:875.198 - 0.007ms returns 0
+T6B64 002:875.203 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:875.208 - 0.007ms returns 0
+T6B64 002:875.214 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:875.219 - 0.007ms returns 0x0000001C
+T6B64 002:875.229 JLINK_Go()
+T6B64 002:875.238   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:878.105 - 2.884ms
+T6B64 002:878.118 JLINK_IsHalted()
+T6B64 002:879.318 - 1.203ms returns FALSE
+T6B64 002:879.327 JLINK_HasError()
+T6B64 002:881.645 JLINK_IsHalted()
+T6B64 002:884.119   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:884.832 - 3.191ms returns TRUE
+T6B64 002:884.841 JLINK_ReadReg(R15 (PC))
+T6B64 002:884.848 - 0.008ms returns 0x20000000
+T6B64 002:884.853 JLINK_ClrBPEx(BPHandle = 0x0000001C)
+T6B64 002:884.858 - 0.006ms returns 0x00
+T6B64 002:884.863 JLINK_ReadReg(R0)
+T6B64 002:884.867 - 0.006ms returns 0x00000000
+T6B64 002:885.374 JLINK_WriteMem(0x20000408, 0x100 Bytes, ...)
+T6B64 002:885.385   Data:  00 09 3D 00 00 09 3D 00 00 09 3D 00 3F 06 5B 4F ...
+T6B64 002:885.399   CPU_WriteMem(256 bytes @ 0x20000408)
+T6B64 002:886.975 - 1.605ms returns 0x100
+T6B64 002:886.984 JLINK_HasError()
+T6B64 002:886.990 JLINK_WriteReg(R0, 0x08001700)
+T6B64 002:886.997 - 0.008ms returns 0
+T6B64 002:887.001 JLINK_WriteReg(R1, 0x00000048)
+T6B64 002:887.006 - 0.006ms returns 0
+T6B64 002:887.010 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:887.015 - 0.006ms returns 0
+T6B64 002:887.020 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:887.024 - 0.006ms returns 0
+T6B64 002:887.028 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:887.033 - 0.006ms returns 0
+T6B64 002:887.037 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:887.042 - 0.006ms returns 0
+T6B64 002:887.046 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:887.050 - 0.005ms returns 0
+T6B64 002:887.055 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:887.059 - 0.006ms returns 0
+T6B64 002:887.063 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:887.067 - 0.006ms returns 0
+T6B64 002:887.072 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:887.076 - 0.006ms returns 0
+T6B64 002:887.081 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:887.085 - 0.006ms returns 0
+T6B64 002:887.089 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:887.094 - 0.006ms returns 0
+T6B64 002:887.098 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:887.106 - 0.010ms returns 0
+T6B64 002:887.111 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:887.116 - 0.006ms returns 0
+T6B64 002:887.120 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:887.124 - 0.006ms returns 0
+T6B64 002:887.129 JLINK_WriteReg(R15 (PC), 0x20000322)
+T6B64 002:887.133 - 0.006ms returns 0
+T6B64 002:887.138 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:887.142 - 0.006ms returns 0
+T6B64 002:887.147 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:887.151 - 0.006ms returns 0
+T6B64 002:887.155 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:887.165 - 0.012ms returns 0
+T6B64 002:887.171 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:887.185 - 0.016ms returns 0
+T6B64 002:887.190 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:887.195 - 0.007ms returns 0x0000001D
+T6B64 002:887.200 JLINK_Go()
+T6B64 002:887.208   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:890.195 - 3.026ms
+T6B64 002:890.232 JLINK_IsHalted()
+T6B64 002:891.391 - 1.161ms returns FALSE
+T6B64 002:891.398 JLINK_HasError()
+T6B64 002:894.530 JLINK_IsHalted()
+T6B64 002:896.900   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:897.449 - 2.922ms returns TRUE
+T6B64 002:897.456 JLINK_ReadReg(R15 (PC))
+T6B64 002:897.462 - 0.007ms returns 0x20000000
+T6B64 002:897.467 JLINK_ClrBPEx(BPHandle = 0x0000001D)
+T6B64 002:897.471 - 0.006ms returns 0x00
+T6B64 002:897.476 JLINK_ReadReg(R0)
+T6B64 002:897.480 - 0.006ms returns 0x00000000
+T6B64 002:897.485 JLINK_HasError()
+T6B64 002:897.490 JLINK_WriteReg(R0, 0x00000002)
+T6B64 002:897.494 - 0.006ms returns 0
+T6B64 002:897.499 JLINK_WriteReg(R1, 0x00000048)
+T6B64 002:897.505 - 0.008ms returns 0
+T6B64 002:897.509 JLINK_WriteReg(R2, 0x20000408)
+T6B64 002:897.514 - 0.006ms returns 0
+T6B64 002:897.518 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:897.522 - 0.006ms returns 0
+T6B64 002:897.527 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:897.531 - 0.006ms returns 0
+T6B64 002:897.535 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:897.540 - 0.006ms returns 0
+T6B64 002:897.544 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:897.548 - 0.006ms returns 0
+T6B64 002:897.553 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:897.557 - 0.006ms returns 0
+T6B64 002:897.562 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:897.566 - 0.010ms returns 0
+T6B64 002:897.576 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:897.581 - 0.007ms returns 0
+T6B64 002:897.586 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:897.590 - 0.006ms returns 0
+T6B64 002:897.595 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:897.599 - 0.006ms returns 0
+T6B64 002:897.603 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:897.607 - 0.006ms returns 0
+T6B64 002:897.612 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:897.616 - 0.006ms returns 0
+T6B64 002:897.621 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:897.625 - 0.006ms returns 0
+T6B64 002:897.630 JLINK_WriteReg(R15 (PC), 0x20000204)
+T6B64 002:897.634 - 0.006ms returns 0
+T6B64 002:897.638 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:897.642 - 0.006ms returns 0
+T6B64 002:897.647 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:897.651 - 0.006ms returns 0
+T6B64 002:897.656 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:897.660 - 0.006ms returns 0
+T6B64 002:897.664 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:897.668 - 0.006ms returns 0
+T6B64 002:897.673 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:897.678 - 0.007ms returns 0x0000001E
+T6B64 002:897.683 JLINK_Go()
+T6B64 002:897.690   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:900.556 - 2.882ms
+T6B64 002:900.570 JLINK_IsHalted()
+T6B64 002:902.971   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:903.496 - 2.929ms returns TRUE
+T6B64 002:903.505 JLINK_ReadReg(R15 (PC))
+T6B64 002:903.512 - 0.009ms returns 0x20000000
+T6B64 002:903.517 JLINK_ClrBPEx(BPHandle = 0x0000001E)
+T6B64 002:903.523 - 0.008ms returns 0x00
+T6B64 002:903.529 JLINK_ReadReg(R0)
+T6B64 002:903.534 - 0.007ms returns 0x00000000
+T6B64 002:966.513 JLINK_WriteMem(0x20000000, 0x408 Bytes, ...)
+T6B64 002:966.527   Data:  00 BE 0A E0 0D 78 2D 06 68 40 08 24 40 00 00 D3 ...
+T6B64 002:966.551   CPU_WriteMem(1032 bytes @ 0x20000000)
+T6B64 002:970.851 - 4.349ms returns 0x408
+T6B64 002:970.897 JLINK_HasError()
+T6B64 002:970.905 JLINK_WriteReg(R0, 0x08000000)
+T6B64 002:970.912 - 0.009ms returns 0
+T6B64 002:970.917 JLINK_WriteReg(R1, 0x00B71B00)
+T6B64 002:970.921 - 0.006ms returns 0
+T6B64 002:970.959 JLINK_WriteReg(R2, 0x00000003)
+T6B64 002:970.964 - 0.007ms returns 0
+T6B64 002:970.969 JLINK_WriteReg(R3, 0x00000000)
+T6B64 002:970.973 - 0.006ms returns 0
+T6B64 002:970.978 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:970.982 - 0.006ms returns 0
+T6B64 002:970.987 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:970.991 - 0.006ms returns 0
+T6B64 002:970.996 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:971.000 - 0.006ms returns 0
+T6B64 002:971.005 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:971.009 - 0.006ms returns 0
+T6B64 002:971.014 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:971.018 - 0.006ms returns 0
+T6B64 002:971.022 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:971.027 - 0.006ms returns 0
+T6B64 002:971.031 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:971.035 - 0.006ms returns 0
+T6B64 002:971.040 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:971.044 - 0.006ms returns 0
+T6B64 002:971.049 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:971.053 - 0.006ms returns 0
+T6B64 002:971.057 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:971.062 - 0.006ms returns 0
+T6B64 002:971.067 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:971.071 - 0.006ms returns 0
+T6B64 002:971.076 JLINK_WriteReg(R15 (PC), 0x200001A8)
+T6B64 002:971.080 - 0.006ms returns 0
+T6B64 002:971.085 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:971.089 - 0.006ms returns 0
+T6B64 002:971.094 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:971.098 - 0.006ms returns 0
+T6B64 002:971.103 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:971.107 - 0.006ms returns 0
+T6B64 002:971.111 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:971.116 - 0.006ms returns 0
+T6B64 002:971.121 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:971.129   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:971.840 - 0.722ms returns 0x0000001F
+T6B64 002:971.847 JLINK_Go()
+T6B64 002:971.853   CPU_WriteMem(2 bytes @ 0x20000000)
+T6B64 002:972.422   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:975.824 - 3.982ms
+T6B64 002:975.834 JLINK_IsHalted()
+T6B64 002:978.253   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:978.799 - 2.967ms returns TRUE
+T6B64 002:978.807 JLINK_ReadReg(R15 (PC))
+T6B64 002:978.818 - 0.013ms returns 0x20000000
+T6B64 002:978.825 JLINK_ClrBPEx(BPHandle = 0x0000001F)
+T6B64 002:978.831 - 0.007ms returns 0x00
+T6B64 002:978.835 JLINK_ReadReg(R0)
+T6B64 002:978.840 - 0.006ms returns 0x00000000
+T6B64 002:978.845 JLINK_HasError()
+T6B64 002:978.850 JLINK_WriteReg(R0, 0xFFFFFFFF)
+T6B64 002:978.854 - 0.006ms returns 0
+T6B64 002:978.859 JLINK_WriteReg(R1, 0x08000000)
+T6B64 002:978.863 - 0.005ms returns 0
+T6B64 002:978.868 JLINK_WriteReg(R2, 0x00001748)
+T6B64 002:978.872 - 0.005ms returns 0
+T6B64 002:978.876 JLINK_WriteReg(R3, 0x04C11DB7)
+T6B64 002:978.880 - 0.005ms returns 0
+T6B64 002:978.885 JLINK_WriteReg(R4, 0x00000000)
+T6B64 002:978.889 - 0.005ms returns 0
+T6B64 002:978.893 JLINK_WriteReg(R5, 0x00000000)
+T6B64 002:978.897 - 0.005ms returns 0
+T6B64 002:978.902 JLINK_WriteReg(R6, 0x00000000)
+T6B64 002:978.906 - 0.005ms returns 0
+T6B64 002:978.910 JLINK_WriteReg(R7, 0x00000000)
+T6B64 002:978.914 - 0.005ms returns 0
+T6B64 002:978.919 JLINK_WriteReg(R8, 0x00000000)
+T6B64 002:978.923 - 0.006ms returns 0
+T6B64 002:978.927 JLINK_WriteReg(R9, 0x20000400)
+T6B64 002:978.931 - 0.005ms returns 0
+T6B64 002:978.936 JLINK_WriteReg(R10, 0x00000000)
+T6B64 002:978.940 - 0.005ms returns 0
+T6B64 002:978.944 JLINK_WriteReg(R11, 0x00000000)
+T6B64 002:978.948 - 0.006ms returns 0
+T6B64 002:978.953 JLINK_WriteReg(R12, 0x00000000)
+T6B64 002:978.957 - 0.005ms returns 0
+T6B64 002:978.961 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 002:978.966 - 0.006ms returns 0
+T6B64 002:978.970 JLINK_WriteReg(R14, 0x20000001)
+T6B64 002:978.974 - 0.006ms returns 0
+T6B64 002:978.979 JLINK_WriteReg(R15 (PC), 0x20000002)
+T6B64 002:978.986 - 0.010ms returns 0
+T6B64 002:978.992 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 002:978.996 - 0.005ms returns 0
+T6B64 002:979.000 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 002:979.005 - 0.006ms returns 0
+T6B64 002:979.009 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 002:979.013 - 0.006ms returns 0
+T6B64 002:979.018 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 002:979.022 - 0.005ms returns 0
+T6B64 002:979.027 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 002:979.032 - 0.006ms returns 0x00000020
+T6B64 002:979.036 JLINK_Go()
+T6B64 002:979.044   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 002:982.078 - 3.049ms
+T6B64 002:982.091 JLINK_IsHalted()
+T6B64 002:982.597 - 0.509ms returns FALSE
+T6B64 002:982.605 JLINK_HasError()
+T6B64 002:984.959 JLINK_IsHalted()
+T6B64 002:985.473 - 0.518ms returns FALSE
+T6B64 002:985.481 JLINK_HasError()
+T6B64 002:989.143 JLINK_IsHalted()
+T6B64 002:989.823 - 0.684ms returns FALSE
+T6B64 002:989.831 JLINK_HasError()
+T6B64 002:991.891 JLINK_IsHalted()
+T6B64 002:992.519 - 0.631ms returns FALSE
+T6B64 002:992.525 JLINK_HasError()
+T6B64 002:994.491 JLINK_IsHalted()
+T6B64 002:995.011 - 0.527ms returns FALSE
+T6B64 002:995.022 JLINK_HasError()
+T6B64 002:996.832 JLINK_IsHalted()
+T6B64 002:999.166   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 002:999.726 - 2.901ms returns TRUE
+T6B64 002:999.739 JLINK_ReadReg(R15 (PC))
+T6B64 002:999.746 - 0.008ms returns 0x20000000
+T6B64 002:999.750 JLINK_ClrBPEx(BPHandle = 0x00000020)
+T6B64 002:999.754 - 0.005ms returns 0x00
+T6B64 002:999.759 JLINK_ReadReg(R0)
+T6B64 002:999.762 - 0.005ms returns 0x22687C7E
+T6B64 003:000.297 JLINK_HasError()
+T6B64 003:000.307 JLINK_WriteReg(R0, 0x00000003)
+T6B64 003:000.313 - 0.007ms returns 0
+T6B64 003:000.317 JLINK_WriteReg(R1, 0x08000000)
+T6B64 003:000.321 - 0.005ms returns 0
+T6B64 003:000.325 JLINK_WriteReg(R2, 0x00001748)
+T6B64 003:000.328 - 0.005ms returns 0
+T6B64 003:000.332 JLINK_WriteReg(R3, 0x04C11DB7)
+T6B64 003:000.336 - 0.005ms returns 0
+T6B64 003:000.339 JLINK_WriteReg(R4, 0x00000000)
+T6B64 003:000.343 - 0.004ms returns 0
+T6B64 003:000.346 JLINK_WriteReg(R5, 0x00000000)
+T6B64 003:000.350 - 0.004ms returns 0
+T6B64 003:000.354 JLINK_WriteReg(R6, 0x00000000)
+T6B64 003:000.357 - 0.005ms returns 0
+T6B64 003:000.361 JLINK_WriteReg(R7, 0x00000000)
+T6B64 003:000.364 - 0.005ms returns 0
+T6B64 003:000.368 JLINK_WriteReg(R8, 0x00000000)
+T6B64 003:000.371 - 0.004ms returns 0
+T6B64 003:000.375 JLINK_WriteReg(R9, 0x20000400)
+T6B64 003:000.378 - 0.004ms returns 0
+T6B64 003:000.382 JLINK_WriteReg(R10, 0x00000000)
+T6B64 003:000.385 - 0.005ms returns 0
+T6B64 003:000.389 JLINK_WriteReg(R11, 0x00000000)
+T6B64 003:000.393 - 0.004ms returns 0
+T6B64 003:000.396 JLINK_WriteReg(R12, 0x00000000)
+T6B64 003:000.400 - 0.005ms returns 0
+T6B64 003:000.404 JLINK_WriteReg(R13 (SP), 0x20001000)
+T6B64 003:000.407 - 0.005ms returns 0
+T6B64 003:000.416 JLINK_WriteReg(R14, 0x20000001)
+T6B64 003:000.421 - 0.007ms returns 0
+T6B64 003:000.425 JLINK_WriteReg(R15 (PC), 0x20000204)
+T6B64 003:000.429 - 0.005ms returns 0
+T6B64 003:000.433 JLINK_WriteReg(XPSR, 0x01000000)
+T6B64 003:000.436 - 0.004ms returns 0
+T6B64 003:000.440 JLINK_WriteReg(MSP, 0x20001000)
+T6B64 003:000.443 - 0.005ms returns 0
+T6B64 003:000.447 JLINK_WriteReg(PSP, 0x20001000)
+T6B64 003:000.450 - 0.004ms returns 0
+T6B64 003:000.454 JLINK_WriteReg(CFBP, 0x00000000)
+T6B64 003:000.457 - 0.004ms returns 0
+T6B64 003:000.461 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T6B64 003:000.466 - 0.006ms returns 0x00000021
+T6B64 003:000.470 JLINK_Go()
+T6B64 003:000.478   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 003:003.180 - 2.716ms
+T6B64 003:003.190 JLINK_IsHalted()
+T6B64 003:005.399   CPU_ReadMem(2 bytes @ 0x20000000)
+T6B64 003:005.949 - 2.764ms returns TRUE
+T6B64 003:005.958 JLINK_ReadReg(R15 (PC))
+T6B64 003:005.964 - 0.007ms returns 0x20000000
+T6B64 003:005.968 JLINK_ClrBPEx(BPHandle = 0x00000021)
+T6B64 003:005.972 - 0.005ms returns 0x00
+T6B64 003:005.976 JLINK_ReadReg(R0)
+T6B64 003:005.980 - 0.049ms returns 0x00000000
+T6B64 003:060.665 JLINK_WriteMemEx(0x20000000, 0x00000002 Bytes, Flags = 0x02000000)
+T6B64 003:060.695   Data:  FE E7
+T6B64 003:060.719   CPU_WriteMem(2 bytes @ 0x20000000)
+T6B64 003:061.408 - 0.746ms returns 0x2
+T6B64 003:061.416 JLINK_HasError()
+T6B64 003:061.421 JLINK_HasError()
+T6B64 003:061.449 JLINK_SetResetType(JLINKARM_CM3_RESET_TYPE_NORMAL)
+T6B64 003:061.453 - 0.005ms returns JLINKARM_CM3_RESET_TYPE_NORMAL
+T6B64 003:061.457 JLINK_Reset()
+T6B64 003:061.465   CPU_ReadMem(4 bytes @ 0x20000000)
+T6B64 003:062.484   CPU_WriteMem(4 bytes @ 0x20000000)
+T6B64 003:063.061   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T6B64 003:063.557   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T6B64 003:065.617   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T6B64 003:067.950   Reset: Reset device via AIRCR.SYSRESETREQ.
+T6B64 003:067.968   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T6B64 003:124.110   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T6B64 003:124.862   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T6B64 003:125.442   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T6B64 003:131.028   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T6B64 003:134.095   CPU_WriteMem(4 bytes @ 0xE0002000)
+T6B64 003:134.555   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T6B64 003:135.014   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 003:135.514   CPU_WriteMem(4 bytes @ 0xE0001000)
+T6B64 003:136.041 - 74.592ms
+T6B64 003:136.067 JLINK_Go()
+T6B64 003:136.106   CPU_ReadMem(4 bytes @ 0xE0001000)
+T6B64 003:136.597   CPU_WriteMem(4 bytes @ 0xE0001000)
+T6B64 003:137.283   CPU_WriteMem(4 bytes @ 0xE0002008)
+T6B64 003:137.290   CPU_WriteMem(4 bytes @ 0xE000200C)
+T6B64 003:137.295   CPU_WriteMem(4 bytes @ 0xE0002010)
+T6B64 003:137.303   CPU_WriteMem(4 bytes @ 0xE0002014)
+T6B64 003:138.243   CPU_WriteMem(4 bytes @ 0xE0001004)
+T6B64 003:139.282 - 3.217ms
+T6B64 003:149.100 JLINK_Close()
+T6B64 003:149.501   CPU is running
+T6B64 003:149.516   CPU_WriteMem(4 bytes @ 0xE0002008)
+T6B64 003:150.012   CPU is running
+T6B64 003:150.019   CPU_WriteMem(4 bytes @ 0xE000200C)
+T6B64 003:150.512   CPU is running
+T6B64 003:150.520   CPU_WriteMem(4 bytes @ 0xE0002010)
+T6B64 003:151.015   CPU is running
+T6B64 003:151.021   CPU_WriteMem(4 bytes @ 0xE0002014)
+T6B64 003:165.441 - 16.359ms
+T6B64 003:165.463   
+T6B64 003:165.467   Closed
