@@ -2,7 +2,7 @@
                               Sample Description
 ================================================================================
 Function Description:
-This sample demonstrates the use of LCD, ADC, and PWM. The ADC is connected to pin B1, and a potentiometer is attached to this pin. As you turn the potentiometer, the PWM duty cycle output from pin B3 changes accordingly.
+This sample demonstrates the use of a dual-digit 7-segment display. The display counts from 0 to 99 continuously.
 ================================================================================
 Test Environment:
 Test Board: PY32F040_AssemCorp_DevKit 
