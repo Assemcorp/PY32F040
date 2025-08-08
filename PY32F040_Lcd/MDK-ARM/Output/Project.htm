@@ -1,0 +1,465 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Output\Project.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Output\Project.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6120001: Last Updated: Wed Aug  6 10:31:36 2025
+<BR><P>
+<H3>Maximum Stack Usage =        120 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; LCD_Init &rArr; HAL_GPIO_Init
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[12]">ADC_COMP_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[12]">ADC_COMP_IRQHandler</a><BR>
+ <LI><a href="#[2]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2]">HardFault_Handler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[12]">ADC_COMP_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[f]">DMA1_Channel1_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[10]">DMA1_Channel2_3_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[11]">DMA1_Channel4_5_6_7_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[b]">EXTI0_1_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[c]">EXTI2_3_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[d]">EXTI4_15_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[9]">FLASH_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[27]">HAL_Delay</a> from py32f040_hal.o(.text.HAL_Delay) referenced from lcd.o(.text.LCD_Init)
+ <LI><a href="#[2a]">HAL_GPIO_WritePin</a> from py32f040_hal_gpio.o(.text.HAL_GPIO_WritePin) referenced from lcd.o(.text.LCD_Send4Bits)
+ <LI><a href="#[2]">HardFault_Handler</a> from py32f040_it.o(.text.HardFault_Handler) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[1d]">I2C1_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[1e]">I2C2_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[e]">LCD_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[28]">LCD_Send4Bits</a> from lcd.o(.text.LCD_Send4Bits) referenced from lcd.o(.text.LCD_Init)
+ <LI><a href="#[29]">LCD_SendCommand</a> from lcd.o(.text.LCD_SendCommand) referenced from lcd.o(.text.LCD_Init)
+ <LI><a href="#[1]">NMI_Handler</a> from py32f040_it.o(.text.NMI_Handler) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[7]">PVD_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[4]">PendSV_Handler</a> from py32f040_it.o(.text.PendSV_Handler) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[a]">RCC_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[8]">RTC_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[0]">Reset_Handler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[1f]">SPI1_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[20]">SPI2_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[3]">SVC_Handler</a> from py32f040_it.o(.text.SVC_Handler) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[5]">SysTick_Handler</a> from py32f040_it.o(.text.SysTick_Handler) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[25]">SystemInit</a> from system_py32f040.o(.text.SystemInit) referenced from startup_py32f040xx.o(.text)
+ <LI><a href="#[19]">TIM14_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[1a]">TIM15_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[1b]">TIM16_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[1c]">TIM17_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[13]">TIM1_BRK_UP_TRG_COM_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[14]">TIM1_CC_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[15]">TIM2_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[16]">TIM3_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[17]">TIM6_LPTIM1_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[18]">TIM7_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[21]">USART1_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[22]">USART2_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[23]">USART3_4_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[6]">WWDG_IRQHandler</a> from startup_py32f040xx.o(.text) referenced from startup_py32f040xx.o(RESET)
+ <LI><a href="#[26]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_py32f040xx.o(.text)
+ <LI><a href="#[2b]">_sputc</a> from printf1.o(i._sputc) referenced from printf1.o(i.__0sprintf$1)
+ <LI><a href="#[24]">main</a> from main.o(.text.main) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[26]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(.text)
+</UL>
+<P><STRONG><a name="[48]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[2c]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[2e]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[49]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+
+<P><STRONG><a name="[4a]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+
+<P><STRONG><a name="[4b]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+
+<P><STRONG><a name="[4c]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+
+<P><STRONG><a name="[4d]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+
+<P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>ADC_COMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_COMP_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_COMP_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>DMA1_Channel2_3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>DMA1_Channel4_5_6_7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>EXTI0_1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>EXTI2_3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>EXTI4_15_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>I2C1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>I2C2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>LCD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>PVD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>TIM14_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>TIM15_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>TIM16_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>TIM17_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>TIM1_BRK_UP_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>TIM2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>TIM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>TIM6_LPTIM1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>TIM7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>USART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>USART3_4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f040xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[38]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = __aeabi_uidiv
+</UL>
+<BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+</UL>
+
+<P><STRONG><a name="[47]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[2d]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[4e]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[2f]"></a>APP_GpioConfig_Button</STRONG> (Thumb, 76 bytes, Stack size 32 bytes, main.o(.text.APP_GpioConfig_Button))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = APP_GpioConfig_Button &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[31]"></a>APP_GpioConfig_Led</STRONG> (Thumb, 76 bytes, Stack size 32 bytes, main.o(.text.APP_GpioConfig_Led))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = APP_GpioConfig_Led &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[32]"></a>Button_Read</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, main.o(.text.Button_Read))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Button_Read
+</UL>
+<BR>[Calls]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[27]"></a>HAL_Delay</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, py32f040_hal.o(.text.HAL_Delay))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_Delay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_SendData
+<LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_SendCommand
+<LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Send4Bits
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> lcd.o(.text.LCD_Init)
+</UL>
+<P><STRONG><a name="[30]"></a>HAL_GPIO_Init</STRONG> (Thumb, 388 bytes, Stack size 56 bytes, py32f040_hal_gpio.o(.text.HAL_GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Init
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;APP_GpioConfig_Led
+<LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;APP_GpioConfig_Button
+</UL>
+
+<P><STRONG><a name="[33]"></a>HAL_GPIO_ReadPin</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, py32f040_hal_gpio.o(.text.HAL_GPIO_ReadPin))
+<BR><BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Button_Read
+</UL>
+
+<P><STRONG><a name="[44]"></a>HAL_GPIO_TogglePin</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, py32f040_hal_gpio.o(.text.HAL_GPIO_TogglePin))
+<BR><BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[2a]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, py32f040_hal_gpio.o(.text.HAL_GPIO_WritePin))
+<BR><BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_Off
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_SendData
+<LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_SendCommand
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> lcd.o(.text.LCD_Send4Bits)
+</UL>
+<P><STRONG><a name="[34]"></a>HAL_GetTick</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, py32f040_hal.o(.text.HAL_GetTick))
+<BR><BR>[Called By]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[43]"></a>HAL_IncTick</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, py32f040_hal.o(.text.HAL_IncTick))
+<BR><BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[35]"></a>HAL_Init</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, py32f040_hal.o(.text.HAL_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = HAL_Init &rArr; HAL_InitTick &rArr; __aeabi_uidiv
+</UL>
+<BR>[Calls]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[36]"></a>HAL_InitTick</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, py32f040_hal.o(.text.HAL_InitTick))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = HAL_InitTick &rArr; __aeabi_uidiv
+</UL>
+<BR>[Calls]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
+<LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidiv
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+</UL>
+
+<P><STRONG><a name="[37]"></a>HAL_MspInit</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, py32f040_hal_msp.o(.text.HAL_MspInit))
+<BR><BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+</UL>
+
+<P><STRONG><a name="[3a]"></a>HAL_NVIC_SetPriority</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, py32f040_hal_cortex.o(.text.HAL_NVIC_SetPriority))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+</UL>
+
+<P><STRONG><a name="[39]"></a>HAL_SYSTICK_Config</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, py32f040_hal_cortex.o(.text.HAL_SYSTICK_Config))
+<BR><BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+</UL>
+
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, py32f040_it.o(.text.HardFault_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[3c]"></a>LCD_Init</STRONG> (Thumb, 152 bytes, Stack size 48 bytes, lcd.o(.text.LCD_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = LCD_Init &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[3d]"></a>LCD_Print</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, lcd.o(.text.LCD_Print))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = LCD_Print &rArr; LCD_SendData &rArr; LCD_Send4Bits &rArr; HAL_Delay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_SendData
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PrintNumber
+</UL>
+
+<P><STRONG><a name="[3f]"></a>LCD_PrintNumber</STRONG> (Thumb, 32 bytes, Stack size 32 bytes, lcd.o(.text.LCD_PrintNumber))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = LCD_PrintNumber &rArr; LCD_Print &rArr; LCD_SendData &rArr; LCD_Send4Bits &rArr; HAL_Delay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Print
+<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[29]"></a>LCD_SendCommand</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, lcd.o(.text.LCD_SendCommand))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = LCD_SendCommand &rArr; LCD_Send4Bits &rArr; HAL_Delay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Send4Bits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_SetCursor
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> lcd.o(.text.LCD_Init)
+</UL>
+<P><STRONG><a name="[3e]"></a>LCD_SendData</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, lcd.o(.text.LCD_SendData))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = LCD_SendData &rArr; LCD_Send4Bits &rArr; HAL_Delay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Send4Bits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Print
+</UL>
+
+<P><STRONG><a name="[41]"></a>LCD_SetCursor</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, lcd.o(.text.LCD_SetCursor))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = LCD_SetCursor &rArr; LCD_SendCommand &rArr; LCD_Send4Bits &rArr; HAL_Delay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_SendCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[42]"></a>LED_Off</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, main.o(.text.LED_Off))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = LED_Off
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, py32f040_it.o(.text.NMI_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, py32f040_it.o(.text.PendSV_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, py32f040_it.o(.text.SVC_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, py32f040_it.o(.text.SysTick_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SysTick_Handler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_IncTick
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>SystemInit</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, system_py32f040.o(.text.SystemInit))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f040xx.o(.text)
+</UL>
+<P><STRONG><a name="[24]"></a>main</STRONG> (Thumb, 464 bytes, Stack size 16 bytes, main.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = main &rArr; LCD_Init &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_Off
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_SetCursor
+<LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PrintNumber
+<LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Print
+<LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Init
+<LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_TogglePin
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Button_Read
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;APP_GpioConfig_Led
+<LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;APP_GpioConfig_Button
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P><STRONG><a name="[45]"></a>__0sprintf$1</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, printf1.o(i.__0sprintf$1), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sputc
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[4f]"></a>__1sprintf$1</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf1.o(i.__0sprintf$1), UNUSED)
+
+<P><STRONG><a name="[40]"></a>__2sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf1.o(i.__0sprintf$1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PrintNumber
+</UL>
+
+<P><STRONG><a name="[50]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[51]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[52]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[3b]"></a>__NVIC_SetPriority</STRONG> (Thumb, 64 bytes, Stack size 0 bytes, py32f040_hal_cortex.o(.text.__NVIC_SetPriority))
+<BR><BR>[Called By]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+</UL>
+
+<P><STRONG><a name="[28]"></a>LCD_Send4Bits</STRONG> (Thumb, 92 bytes, Stack size 24 bytes, lcd.o(.text.LCD_Send4Bits))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = LCD_Send4Bits &rArr; HAL_Delay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_SendData
+<LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_SendCommand
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> lcd.o(.text.LCD_Init)
+</UL>
+<P><STRONG><a name="[46]"></a>_printf_core</STRONG> (Thumb, 332 bytes, Stack size 88 bytes, printf1.o(i._printf_core), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf$1
+</UL>
+
+<P><STRONG><a name="[2b]"></a>_sputc</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, printf1.o(i._sputc))
+<BR><BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf$1
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> printf1.o(i.__0sprintf$1)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>
