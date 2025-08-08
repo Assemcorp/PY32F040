@@ -7,8 +7,8 @@
  ******************************************************************************
  * @attention
  *
- * <h2><center>&copy; Copyright (c) 2023 Puya Semiconductor Co.
- * All rights reserved.</center></h2>
+ * Copyright (c) 2023 Puya Semiconductor Co.
+ * All rights reserved.
  *
  * This software component is licensed by Puya under BSD 3-Clause license,
  * the "License"; You may not use this file except in compliance with the
@@ -18,8 +18,8 @@
  ******************************************************************************
  * @attention
  *
- * <h2><center>&copy; Copyright (c) 2016 STMicroelectronics.
- * All rights reserved.</center></h2>
+ * Copyright (c) 2016 STMicroelectronics.
+ * All rights reserved.
  *
  * This software component is licensed by ST under BSD 3-Clause license,
  * the "License"; You may not use this file except in compliance with the
@@ -69,7 +69,7 @@ int main(void)
   APP_AdcConfig();
   APP_TimerConfig();
   /* Initialize GPIO */
-  APP_GpioConfig_Led(GPIOA, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3 | GPIO_PIN_4 | GPIO_PIN_4 | GPIO_PIN_5);
+  APP_GpioConfig_Led(GPIOA, GPIO_PIN_0 | GPIO_PIN_2 | GPIO_PIN_3 | GPIO_PIN_4 | GPIO_PIN_4 | GPIO_PIN_5); // PA1 removed for PWM
   APP_GpioConfig_Button(GPIOA, GPIO_PIN_7 | GPIO_PIN_6);
   APP_GpioConfig_Button(GPIOB, GPIO_PIN_0 | GPIO_PIN_11);
   APP_GpioConfig_Input(GPIOB, GPIO_PIN_1, GPIO_MODE_ANALOG, GPIO_NOPULL);
@@ -234,7 +234,7 @@ void APP_GpioConfig_Led(GPIO_TypeDef *port, uint16_t pin)
   HAL_GPIO_Init(port, &GPIO_InitStruct);
 }
 /**
- * @brief  Timer configuration function for PWM output on TIMx_CH2 (PB3).
+ * @brief  Timer configuration function for PWM output on TIM2_CH2 (PA1) and TIM2_CH1 (PB3).
  * @param  None
  * @retval None
  */
@@ -255,9 +255,9 @@ void APP_TimerConfig(void)
     APP_ErrorHandler();
   }
 
-  // PWM mode configuration for channel 2
+  // PWM mode configuration for channel 2 (PA1)
   sConfigOC.OCMode = TIM_OCMODE_PWM1;
-  sConfigOC.Pulse = adc_avg / 4; // 50% duty cycle
+  sConfigOC.Pulse = adc_avg / 4; // Duty cycle based on ADC
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
   if (HAL_TIM_PWM_ConfigChannel(&TimHandle, &sConfigOC, TIM_CHANNEL_2) != HAL_OK)
@@ -265,8 +265,22 @@ void APP_TimerConfig(void)
     APP_ErrorHandler();
   }
 
-  // Start PWM on TIM2_CH2 (PB3)
+  // PWM mode configuration for channel 1 (PB3)
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = adc_avg / 4; // Same duty cycle for both channels
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_PWM_ConfigChannel(&TimHandle, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    APP_ErrorHandler();
+  }
+
+  // Start PWM on TIM2_CH2 (PA1) and TIM2_CH1 (PB3)
   if (HAL_TIM_PWM_Start(&TimHandle, TIM_CHANNEL_2) != HAL_OK)
+  {
+    APP_ErrorHandler();
+  }
+  if (HAL_TIM_PWM_Start(&TimHandle, TIM_CHANNEL_1) != HAL_OK)
   {
     APP_ErrorHandler();
   }
@@ -357,12 +371,21 @@ void APP_SystemClockConfig(void)
     APP_ErrorHandler();
   }
 
-  // Enable TIM2 and GPIOB clocks
+  // Enable TIM2, GPIOA and GPIOB clocks
   __HAL_RCC_TIM2_CLK_ENABLE();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
-  // Configure PB3 as alternate function (TIM2_CH2)
+  // Configure PA1 as alternate function (TIM2_CH2)
   GPIO_InitTypeDef GPIO_InitStruct = {0};
+  GPIO_InitStruct.Pin = GPIO_PIN_1;
+  GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Alternate = GPIO_AF2_TIM2;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  // Configure PB3 as alternate function (TIM2_CH1)
   GPIO_InitStruct.Pin = GPIO_PIN_3;
   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
@@ -377,9 +400,12 @@ void APP_SystemClockConfig(void)
  */
 void APP_RefreshPWM(void)
 {
-  // Update PWM duty cycle
+  // Update PWM duty cycle for both channels
   TIM_HandleTypeDef TimHandle = {0};
   TimHandle.Instance = TIM2;
+  
+  // Stop both PWM channels
+  HAL_TIM_PWM_Stop(&TimHandle, TIM_CHANNEL_1);
   HAL_TIM_PWM_Stop(&TimHandle, TIM_CHANNEL_2);
 
   TIM_OC_InitTypeDef sConfigOC = {0};
@@ -387,6 +413,12 @@ void APP_RefreshPWM(void)
   sConfigOC.Pulse = adc_avg / 4; // Duty cycle is set according to ADC
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  
+  // Configure and start Channel 1 (PB3)
+  HAL_TIM_PWM_ConfigChannel(&TimHandle, &sConfigOC, TIM_CHANNEL_1);
+  HAL_TIM_PWM_Start(&TimHandle, TIM_CHANNEL_1);
+  
+  // Configure and start Channel 2 (PA1)
   HAL_TIM_PWM_ConfigChannel(&TimHandle, &sConfigOC, TIM_CHANNEL_2);
   HAL_TIM_PWM_Start(&TimHandle, TIM_CHANNEL_2);
 }
